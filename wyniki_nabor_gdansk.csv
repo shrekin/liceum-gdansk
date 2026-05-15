@@ -1,0 +1,165 @@
+szkola,id_szkoly,oddzial,miejsca,chetni_ogolom,chetni_ogolom_oczekujacy,chetni_pierwsza_pref,chetni_pierwsza_pref_oczekujacy,wskaznik,pobrano
+I Liceum Ogólnokształcące,8,"I Liceum Ogólnokształcące, Gdańsk - 1a MEDIALNO-PRAWNICZA",28,1,24,0,2,0.04,2026-05-15T19:13:35
+I Liceum Ogólnokształcące,8,"I Liceum Ogólnokształcące, Gdańsk - 1b AKADEMICKA matematyczno-fizyczna",28,1,21,0,1,0.04,2026-05-15T19:13:35
+I Liceum Ogólnokształcące,8,"I Liceum Ogólnokształcące, Gdańsk - 1c POLITECHNICZNA matematyczno-fizyczna",56,1,17,0,4,0.02,2026-05-15T19:13:35
+I Liceum Ogólnokształcące,8,"I Liceum Ogólnokształcące, Gdańsk - 1d EKONOMICZNA matematyczno-geograficzna",28,2,21,0,2,0.07,2026-05-15T19:13:35
+I Liceum Ogólnokształcące,8,"I Liceum Ogólnokształcące, Gdańsk - 1e MEDYCZNA biologiczno-chemiczna",28,1,37,0,5,0.04,2026-05-15T19:13:35
+I Liceum Ogólnokształcące,8,"I Liceum Ogólnokształcące, Gdańsk  - RAZEM",168,2,0,0,14,0.01,2026-05-15T19:13:35
+II Liceum Ogólnokształcące,9,"II Liceum Ogólnokształcące, Gdańsk - 1A POLITECHNICZNA",28,1,18,0,0,0.04,2026-05-15T19:13:35
+II Liceum Ogólnokształcące,9,"II Liceum Ogólnokształcące, Gdańsk - 1Bh HUMANISTYCZNA",14,1,23,0,2,0.07,2026-05-15T19:13:35
+II Liceum Ogólnokształcące,9,"II Liceum Ogólnokształcące, Gdańsk - 1Bw [O] ang-pol-wos (ang-niem,fra)",14,0,17,0,0,0.0,2026-05-15T19:13:35
+II Liceum Ogólnokształcące,9,"II Liceum Ogólnokształcące, Gdańsk - 1C MEDYCZNA",28,0,27,0,4,0.0,2026-05-15T19:13:35
+II Liceum Ogólnokształcące,9,"II Liceum Ogólnokształcące, Gdańsk - 1D PRZYRODNICZA",28,1,18,0,0,0.04,2026-05-15T19:13:35
+II Liceum Ogólnokształcące,9,"II Liceum Ogólnokształcące, Gdańsk - 1E MENEDŻERSKA",28,1,20,0,2,0.04,2026-05-15T19:13:35
+II Liceum Ogólnokształcące,9,"II Liceum Ogólnokształcące, Gdańsk  - RAZEM",140,3,0,0,8,0.02,2026-05-15T19:13:35
+III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,10,"III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1A1-EKONOMICZNA [D] geogr-mat (ang-niem*,hisz*,fra)",14,2,10,0,1,0.14,2026-05-15T19:13:35
+III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,10,"III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1A2-EKONOMICZNA [D] biz-mat (ang-niem*,hisz*,fra)",14,2,7,0,0,0.14,2026-05-15T19:13:35
+III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,10,"III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B1-MEDYCZNA [D] biol-chem (ang-hisz*,niem*)",14,2,17,0,4,0.14,2026-05-15T19:13:35
+III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,10,"III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B2-MEDYCZNA [D] biol-mat (ang-hisz*,niem*)",14,1,8,0,1,0.07,2026-05-15T19:13:35
+III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,10,"III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1C1-PRAWNO-DYPLOMAT [D] hist-pol (ang-niem*,hisz*,fra)",14,1,12,0,1,0.07,2026-05-15T19:13:35
+III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,10,"III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1C2-PRAWNO-DYPLOMAT [D] geogr-pol (ang-niem*,hisz*,fra)",14,2,12,0,2,0.14,2026-05-15T19:13:35
+III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,10,"III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1D1-POLITECHNICZNA [D] fiz-mat (ang-hisz*,niem*)",14,1,9,0,0,0.07,2026-05-15T19:13:35
+III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,10,"III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1D2-POLITECHNICZNA [D] inf-mat (ang-hisz*,niem*)",14,1,8,0,1,0.07,2026-05-15T19:13:35
+III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,10,"III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1IB-MYP-MIĘDZYNAROD [M] pol (ang-niem*,hisz*,fra)",56,2,13,0,3,0.04,2026-05-15T19:13:35
+III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,10,"III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk  - RAZEM",168,3,0,0,13,0.02,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1A1 Ratownictwa Medycznego (biol-chem-ang)",14,0,21,0,1,0.0,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1A2 Celno-administracyjna (biol-chem-ang)",14,1,11,1,1,0.07,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1B1 Policyjna (hist-pol-ang)",15,2,11,1,0,0.13,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1B2 Bezpieczeństwa infrastruktury krytycznej",13,0,1,0,0,0.0,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1C Wojskowa (geo-ang)",28,4,9,2,4,0.14,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1D1 Medialna (wos-pol-ang)",14,3,13,1,0,0.21,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1D2 Mediacyjna (wos-pol-ang)",14,1,18,0,1,0.07,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1E1_CHŁOPCY CHŁOPCY Mistrzostwa Sportowego (mat-ang)",10,0,2,0,1,0.0,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1E2_DZIEWCZĘTA DZIEWCZĘTA Mistrzostwa Sportowego (mat-ang)",8,0,3,0,0,0.0,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1F1 Straży Granicznej (BiZ-geo-ang)",15,4,10,0,2,0.27,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1F2 Zarządzania komunikacją społ. (BiZ-geo-ang)",13,0,4,0,0,0.0,2026-05-15T19:13:35
+IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego,11,"IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk  - RAZEM",158,6,0,5,10,0.04,2026-05-15T19:13:35
+V Liceum Ogólnokształcące,12,"V Liceum Ogólnokształcące, Gdańsk - 1A biologiczno-chemiczna",28,1,23,1,1,0.04,2026-05-15T19:13:35
+V Liceum Ogólnokształcące,12,"V Liceum Ogólnokształcące, Gdańsk - 1B matematyczno-fizyczno-informatyczna",28,1,11,0,0,0.04,2026-05-15T19:13:35
+V Liceum Ogólnokształcące,12,"V Liceum Ogólnokształcące, Gdańsk - 1C matematyczno-biologiczna-z jęz. angielskim",28,1,10,0,1,0.04,2026-05-15T19:13:35
+V Liceum Ogólnokształcące,12,"V Liceum Ogólnokształcące, Gdańsk - 1D-fiz dwujęzyczna matematyczno-fizyczna",14,2,8,1,0,0.14,2026-05-15T19:13:35
+V Liceum Ogólnokształcące,12,"V Liceum Ogólnokształcące, Gdańsk - 1D-geo dwujęzyczna matematyczno-geograficzna",14,1,10,0,0,0.07,2026-05-15T19:13:35
+V Liceum Ogólnokształcące,12,"V Liceum Ogólnokształcące, Gdańsk  - RAZEM",112,3,0,2,2,0.03,2026-05-15T19:13:35
+VI Liceum Ogólnokształcące,13,"VI Liceum Ogólnokształcące, Gdańsk - 1A KLASA HUMANISTYCZNO PRAWNA",28,3,42,0,3,0.11,2026-05-15T19:13:35
+VI Liceum Ogólnokształcące,13,"VI Liceum Ogólnokształcące, Gdańsk - 1B KLASA DZIENNIKARSKO ARTYSTYCZNA",28,2,31,0,4,0.07,2026-05-15T19:13:35
+VI Liceum Ogólnokształcące,13,"VI Liceum Ogólnokształcące, Gdańsk - 1C KLASA BIOLOGICZNO-CHEMICZNA",28,1,40,0,4,0.04,2026-05-15T19:13:35
+VI Liceum Ogólnokształcące,13,"VI Liceum Ogólnokształcące, Gdańsk - 1D KLASA MISTRZOSTWA SPORTOWEGO-WIOŚLARSTWO/KAJAKARST",10,0,4,0,1,0.0,2026-05-15T19:13:35
+VI Liceum Ogólnokształcące,13,"VI Liceum Ogólnokształcące, Gdańsk - 1E KLASA RATOWNICTWA WODNEGO",20,0,9,0,1,0.0,2026-05-15T19:13:35
+VI Liceum Ogólnokształcące,13,"VI Liceum Ogólnokształcące, Gdańsk - 1F KLASA LINGWISTYCZNO-PSYCHOLOGICZNA",28,1,42,0,5,0.04,2026-05-15T19:13:35
+VI Liceum Ogólnokształcące,13,"VI Liceum Ogólnokształcące, Gdańsk  - RAZEM",142,5,0,0,18,0.04,2026-05-15T19:13:35
+VII Liceum Ogólnokształcące,14,"VII Liceum Ogólnokształcące, Gdańsk - 1A matematyczno-fizyczna",28,0,16,0,1,0.0,2026-05-15T19:13:35
+VII Liceum Ogólnokształcące,14,"VII Liceum Ogólnokształcące, Gdańsk - 1B prawno-dyplomatyczna z historią",28,2,28,0,2,0.07,2026-05-15T19:13:35
+VII Liceum Ogólnokształcące,14,"VII Liceum Ogólnokształcące, Gdańsk - 1C matematyczno-biologiczna",28,2,13,0,0,0.07,2026-05-15T19:13:35
+VII Liceum Ogólnokształcące,14,"VII Liceum Ogólnokształcące, Gdańsk - 1D biologiczno-chemiczna",28,1,39,0,2,0.04,2026-05-15T19:13:35
+VII Liceum Ogólnokształcące,14,"VII Liceum Ogólnokształcące, Gdańsk - 1E medialno-lingwistyczna z wos",28,2,46,0,2,0.07,2026-05-15T19:13:35
+VII Liceum Ogólnokształcące,14,"VII Liceum Ogólnokształcące, Gdańsk - 1F matematyczno-geograficzna",28,1,21,0,1,0.04,2026-05-15T19:13:35
+VII Liceum Ogólnokształcące,14,"VII Liceum Ogólnokształcące, Gdańsk  - RAZEM",168,5,0,0,8,0.03,2026-05-15T19:13:35
+VIII Liceum Ogólnokształcące,15,"VIII Liceum Ogólnokształcące, Gdańsk - 1a_gr1 lingwistyczny z j. angielskim i j. francuskim",14,0,30,0,1,0.0,2026-05-15T19:13:35
+VIII Liceum Ogólnokształcące,15,"VIII Liceum Ogólnokształcące, Gdańsk - 1a_gr2 lingwistyczny z j. angielskim i j. niemieckim",14,1,23,0,1,0.07,2026-05-15T19:13:35
+VIII Liceum Ogólnokształcące,15,"VIII Liceum Ogólnokształcące, Gdańsk - 1b matematyczno-geograficzny z j.angielskim",28,1,34,0,2,0.04,2026-05-15T19:13:35
+VIII Liceum Ogólnokształcące,15,"VIII Liceum Ogólnokształcące, Gdańsk - 1c biologiczno-chemiczny",28,2,53,0,10,0.07,2026-05-15T19:13:35
+VIII Liceum Ogólnokształcące,15,"VIII Liceum Ogólnokształcące, Gdańsk - 1d matematyczno-informatyczny z j.angielskim",28,3,20,0,1,0.11,2026-05-15T19:13:35
+VIII Liceum Ogólnokształcące,15,"VIII Liceum Ogólnokształcące, Gdańsk - 1e matematyczno-fizyczny",28,0,20,0,0,0.0,2026-05-15T19:13:35
+VIII Liceum Ogólnokształcące,15,"VIII Liceum Ogólnokształcące, Gdańsk  - RAZEM",140,5,0,0,15,0.04,2026-05-15T19:13:35
+IX Liceum Ogólnokształcące,16,"IX Liceum Ogólnokształcące, Gdańsk - 1A BIZNESOWA",28,3,36,0,5,0.11,2026-05-15T19:13:35
+IX Liceum Ogólnokształcące,16,"IX Liceum Ogólnokształcące, Gdańsk - 1B HUMANISTYCZNA",28,4,38,0,5,0.14,2026-05-15T19:13:35
+IX Liceum Ogólnokształcące,16,"IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.1 FIZYCZNO-MATEMATYCZNA",14,2,19,0,0,0.14,2026-05-15T19:13:35
+IX Liceum Ogólnokształcące,16,"IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.2 INFORMATYCZNO-MATEMATYCZNO",14,3,16,0,0,0.21,2026-05-15T19:13:35
+IX Liceum Ogólnokształcące,16,"IX Liceum Ogólnokształcące, Gdańsk - 1D BIOTECHNOLOGICZNA",28,3,29,0,1,0.11,2026-05-15T19:13:35
+IX Liceum Ogólnokształcące,16,"IX Liceum Ogólnokształcące, Gdańsk - 1E INFORMATYKA:MULTIMEDIA I AI",28,3,15,2,2,0.11,2026-05-15T19:13:35
+IX Liceum Ogólnokształcące,16,"IX Liceum Ogólnokształcące, Gdańsk - 1F MEDYCZNA",28,5,49,1,7,0.18,2026-05-15T19:13:35
+IX Liceum Ogólnokształcące,16,"IX Liceum Ogólnokształcące, Gdańsk - 1G JĘZYKOWA",28,4,26,0,5,0.14,2026-05-15T19:13:35
+IX Liceum Ogólnokształcące,16,"IX Liceum Ogólnokształcące, Gdańsk  - RAZEM",196,12,0,3,25,0.06,2026-05-15T19:13:35
+X Liceum Ogólnokształcące Dwujęzyczne,306,"X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1A-POLITECHNICZNA [D] fiz-inf-mat (ang-hisz*,niem*)",28,1,11,0,0,0.04,2026-05-15T19:13:35
+X Liceum Ogólnokształcące Dwujęzyczne,306,"X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1B-BIOMEDYCZNA [D] biol-chem (ang-hisz*,niem*)",28,1,25,0,1,0.04,2026-05-15T19:13:35
+X Liceum Ogólnokształcące Dwujęzyczne,306,"X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1C-BIZNESOWA_GR.GEO [D] mat-geo (ang-hisz*,niem*)",14,1,19,0,2,0.07,2026-05-15T19:13:35
+X Liceum Ogólnokształcące Dwujęzyczne,306,"X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1C-BIZNESOWA_GR.WOS [D] mat-wos (ang-hisz*,niem*)",14,0,12,0,0,0.0,2026-05-15T19:13:35
+X Liceum Ogólnokształcące Dwujęzyczne,306,"X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1D-LING-SPOŁ_GR.HIS [D] hist-pol (ang-hisz,niem)",14,1,16,0,1,0.07,2026-05-15T19:13:35
+X Liceum Ogólnokształcące Dwujęzyczne,306,"X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1D-LING-SPOŁ_GR.WOS [D] pol-wos (ang-hisz,niem)",14,1,18,0,2,0.07,2026-05-15T19:13:35
+X Liceum Ogólnokształcące Dwujęzyczne,306,"X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1E-PRZYRODNICZO-MAT [D] biol-mat (ang-hisz*,niem*)",28,1,17,0,4,0.04,2026-05-15T19:13:35
+X Liceum Ogólnokształcące Dwujęzyczne,306,"X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk  - RAZEM",140,3,0,0,10,0.02,2026-05-15T19:13:35
+XII Sportowe LO z Oddziałami Mistrzostwa Sportowego,19,"XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1A [S] ang (ang-ros*)",25,1,16,0,6,0.04,2026-05-15T19:13:35
+XII Sportowe LO z Oddziałami Mistrzostwa Sportowego,19,"XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1B [S] ang (ang-ros*)",25,1,8,1,4,0.04,2026-05-15T19:13:35
+XII Sportowe LO z Oddziałami Mistrzostwa Sportowego,19,"XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1C [S] ang (ang-ros*)",25,1,13,1,9,0.04,2026-05-15T19:13:35
+XII Sportowe LO z Oddziałami Mistrzostwa Sportowego,19,"XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1M  [MS] ang (ang-ros*)",25,1,4,0,3,0.04,2026-05-15T19:13:35
+XII Sportowe LO z Oddziałami Mistrzostwa Sportowego,19,"XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk  - RAZEM",100,3,0,2,22,0.03,2026-05-15T19:13:35
+XIV Liceum Ogólnokształcące,20,"XIV Liceum Ogólnokształcące, Gdańsk - 1A [O] hist-ang-pol (ang-niem)",26,0,29,0,4,0.0,2026-05-15T19:13:35
+XIV Liceum Ogólnokształcące,20,"XIV Liceum Ogólnokształcące, Gdańsk - 1B [O] geogr-ang-mat (ang-niem)",26,1,17,0,1,0.04,2026-05-15T19:13:35
+XIV Liceum Ogólnokształcące,20,"XIV Liceum Ogólnokształcące, Gdańsk - 1C [O] biol-ang-wos (ang-niem)",26,1,26,0,4,0.04,2026-05-15T19:13:35
+XIV Liceum Ogólnokształcące,20,"XIV Liceum Ogólnokształcące, Gdańsk  - RAZEM",78,1,0,0,9,0.01,2026-05-15T19:13:35
+XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,79,"XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 0h Klasa wstępna do klasy dwujęzycznej z j. hisz",32,1,15,1,2,0.03,2026-05-15T19:13:35
+XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,79,"XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1a matematyczno-informatyczno-językowa",28,2,17,0,1,0.07,2026-05-15T19:13:35
+XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,79,"XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1b humanistyczna z edukacją filmową",28,2,34,1,3,0.07,2026-05-15T19:13:35
+XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,79,"XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1c Psychologiczno-społeczna",28,1,52,0,6,0.04,2026-05-15T19:13:35
+XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,79,"XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1d Geograficzno-matematyczna z turystyką regionu",28,1,23,0,1,0.04,2026-05-15T19:13:35
+XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,79,"XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1e Europejska",28,0,34,0,4,0.0,2026-05-15T19:13:35
+XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,79,"XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1f Biologiczno-chemiczna z zaj. laboratoryjnymi",28,1,44,0,2,0.04,2026-05-15T19:13:35
+XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,79,"XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk  - RAZEM",200,6,0,2,19,0.03,2026-05-15T19:13:35
+XIX Liceum Ogólnokształcące,21,"XIX Liceum Ogólnokształcące, Gdańsk - 1A ekonomiczny",28,2,30,1,1,0.07,2026-05-15T19:13:35
+XIX Liceum Ogólnokształcące,21,"XIX Liceum Ogólnokształcące, Gdańsk - 1Bm artystyczny grupa muzyczna",10,2,10,0,1,0.2,2026-05-15T19:13:35
+XIX Liceum Ogólnokształcące,21,"XIX Liceum Ogólnokształcące, Gdańsk - 1Bp artystyczny grupa plastyczna",18,0,6,0,1,0.0,2026-05-15T19:13:35
+XIX Liceum Ogólnokształcące,21,"XIX Liceum Ogólnokształcące, Gdańsk - 1C społeczno-prawny",28,2,41,1,3,0.07,2026-05-15T19:13:35
+XIX Liceum Ogólnokształcące,21,"XIX Liceum Ogólnokształcące, Gdańsk - 1D biomedyczny",28,2,44,0,2,0.07,2026-05-15T19:13:35
+XIX Liceum Ogólnokształcące,21,"XIX Liceum Ogólnokształcące, Gdańsk - 1Emb interdyscyplinarny grupa mat-biol",15,2,18,1,0,0.13,2026-05-15T19:13:35
+XIX Liceum Ogólnokształcące,21,"XIX Liceum Ogólnokształcące, Gdańsk - 1Emf interdyscyplinarny grupa mat-fiz",13,0,14,0,0,0.0,2026-05-15T19:13:35
+XIX Liceum Ogólnokształcące,21,"XIX Liceum Ogólnokształcące, Gdańsk  - RAZEM",140,6,0,3,8,0.04,2026-05-15T19:13:35
+XXIV Liceum Ogólnokształcące,17,"XXIV Liceum Ogólnokształcące, Gdańsk - 1aBCh [O] biol-chem (ang-niem,fra)",14,0,16,0,2,0.0,2026-05-15T19:13:35
+XXIV Liceum Ogólnokształcące,17,"XXIV Liceum Ogólnokształcące, Gdańsk - 1aMG [O] geogr-mat (ang-niem,fra)",15,0,6,0,1,0.0,2026-05-15T19:13:35
+XXIV Liceum Ogólnokształcące,17,"XXIV Liceum Ogólnokształcące, Gdańsk  - RAZEM",29,0,0,0,3,0.0,2026-05-15T19:13:35
+XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,22,"XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1A dwujęzyczna medyczna biol-chem",27,1,30,0,0,0.04,2026-05-15T19:13:35
+XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,22,"XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B-fiz dwujęzyczna politechniczna mat-fiz",14,0,14,0,3,0.0,2026-05-15T19:13:35
+XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,22,"XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B-inf dwujęzyczna politechniczna mat-info",13,1,13,0,0,0.08,2026-05-15T19:13:35
+XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,22,"XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1C-biol dwujęzyczna dwuprofilowa mat-biol",14,1,10,0,2,0.07,2026-05-15T19:13:35
+XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,22,"XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1C-chem dwujęzyczna dwuprofilowa mat-chem",14,0,5,0,0,0.0,2026-05-15T19:13:35
+XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,22,"XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1D-biz [D]dwujęzyczna ekonomiczno-biznesowa mat/biz",13,0,17,0,2,0.0,2026-05-15T19:13:35
+XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,22,"XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1D-geo dwujęzyczna ekonomiczno-biznesowa mat/geo",14,0,15,0,0,0.0,2026-05-15T19:13:35
+XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,22,"XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1MIF [O] fiz-inf-mat (ang-fra*)",28,0,10,0,1,0.0,2026-05-15T19:13:35
+XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,22,"XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk  - RAZEM",137,2,0,0,8,0.01,2026-05-15T19:13:35
+XXI Liceum Ogólnokształcące z Oddziałami Sportowymi,26,"XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1A [S] piłka nożna Lechia",20,0,5,0,3,0.0,2026-05-15T19:13:35
+XXI Liceum Ogólnokształcące z Oddziałami Sportowymi,26,"XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1B [O] biologiczno-chemiczna",26,0,20,0,1,0.0,2026-05-15T19:13:35
+XXI Liceum Ogólnokształcące z Oddziałami Sportowymi,26,"XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1C [O] matematyczno-geograficzna",26,1,11,0,0,0.04,2026-05-15T19:13:35
+XXI Liceum Ogólnokształcące z Oddziałami Sportowymi,26,"XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1D ID Humanistyczna",26,1,20,0,1,0.04,2026-05-15T19:13:35
+XXI Liceum Ogólnokształcące z Oddziałami Sportowymi,26,"XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk  - RAZEM",98,2,0,0,5,0.02,2026-05-15T19:13:35
+XXIII Liceum Ogólnokształcące,123,"XXIII Liceum Ogólnokształcące, Gdańsk - 1A humanistyczna",26,1,6,0,0,0.04,2026-05-15T19:13:35
+XXIII Liceum Ogólnokształcące,123,"XXIII Liceum Ogólnokształcące, Gdańsk - 1Bi humanistyczna",5,0,2,0,0,0.0,2026-05-15T19:13:35
+XXIII Liceum Ogólnokształcące,123,"XXIII Liceum Ogólnokształcące, Gdańsk - 1Bii humanistyczna",15,0,4,0,0,0.0,2026-05-15T19:13:35
+XXIII Liceum Ogólnokształcące,123,"XXIII Liceum Ogólnokształcące, Gdańsk - 1Ci przyrodnicza",15,0,8,0,1,0.0,2026-05-15T19:13:35
+XXIII Liceum Ogólnokształcące,123,"XXIII Liceum Ogólnokształcące, Gdańsk - 1iC klasa przyrodnicza",5,0,3,0,1,0.0,2026-05-15T19:13:35
+XXIII Liceum Ogólnokształcące,123,"XXIII Liceum Ogólnokształcące, Gdańsk  - RAZEM",66,1,0,0,2,0.02,2026-05-15T19:13:35
+Uniwersyteckie LO z Oddziałami Dwujęzycznymi im. P. Adamowicza,385,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1A [O] mat-inf-fiz (ang-hisz,niem*)",28,1,17,0,2,0.04,2026-05-15T19:13:35
+Uniwersyteckie LO z Oddziałami Dwujęzycznymi im. P. Adamowicza,385,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Bb [O] biol-chem-ang (ang-fra,niem*)",14,1,30,0,5,0.07,2026-05-15T19:13:35
+Uniwersyteckie LO z Oddziałami Dwujęzycznymi im. P. Adamowicza,385,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Bd(dwujęzyczna) [D] ang-biol-chem (ang-fra,niem*)",14,1,16,0,3,0.07,2026-05-15T19:13:35
+Uniwersyteckie LO z Oddziałami Dwujęzycznymi im. P. Adamowicza,385,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Cb [O] biol-ang-pol (ang-fra,niem*)",14,1,23,0,6,0.07,2026-05-15T19:13:35
+Uniwersyteckie LO z Oddziałami Dwujęzycznymi im. P. Adamowicza,385,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Ch [O] hist-ang-pol (ang-fra,niem*)",14,1,27,0,5,0.07,2026-05-15T19:13:35
+Uniwersyteckie LO z Oddziałami Dwujęzycznymi im. P. Adamowicza,385,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Db [O] mat-biz-ang (ang-hisz,niem*)",14,2,19,0,0,0.14,2026-05-15T19:13:35
+Uniwersyteckie LO z Oddziałami Dwujęzycznymi im. P. Adamowicza,385,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Dd(dwujęzyczny) [D] geo-ang-mat (ang-,hisz,niem*)",14,1,17,0,2,0.07,2026-05-15T19:13:35
+Uniwersyteckie LO z Oddziałami Dwujęzycznymi im. P. Adamowicza,385,Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku  - RAZEM,112,2,0,0,23,0.02,2026-05-15T19:13:35
+Ogólnokształcące Liceum Jezuitów z Oddziałami Dwujęzycznymi,364,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1A [O] mat-inf-fiz (ang-hisz,niem*)",28,1,17,0,2,0.04,2026-05-15T19:13:35
+Ogólnokształcące Liceum Jezuitów z Oddziałami Dwujęzycznymi,364,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Bb [O] biol-chem-ang (ang-fra,niem*)",14,1,30,0,5,0.07,2026-05-15T19:13:35
+Ogólnokształcące Liceum Jezuitów z Oddziałami Dwujęzycznymi,364,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Bd(dwujęzyczna) [D] ang-biol-chem (ang-fra,niem*)",14,1,16,0,3,0.07,2026-05-15T19:13:35
+Ogólnokształcące Liceum Jezuitów z Oddziałami Dwujęzycznymi,364,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Cb [O] biol-ang-pol (ang-fra,niem*)",14,1,23,0,6,0.07,2026-05-15T19:13:35
+Ogólnokształcące Liceum Jezuitów z Oddziałami Dwujęzycznymi,364,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Ch [O] hist-ang-pol (ang-fra,niem*)",14,1,27,0,5,0.07,2026-05-15T19:13:35
+Ogólnokształcące Liceum Jezuitów z Oddziałami Dwujęzycznymi,364,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Db [O] mat-biz-ang (ang-hisz,niem*)",14,2,19,0,0,0.14,2026-05-15T19:13:35
+Ogólnokształcące Liceum Jezuitów z Oddziałami Dwujęzycznymi,364,"Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Dd(dwujęzyczny) [D] geo-ang-mat (ang-,hisz,niem*)",14,1,17,0,2,0.07,2026-05-15T19:13:35
+Ogólnokształcące Liceum Jezuitów z Oddziałami Dwujęzycznymi,364,Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku  - RAZEM,112,2,0,0,23,0.02,2026-05-15T19:13:35
+Akademickie LO Lingwista im. Hymnu Narodowego,366,"Akademickie Liceum Ogólnokształcące ""Lingwista"" im. Hymnu Narodowego - 1a politechniczna (mat.-fiz.) lub (mat.-geo.)",15,0,3,0,0,0.0,2026-05-15T19:13:35
+Akademickie LO Lingwista im. Hymnu Narodowego,366,"Akademickie Liceum Ogólnokształcące ""Lingwista"" im. Hymnu Narodowego - 1b humanistyczna (historia, j. polski lub wos)",14,0,2,0,0,0.0,2026-05-15T19:13:35
+Akademickie LO Lingwista im. Hymnu Narodowego,366,"Akademickie Liceum Ogólnokształcące ""Lingwista"" im. Hymnu Narodowego - 1c medyczna (biol.-chem.)",15,0,6,0,0,0.0,2026-05-15T19:13:35
+Akademickie LO Lingwista im. Hymnu Narodowego,366,"Akademickie Liceum Ogólnokształcące ""Lingwista"" im. Hymnu Narodowego - 1d społeczno-ekonomiczna (geo.-wos)",6,0,2,0,0,0.0,2026-05-15T19:13:35
+Akademickie LO Lingwista im. Hymnu Narodowego,366,"Akademickie Liceum Ogólnokształcące ""Lingwista"" im. Hymnu Narodowego - 1e biologiczno-humanistyczna (biol. - pol.)",15,0,2,0,0,0.0,2026-05-15T19:13:35
+Akademickie LO Lingwista im. Hymnu Narodowego,366,"Akademickie Liceum Ogólnokształcące ""Lingwista"" im. Hymnu Narodowego  - RAZEM",65,0,0,0,0,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 01KF Klasa filmowa,24,1,4,0,0,0.04,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 01MR Klasa medyczno-ratownicza,24,0,6,0,1,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 01PR Klasa prawnicza,24,0,4,0,0,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02KK Klasa kryminalistyczna,24,0,6,0,1,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02KP Klasa psychologiczna,35,0,13,0,6,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02TK Klasa kosmetologiczna,35,0,9,0,4,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 11AW Klasa aranżacja wnętrz,24,0,5,0,0,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 11PG Klasa projektowania graficznego,24,0,5,0,0,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 1KJ Klasa językowa,24,0,6,0,1,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 1KMiK Klasa marketing i kreacja,24,0,3,0,0,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 1MEiKOM Klasa media i komunikacja,24,0,2,0,0,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 1SiW Klasa stylizacja i wizerunek,24,0,9,0,2,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące TEB Edukacja,502,Liceum Ogólnokształcące TEB Edukacja w Gdańsku  - RAZEM,310,1,0,0,15,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące Thinking Zone,638,Liceum Ogólnokształcące Thinking Zone - 1b [O] biz-ang (ang-hisz),18,0,1,0,0,0.0,2026-05-15T19:13:35
+Liceum Ogólnokształcące Thinking Zone,638,Liceum Ogólnokształcące Thinking Zone  - RAZEM,18,0,0,0,0,0.0,2026-05-15T19:13:35

@@ -1,0 +1,35 @@
+name: Fetch data
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # co godzinę, np. 10:00, 11:00, 12:00
+  workflow_dispatch:        # możliwość ręcznego uruchomienia z GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Pobierz dane
+        run: python nabor_stats.py
+
+      - name: Skopiuj JSON do public/
+        run: cp wyniki_nabor_gdansk.json public/wyniki_nabor_gdansk.json
+
+      - name: Commituj zaktualizowane dane
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: aktualizacja danych naboru"
+          file_pattern: public/wyniki_nabor_gdansk.json
+          push_options: '--force-with-lease'

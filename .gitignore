@@ -1,0 +1,7 @@
+node_modules/
+dist/
+venv/
+__pycache__/
+*.pyc
+nabor_stats.log
+.DS_Store
