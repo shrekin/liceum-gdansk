@@ -80,7 +80,7 @@ const LEGENDA = [
 // ─── Kolumny tabeli ───────────────────────────────────────────────────────────
 
 const COLUMNS = [
-  { key: "profil",              label: ["Szkoła /", "Profil klasy"],               sortable: false, width: "minmax(180px, 1fr)" },
+  { key: "profil",              label: ["Szkoła /", "Profil klasy"],               sortable: false, width: "minmax(180px, 0.7fr)" },
   { key: "miejsca",             label: ["Liczba miejsc", "w klasie"],               sortable: true,  width: "80px"  },
   { key: "chetni_ogolom",       label: ["Liczba chętnych", "ogółem"],               sortable: true,  width: "90px"  },
   { key: "prob_pierwsza",       label: ["Prawdopodobieństwo", "dostania się I wybór"], sortable: true,  width: "110px" },
