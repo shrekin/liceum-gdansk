@@ -104,16 +104,16 @@ function getProgi(szkolaId, oddzialNazwa) {
 // ─── Kolumny tabeli ───────────────────────────────────────────────────────────
 
 const COLUMNS = [
-  { key: "szkolaNazwa",         label: ["Szkoła /", "Profil klasy"],               sortable: true,  width: "minmax(200px, 2.5fr)" },
+  { key: "szkolaNazwa",         label: ["Szkoła /", "Profil klasy"],                sortable: true,  width: "minmax(200px, 2.5fr)" },
   { key: "miejsca",             label: ["Liczba miejsc", "w klasie"],               sortable: true,  width: "minmax(70px, 1fr)"   },
   { key: "chetni_ogolem",       label: ["Liczba chętnych", "ogółem"],               sortable: true,  width: "minmax(80px, 1fr)"   },
-  { key: "chetni_pierwsza_pref", label: ["Chętni", "I preferencja"],                sortable: true,  width: "minmax(85px, 1fr)"   },
-  { key: "prob_ogolnie",        label: ["Prawdopod.", "dostania się", "ogólnie"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
-  { key: "prob_pierwsza",       label: ["Prawdop.", "dostania się", "I wybór"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
-  { key: "wskaznik",            label: ["Wskaźnik", ""],           sortable: true,  width: "minmax(80px, 1fr)"   },
-  { key: "prog_2024",           label: ["Próg pkt", "w roku 2024"],           sortable: true,  width: "minmax(75px, 1fr)"   },
-  { key: "prog_2025",           label: ["Próg pkt", "w roku 2025"],           sortable: true,  width: "minmax(75px, 1fr)"   },
-  { key: "delete",              label: ["", ""],                                     sortable: false, width: "40px"                },
+  { key: "chetni_pierwsza_pref",label: ["Liczba chętnych", "I preferencja"],                sortable: true,  width: "minmax(85px, 1fr)"   },
+  { key: "prob_ogolnie",        label: ["Prawdopod.", "dostania się", "ogólnie"],   sortable: true,  width: "minmax(90px, 1.2fr)"  },
+  { key: "prob_pierwsza",       label: ["Prawdop.", "dostania się", "I wybór"],     sortable: true,  width: "minmax(90px, 1.2fr)"  },
+  { key: "wskaznik",            label: ["Wskaźnik", ""],                            sortable: true,  width: "minmax(80px, 1fr)"   },
+  { key: "prog_2024",           label: ["Próg punktowy", "w roku 2024"],                 sortable: true,  width: "minmax(75px, 1fr)"   },
+  { key: "prog_2025",           label: ["Próg punktowy", "w roku 2025"],                 sortable: true,  width: "minmax(75px, 1fr)"   },
+  { key: "delete",              label: ["", ""],                                    sortable: false, width: "40px"                },
 ];
 
 
