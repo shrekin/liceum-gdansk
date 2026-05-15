@@ -77,15 +77,28 @@ const LEGENDA = [
   { bg: "#e0e7ff", label: "Wolne miejsca", desc: "wskaźnik < 1,0" },
 ];
 
+// ─── Progi punktowe (uzupełnij ręcznie: klucz = `${szkolaId}|${oddzialNazwa}`) ──
+
+const PROGI = {
+  // przykład:
+  // "szkola-1|1a matematyczno-fizyczny": { prog_2024: 172, prog_2025: 168 },
+};
+
+function getProgi(szkolaId, oddzialNazwa) {
+  return PROGI[`${szkolaId}|${oddzialNazwa}`] ?? { prog_2024: null, prog_2025: null };
+}
+
 // ─── Kolumny tabeli ───────────────────────────────────────────────────────────
 
 const COLUMNS = [
   { key: "profil",              label: ["Szkoła /", "Profil klasy"],               sortable: false, width: "minmax(200px, 2.5fr)" },
   { key: "miejsca",             label: ["Liczba miejsc", "w klasie"],               sortable: true,  width: "minmax(70px, 1fr)"   },
   { key: "chetni_ogolom",       label: ["Liczba chętnych", "ogółem"],               sortable: true,  width: "minmax(80px, 1fr)"   },
-  { key: "prob_pierwsza",       label: ["Prawdopodobieństwo", "dostania się I wybór"], sortable: true,  width: "minmax(100px, 1.5fr)" },
-  { key: "prob_ogolnie",        label: ["Prawdopodobieństwo", "dostania się ogólnie"], sortable: true,  width: "minmax(100px, 1.5fr)" },
-  { key: "wskaznik",            label: ["Wskaźnik", ""],                             sortable: true,  width: "minmax(75px, 1fr)"   },
+  { key: "prob_pierwsza",       label: ["Prawdop.", "I wybór"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
+  { key: "prob_ogolnie",        label: ["Prawdop.", "ogólnie"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
+  { key: "wskaznik",            label: ["Wskaźnik", ""],           sortable: true,  width: "minmax(80px, 1fr)"   },
+  { key: "prog_2024",           label: ["Próg", "2024"],           sortable: true,  width: "minmax(75px, 1fr)"   },
+  { key: "prog_2025",           label: ["Próg", "2025"],           sortable: true,  width: "minmax(75px, 1fr)"   },
   { key: "delete",              label: ["", ""],                                     sortable: false, width: "40px"                },
 ];
 
@@ -144,6 +157,7 @@ export default function App() {
           wskaznik:    oddzial.wskaznik,
           prob_pierwsza: oddzial.miejsca / (oddzial.chetni_pierwsza_pref || Infinity) * 100,
           prob_ogolnie:  oddzial.miejsca / (oddzial.chetni_ogolom        || Infinity) * 100,
+          ...getProgi(szkolaId, oddzialNazwa),
         };
       })
       .filter(Boolean);
@@ -238,7 +252,7 @@ export default function App() {
 
         {/* ── Tabela watchlisty ── */}
         <div style={{ overflowX: "auto", width: "100%" }}>
-          <div style={{ minWidth: 860 }}>
+          <div style={{ minWidth: 1020 }}>
 
             {/* Nagłówek kolumn */}
             <div style={{ ...styles.gridRow, ...styles.headerRow, gridTemplateColumns: gridCols }}>
@@ -320,6 +334,16 @@ export default function App() {
                     }}>
                       {row.wskaznik.toFixed(2).replace(".", ",")}
                     </span>
+                  </div>
+
+                  {/* Próg 2024 */}
+                  <div style={{ ...styles.valueCell, color: row.prog_2024 == null ? "#d1d5db" : "#222" }}>
+                    {row.prog_2024 ?? "—"}
+                  </div>
+
+                  {/* Próg 2025 */}
+                  <div style={{ ...styles.valueCell, color: row.prog_2025 == null ? "#d1d5db" : "#222" }}>
+                    {row.prog_2025 ?? "—"}
                   </div>
 
                   {/* Usuń */}
