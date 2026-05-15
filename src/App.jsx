@@ -241,7 +241,7 @@ export default function App() {
         </h1>
         <p style={styles.subtitle}>
           Pobrane dane z {data.pobrano_czytelnie}.{" "}
-          Aktualizacja automatyczna co 1 godzinę.
+          Aktualizacja automatyczna co 30 minut.
         </p>
       </div>
 
