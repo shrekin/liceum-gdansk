@@ -32,4 +32,3 @@ jobs:
         with:
           commit_message: "chore: aktualizacja danych naboru"
           file_pattern: public/wyniki_nabor_gdansk.json
-          push_options: '--force-with-lease'
