@@ -102,6 +102,11 @@ const COLUMNS = [
   { key: "delete",              label: ["", ""],                                     sortable: false, width: "40px"                },
 ];
 
+const PROGI = {
+  "79|XV Liceum Ogólnokształcące z Oddziałami Dwujęzyczn…, Gdańsk - 1a matematyczno-informatyczno-językowa": { prog_2024: 172, prog_2025: 168 },
+  "306|X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1A-POLITECHNICZNA [D] fiz-inf-mat (ang-hisz*,niem*)": { prog_2024: 145, prog_2025: null },
+};
+
 // ─── Główny komponent ─────────────────────────────────────────────────────────
 
 export default function App() {
