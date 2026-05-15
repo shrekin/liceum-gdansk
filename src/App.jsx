@@ -97,8 +97,8 @@ const COLUMNS = [
   { key: "miejsca",             label: ["Liczba miejsc", "w klasie"],               sortable: true,  width: "minmax(70px, 1fr)"   },
   { key: "chetni_ogolem",       label: ["Liczba chętnych", "ogółem"],               sortable: true,  width: "minmax(80px, 1fr)"   },
   { key: "chetni_pierwsza_pref", label: ["Chętni", "I preferencja"],                sortable: true,  width: "minmax(85px, 1fr)"   },
-  { key: "prob_pierwsza",       label: ["Prawdop.", "I wybór"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
   { key: "prob_ogolnie",        label: ["Prawdop.", "ogólnie"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
+  { key: "prob_pierwsza",       label: ["Prawdop.", "I wybór"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
   { key: "wskaznik",            label: ["Wskaźnik", ""],           sortable: true,  width: "minmax(80px, 1fr)"   },
   { key: "prog_2024",           label: ["Próg", "2024"],           sortable: true,  width: "minmax(75px, 1fr)"   },
   { key: "prog_2025",           label: ["Próg", "2025"],           sortable: true,  width: "minmax(75px, 1fr)"   },
@@ -323,6 +323,16 @@ export default function App() {
                     />
                   </div>
 
+                  {/* Prawdopodobieństwo ogólnie */}
+                  <div style={{ ...styles.valueCell, flexDirection: "column", alignItems: "flex-start", gap: 2 }}>
+                    <span>{fmtPct(row.miejsca, row.chetni_ogolem)}</span>
+                    {row.chetni_ogolem_oczekujacy > 0 && (
+                      <span style={{ fontSize: 11, fontWeight: 500, color: "#9ca3af" }}>
+                        z uwzgl. ocz.: {fmtPct(row.miejsca, row.chetni_ogolem + row.chetni_ogolem_oczekujacy)}
+                      </span>
+                    )}
+                  </div>
+
                   {/* Prawdopodobieństwo I wybór */}
                   <div style={{ ...styles.valueCell, flexDirection: "column", alignItems: "flex-start", gap: 2 }}>
                     <span>{fmtPct(row.miejsca, row.chetni_pierwsza_pref)}</span>
@@ -331,11 +341,6 @@ export default function App() {
                         z uwzgl. ocz.: {fmtPct(row.miejsca, row.chetni_pierwsza_pref + row.chetni_pierwsza_pref_oczekujacy)}
                       </span>
                     )}
-                  </div>
-
-                  {/* Prawdopodobieństwo ogólnie */}
-                  <div style={styles.valueCell}>
-                    {fmtPct(row.miejsca, row.chetni_ogolem)}
                   </div>
 
                   {/* Wskaźnik */}
