@@ -93,7 +93,8 @@ function getProgi(szkolaId, oddzialNazwa) {
 const COLUMNS = [
   { key: "profil",              label: ["Szkoła /", "Profil klasy"],               sortable: false, width: "minmax(200px, 2.5fr)" },
   { key: "miejsca",             label: ["Liczba miejsc", "w klasie"],               sortable: true,  width: "minmax(70px, 1fr)"   },
-  { key: "chetni_ogolom",       label: ["Liczba chętnych", "ogółem"],               sortable: true,  width: "minmax(80px, 1fr)"   },
+  { key: "chetni_ogolem",       label: ["Liczba chętnych", "ogółem"],               sortable: true,  width: "minmax(80px, 1fr)"   },
+  { key: "chetni_pierwsza_pref", label: ["Chętni", "I preferencja"],                sortable: true,  width: "minmax(85px, 1fr)"   },
   { key: "prob_pierwsza",       label: ["Prawdop.", "I wybór"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
   { key: "prob_ogolnie",        label: ["Prawdop.", "ogólnie"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
   { key: "wskaznik",            label: ["Wskaźnik", ""],           sortable: true,  width: "minmax(80px, 1fr)"   },
@@ -150,13 +151,13 @@ export default function App() {
           szkolaNazwa: szkola.nazwa,
           profil:      extractProfile(oddzial.nazwa),
           miejsca:     oddzial.miejsca,
-          chetni_ogolom:                   oddzial.chetni_ogolom,
-          chetni_ogolom_oczekujacy:        oddzial.chetni_ogolom_oczekujacy        ?? 0,
+          chetni_ogolem:                   oddzial.chetni_ogolem,
+          chetni_ogolem_oczekujacy:        oddzial.chetni_ogolem_oczekujacy        ?? 0,
           chetni_pierwsza_pref:            oddzial.chetni_pierwsza_pref,
           chetni_pierwsza_pref_oczekujacy: oddzial.chetni_pierwsza_pref_oczekujacy ?? 0,
           wskaznik:    oddzial.wskaznik,
           prob_pierwsza: oddzial.miejsca / (oddzial.chetni_pierwsza_pref || Infinity) * 100,
-          prob_ogolnie:  oddzial.miejsca / (oddzial.chetni_ogolom        || Infinity) * 100,
+          prob_ogolnie:  oddzial.miejsca / (oddzial.chetni_ogolem        || Infinity) * 100,
           ...getProgi(szkolaId, oddzialNazwa),
         };
       })
@@ -252,7 +253,7 @@ export default function App() {
 
         {/* ── Tabela watchlisty ── */}
         <div style={{ overflowX: "auto", width: "100%" }}>
-          <div style={{ minWidth: 1020 }}>
+          <div style={{ minWidth: 1110 }}>
 
             {/* Nagłówek kolumn */}
             <div style={{ ...styles.gridRow, ...styles.headerRow, gridTemplateColumns: gridCols }}>
@@ -306,8 +307,16 @@ export default function App() {
                   {/* Chętni ogółem */}
                   <div style={styles.valueCell}>
                     <NumWithPending
-                      value={row.chetni_ogolom}
-                      pending={row.chetni_ogolom_oczekujacy}
+                      value={row.chetni_ogolem}
+                      pending={row.chetni_ogolem_oczekujacy}
+                    />
+                  </div>
+
+                  {/* Chętni I preferencja */}
+                  <div style={styles.valueCell}>
+                    <NumWithPending
+                      value={row.chetni_pierwsza_pref}
+                      pending={row.chetni_pierwsza_pref_oczekujacy}
                     />
                   </div>
 
@@ -323,7 +332,7 @@ export default function App() {
 
                   {/* Prawdopodobieństwo ogólnie */}
                   <div style={styles.valueCell}>
-                    {fmtPct(row.miejsca, row.chetni_ogolom)}
+                    {fmtPct(row.miejsca, row.chetni_ogolem)}
                   </div>
 
                   {/* Wskaźnik */}

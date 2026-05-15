@@ -213,11 +213,11 @@ def parsuj_oddzialy(html: str, nazwa_szkoly: str) -> list[dict]:
     Pola wynikowe:
         nazwa                   – nazwa oddziału
         miejsca                 – liczba miejsc
-        chetni_ogolom           – chętni zaakceptowani
-        chetni_ogolom_oczekujacy – chętni z niezweryfikowanym wnioskiem (w nawiasie)
+        chetni_ogolem           – chętni zaakceptowani
+        chetni_ogolem_oczekujacy – chętni z niezweryfikowanym wnioskiem (w nawiasie)
         chetni_pierwsza_pref    – I preferencja zaakceptowani
         chetni_pierwsza_pref_oczekujacy – I preferencja oczekujący (w nawiasie)
-        wskaznik                – chetni_ogolom / miejsca
+        wskaznik                – chetni_ogolem / miejsca
     """
     soup = BeautifulSoup(html, "lxml")
     oddzialy = []
@@ -241,16 +241,16 @@ def parsuj_oddzialy(html: str, nazwa_szkoly: str) -> list[dict]:
 
         nazwa_oddzialu = teksty[0]
         miejsca,              _                            = parsuj_liczbe_z_nawiasem(teksty[1])
-        chetni_ogolom,        chetni_ogolom_ocz            = parsuj_liczbe_z_nawiasem(teksty[2])
+        chetni_ogolem,        chetni_ogolem_ocz            = parsuj_liczbe_z_nawiasem(teksty[2])
         chetni_pref,          chetni_pref_ocz              = parsuj_liczbe_z_nawiasem(teksty[3]) if len(teksty) > 3 else (0, 0)
 
-        wskaznik = round(chetni_ogolom / miejsca, 2) if miejsca > 0 else 0.0
+        wskaznik = round(chetni_ogolem / miejsca, 2) if miejsca > 0 else 0.0
 
         oddzialy.append({
             "nazwa":                          nazwa_oddzialu,
             "miejsca":                        miejsca,
-            "chetni_ogolom":                  chetni_ogolom,
-            "chetni_ogolom_oczekujacy":       chetni_ogolom_ocz,
+            "chetni_ogolem":                  chetni_ogolem,
+            "chetni_ogolem_oczekujacy":       chetni_ogolem_ocz,
             "chetni_pierwsza_pref":           chetni_pref,
             "chetni_pierwsza_pref_oczekujacy": chetni_pref_ocz,
             "wskaznik":                       wskaznik,
@@ -342,7 +342,7 @@ def zapisz_csv(wyniki: list[dict], plik: str = "wyniki_nabor_gdansk.csv") -> Non
     kolumny = [
         "szkola", "id_szkoly", "oddzial",
         "miejsca",
-        "chetni_ogolom", "chetni_ogolom_oczekujacy",
+        "chetni_ogolem", "chetni_ogolem_oczekujacy",
         "chetni_pierwsza_pref", "chetni_pierwsza_pref_oczekujacy",
         "wskaznik", "pobrano",
     ]
@@ -356,8 +356,8 @@ def zapisz_csv(wyniki: list[dict], plik: str = "wyniki_nabor_gdansk.csv") -> Non
                     "id_szkoly":                        szkola["id"],
                     "oddzial":                          oddzial["nazwa"],
                     "miejsca":                          oddzial["miejsca"],
-                    "chetni_ogolom":                    oddzial["chetni_ogolom"],
-                    "chetni_ogolom_oczekujacy":         oddzial.get("chetni_ogolom_oczekujacy", 0),
+                    "chetni_ogolem":                    oddzial["chetni_ogolem"],
+                    "chetni_ogolem_oczekujacy":         oddzial.get("chetni_ogolem_oczekujacy", 0),
                     "chetni_pierwsza_pref":             oddzial["chetni_pierwsza_pref"],
                     "chetni_pierwsza_pref_oczekujacy":  oddzial.get("chetni_pierwsza_pref_oczekujacy", 0),
                     "wskaznik":                         oddzial["wskaznik"],
@@ -416,7 +416,7 @@ def wyswietl_tabele(wyniki: list[dict]) -> None:
             tabela.add_row(
                 o["nazwa"],
                 str(o["miejsca"]),
-                fmt(o["chetni_ogolom"],       o.get("chetni_ogolom_oczekujacy", 0)),
+                fmt(o["chetni_ogolem"],       o.get("chetni_ogolem_oczekujacy", 0)),
                 fmt(o["chetni_pierwsza_pref"], o.get("chetni_pierwsza_pref_oczekujacy", 0)),
                 f"[{kolor}]{o['wskaznik']:.2f}[/{kolor}]",
             )
