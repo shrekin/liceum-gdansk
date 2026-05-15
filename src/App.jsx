@@ -82,6 +82,7 @@ const LEGENDA = [
 const PROGI = {
   // przykład:
   // "szkola-1|1a matematyczno-fizyczny": { prog_2024: 172, prog_2025: 168 },
+  // JSON.parse(localStorage.getItem("nabor_watchlist")) w konsoli
   "79|XV Liceum Ogólnokształcące z Oddziałami Dwujęzyczn…, Gdańsk - 1a matematyczno-informatyczno-językowa": { prog_2024: null, prog_2025: 147.65 },
   "306|X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1A-POLITECHNICZNA [D] fiz-inf-mat (ang-hisz*,niem*)": { prog_2024: 147.05, prog_2025: 160.87 },
   "306|X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1C-BIZNESOWA_GR.GEO [D] mat-geo (ang-hisz*,niem*)": { prog_2024: 158.34, prog_2025: 162.98 },
@@ -107,11 +108,11 @@ const COLUMNS = [
   { key: "miejsca",             label: ["Liczba miejsc", "w klasie"],               sortable: true,  width: "minmax(70px, 1fr)"   },
   { key: "chetni_ogolem",       label: ["Liczba chętnych", "ogółem"],               sortable: true,  width: "minmax(80px, 1fr)"   },
   { key: "chetni_pierwsza_pref", label: ["Chętni", "I preferencja"],                sortable: true,  width: "minmax(85px, 1fr)"   },
-  { key: "prob_ogolnie",        label: ["Prawdop.", "ogólnie"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
-  { key: "prob_pierwsza",       label: ["Prawdop.", "I wybór"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
+  { key: "prob_ogolnie",        label: ["Prawdopod.", "dostania się" ,"ogólnie"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
+  { key: "prob_pierwsza",       label: ["Prawdop.", "dostania się", "I wybór"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
   { key: "wskaznik",            label: ["Wskaźnik", ""],           sortable: true,  width: "minmax(80px, 1fr)"   },
-  { key: "prog_2024",           label: ["Próg", "2024"],           sortable: true,  width: "minmax(75px, 1fr)"   },
-  { key: "prog_2025",           label: ["Próg", "2025"],           sortable: true,  width: "minmax(75px, 1fr)"   },
+  { key: "prog_2024",           label: ["Próg pkt", "w roku 2024"],           sortable: true,  width: "minmax(75px, 1fr)"   },
+  { key: "prog_2025",           label: ["Próg pkt", "w roku 2025"],           sortable: true,  width: "minmax(75px, 1fr)"   },
   { key: "delete",              label: ["", ""],                                     sortable: false, width: "40px"                },
 ];
 
