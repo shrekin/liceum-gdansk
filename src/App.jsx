@@ -260,6 +260,7 @@ export default function App() {
       </div>
 
       {/* ── Karta główna ── */}
+      <div style={styles.cardWrapper}>
       <div style={styles.card}>
 
         {/* Nagłówek karty */}
@@ -481,6 +482,7 @@ export default function App() {
         </div>
 
       </div>{/* /card */}
+      </div>{/* /cardWrapper */}
 
       {/* ── Stopka ── */}
       <footer style={styles.footer}>
@@ -543,14 +545,18 @@ const styles = {
     color: "#9ca3af",
     margin: 0,
   },
-  card: {
+  cardWrapper: {
     width: "100%",
     maxWidth: 1280,
+    background: "conic-gradient(from 0deg, #ff0000, #ff8800, #ffff00, #00cc00, #00cccc, #0066ff, #9000ff, #ff0099, #ff0000)",
+    borderRadius: 27,
+    padding: 3,
+    boxShadow: "0px 4px 12px rgba(34,34,34,0.08)",
+  },
+  card: {
     background: "#fff",
-    border: "3px solid #12bee9",
     borderRadius: 24,
     padding: 33.5,
-    boxShadow: "0px 4px 12px rgba(34,34,34,0.08)",
     display: "flex",
     flexDirection: "column",
     gap: 24,
