@@ -80,13 +80,13 @@ const LEGENDA = [
 // ─── Kolumny tabeli ───────────────────────────────────────────────────────────
 
 const COLUMNS = [
-  { key: "profil",              label: ["Szkoła /", "Profil klasy"],               sortable: false, width: "minmax(180px, 0.5fr)" },
-  { key: "miejsca",             label: ["Liczba miejsc", "w klasie"],               sortable: true,  width: "80px"  },
-  { key: "chetni_ogolom",       label: ["Liczba chętnych", "ogółem"],               sortable: true,  width: "90px"  },
-  { key: "prob_pierwsza",       label: ["Prawdopodobieństwo", "dostania się I wybór"], sortable: true,  width: "110px" },
-  { key: "prob_ogolnie",        label: ["Prawdopodobieństwo", "dostania się ogólnie"], sortable: true,  width: "110px" },
-  { key: "wskaznik",            label: ["Wskaźnik", ""],                             sortable: true,  width: "90px"  },
-  { key: "delete",              label: ["", ""],                                     sortable: false, width: "48px"  },
+  { key: "profil",              label: ["Szkoła /", "Profil klasy"],               sortable: false, width: "minmax(200px, 2.5fr)" },
+  { key: "miejsca",             label: ["Liczba miejsc", "w klasie"],               sortable: true,  width: "minmax(70px, 1fr)"   },
+  { key: "chetni_ogolom",       label: ["Liczba chętnych", "ogółem"],               sortable: true,  width: "minmax(80px, 1fr)"   },
+  { key: "prob_pierwsza",       label: ["Prawdopodobieństwo", "dostania się I wybór"], sortable: true,  width: "minmax(100px, 1.5fr)" },
+  { key: "prob_ogolnie",        label: ["Prawdopodobieństwo", "dostania się ogólnie"], sortable: true,  width: "minmax(100px, 1.5fr)" },
+  { key: "wskaznik",            label: ["Wskaźnik", ""],                             sortable: true,  width: "minmax(75px, 1fr)"   },
+  { key: "delete",              label: ["", ""],                                     sortable: false, width: "40px"                },
 ];
 
 // ─── Główny komponent ─────────────────────────────────────────────────────────
