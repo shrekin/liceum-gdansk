@@ -108,7 +108,7 @@ const COLUMNS = [
   { key: "miejsca",             label: ["Liczba miejsc", "w klasie"],               sortable: true,  width: "minmax(70px, 1fr)"   },
   { key: "chetni_ogolem",       label: ["Liczba chętnych", "ogółem"],               sortable: true,  width: "minmax(80px, 1fr)"   },
   { key: "chetni_pierwsza_pref", label: ["Chętni", "I preferencja"],                sortable: true,  width: "minmax(85px, 1fr)"   },
-  { key: "prob_ogolnie",        label: ["Prawdopod.", "dostania się" ,"ogólnie"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
+  { key: "prob_ogolnie",        label: ["Prawdopod.", "dostania się", "ogólnie"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
   { key: "prob_pierwsza",       label: ["Prawdop.", "dostania się", "I wybór"],    sortable: true,  width: "minmax(90px, 1.2fr)"  },
   { key: "wskaznik",            label: ["Wskaźnik", ""],           sortable: true,  width: "minmax(80px, 1fr)"   },
   { key: "prog_2024",           label: ["Próg pkt", "w roku 2024"],           sortable: true,  width: "minmax(75px, 1fr)"   },
@@ -282,8 +282,7 @@ export default function App() {
                   }}
                   onClick={() => col.sortable && handleSort(col.key)}
                 >
-                  <span>{col.label[0]}</span>
-                  {col.label[1] && <span>{col.label[1]}</span>}
+                  {col.label.map((line, i) => line && <span key={i}>{line}</span>)}
                   {col.sortable && (
                     <SortIcon
                       active={sortCfg.key === col.key}
