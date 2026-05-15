@@ -82,6 +82,8 @@ const LEGENDA = [
 const PROGI = {
   // przykład:
   // "szkola-1|1a matematyczno-fizyczny": { prog_2024: 172, prog_2025: 168 },
+  "79|XV Liceum Ogólnokształcące z Oddziałami Dwujęzyczn…, Gdańsk - 1a matematyczno-informatyczno-językowa": { prog_2024: null, prog_2025: 147.65 },
+  "306|X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1A-POLITECHNICZNA [D] fiz-inf-mat (ang-hisz*,niem*)": { prog_2024: 147.05, prog_2025: 160.87 },
 };
 
 function getProgi(szkolaId, oddzialNazwa) {
@@ -102,10 +104,6 @@ const COLUMNS = [
   { key: "delete",              label: ["", ""],                                     sortable: false, width: "40px"                },
 ];
 
-const PROGI = {
-  "79|XV Liceum Ogólnokształcące z Oddziałami Dwujęzyczn…, Gdańsk - 1a matematyczno-informatyczno-językowa": { prog_2024: 172, prog_2025: 168 },
-  "306|X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1A-POLITECHNICZNA [D] fiz-inf-mat (ang-hisz*,niem*)": { prog_2024: 145, prog_2025: null },
-};
 
 // ─── Główny komponent ─────────────────────────────────────────────────────────
 
