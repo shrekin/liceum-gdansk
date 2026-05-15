@@ -83,7 +83,8 @@ const PROGI = {
   // przykład:
   // "szkola-1|1a matematyczno-fizyczny": { prog_2024: 172, prog_2025: 168 },
   // JSON.parse(localStorage.getItem("nabor_watchlist")) w konsoli
-  "79|XV Liceum Ogólnokształcące z Oddziałami Dwujęzyczn…, Gdańsk - 1a matematyczno-informatyczno-językowa": { prog_2024: null, prog_2025: 147.65 },
+  "79|XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1a matematyczno-informatyczno-językowa": { prog_2024: null, prog_2025: 147.65 },
+  "79|XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1d Geograficzno-matematyczna z turystyką regionu": { prog_2024: 151.60, prog_2025: 155.25 },
   "306|X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1A-POLITECHNICZNA [D] fiz-inf-mat (ang-hisz*,niem*)": { prog_2024: 147.05, prog_2025: 160.87 },
   "306|X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1C-BIZNESOWA_GR.GEO [D] mat-geo (ang-hisz*,niem*)": { prog_2024: 158.34, prog_2025: 162.98 },
   "9|II Liceum Ogólnokształcące, Gdańsk - 1A POLITECHNICZNA": { prog_2024: 168.85, prog_2025: 168.75 },
