@@ -84,6 +84,16 @@ const PROGI = {
   // "szkola-1|1a matematyczno-fizyczny": { prog_2024: 172, prog_2025: 168 },
   "79|XV Liceum Ogólnokształcące z Oddziałami Dwujęzyczn…, Gdańsk - 1a matematyczno-informatyczno-językowa": { prog_2024: null, prog_2025: 147.65 },
   "306|X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1A-POLITECHNICZNA [D] fiz-inf-mat (ang-hisz*,niem*)": { prog_2024: 147.05, prog_2025: 160.87 },
+  "306|X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1C-BIZNESOWA_GR.GEO [D] mat-geo (ang-hisz*,niem*)": { prog_2024: 158.34, prog_2025: 162.98 },
+  "9|II Liceum Ogólnokształcące, Gdańsk - 1A POLITECHNICZNA": { prog_2024: 168.85, prog_2025: 168.75 },
+  "9|II Liceum Ogólnokształcące, Gdańsk - 1E MENEDŻERSKA": { prog_2024: 164.20, prog_2025: 167.45 },
+  "21|XIX Liceum Ogólnokształcące, Gdańsk - 1Emf interdyscyplinarny grupa mat-fiz": { prog_2024: 159.45, prog_2025: 164.70 },
+  "8|I Liceum Ogólnokształcące, Gdańsk - 1b AKADEMICKA matematyczno-fizyczna": { prog_2024: 165.20, prog_2025: 169.30 },
+  "8|I Liceum Ogólnokształcące, Gdańsk - 1c POLITECHNICZNA matematyczno-fizyczna": { prog_2024: 169.20, prog_2025: 170.75 },
+  "8|I Liceum Ogólnokształcące, Gdańsk - 1d EKONOMICZNA matematyczno-geograficzna": { prog_2024: 163.65, prog_2025: 167.90 },
+  "16|IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.1 FIZYCZNO-MATEMATYCZNA": { prog_2024: 144.90, prog_2025: 161.95 },
+  "16|IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.2 INFORMATYCZNO-MATEMATYCZNO": { prog_2024: null, prog_2025: 161.80 },
+  "16|IX Liceum Ogólnokształcące, Gdańsk - 1E INFORMATYKA:MULTIMEDIA I AI": { prog_2024: 157.80, prog_2025: 157.80 },
 };
 
 function getProgi(szkolaId, oddzialNazwa) {
