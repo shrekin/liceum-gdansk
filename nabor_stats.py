@@ -37,7 +37,7 @@ console = Console()
 URL = "https://nabor-pomorze.edu.com.pl/kandydat/app/candidates_statistics.xhtml"
 CITY_ID = "0933016"  # Gdańsk
 MAX_RETRIES = 3
-TIMEOUT = 15  # sekund
+TIMEOUT = 30  # sekund
 
 HEADERS = {
     "User-Agent": (
@@ -269,7 +269,18 @@ def pobierz_wszystkie() -> list[dict]:
     Zwraca listę słowników ze szkołami i ich oddziałami.
     """
     session = nowa_sesja()
-    view_state = pobierz_view_state(session)
+    view_state = None
+    for proba in range(1, MAX_RETRIES + 1):
+        try:
+            view_state = pobierz_view_state(session)
+            break
+        except Exception as e:
+            log.warning(f"Próba {proba}/{MAX_RETRIES} pobrania ViewState nieudana: {e}")
+            if proba < MAX_RETRIES:
+                time.sleep(5 * proba)
+                session = nowa_sesja()
+    if view_state is None:
+        raise RuntimeError("Nie udało się pobrać ViewState po wszystkich próbach.")
     wyniki = []
 
     for szkola in SZKOLY:
