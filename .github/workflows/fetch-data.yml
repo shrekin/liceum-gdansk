@@ -2,7 +2,7 @@ name: Fetch data
 
 on:
   schedule:
-    - cron: '0 * * * *'   # co godzinę, np. 10:00, 11:00, 12:00
+    - cron: '*/30 * * * *'   # co 30 minut, np. 10:00, 10:30, 11:00
   workflow_dispatch:        # możliwość ręcznego uruchomienia z GitHub UI
 
 permissions:
