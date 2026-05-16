@@ -476,7 +476,7 @@ export default function App() {
             <li><strong>Prawdopodobieństwo dostania się I wybór</strong> — to obliczenie miejsca/chetni I preferencja (z zaakceptowanymi wnioskami) x 100%</li>
             <li><strong>Z uwzgl. ocz.</strong> - to obliczenie miejsca/(chetni ogółem + chetni oczekujący) x 100%, czyli szacunkowe prawdopodobieństwo dostania się, jeśli uwzględnimy również oczekujących.</li>
             <li><strong>Z uwzgl. ocz. I wybór</strong> - to obliczenie miejsca/(chetni I wybór + chetni I wybór oczekujący) x 100%, czyli szacunkowe prawdopodobieństwo dostania się, jeśli uwzględnimy również oczekujących I wyboru.</li>
-            <li><strong>Wskaźnik</strong> - to obliczenie chętni/miejsca</li> - ilu chętnych przypada na jedno miejsce — im wyższy wskaźnik, tym trudniej się dostać.
+            <li><strong>Wskaźnik</strong> - to obliczenie chętni/miejsca, ilu chętnych przypada na jedno miejsce. Im wyższy wskaźnik, tym trudniej się dostać.
           </ul>
         </div>
 
