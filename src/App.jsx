@@ -468,12 +468,15 @@ export default function App() {
             <li><strong>Liczba przed nawiasem</strong> — liczba osób, które wybrały dany oddział, a ich wniosek został zaakceptowany.</li>
             <li><strong>Liczba w nawiasie</strong> — liczba osób, które wybrały dany oddział, ale nie dostarczyły jeszcze wniosku lub ich wniosek nie został jeszcze zweryfikowany.</li>
           </ul>
+        </div>
+        <div style={styles.infoSection}>
           <p style={styles.infoLabel}>Obliczenia</p>
           <ul style={styles.infoList}>
             <li><strong>Prawdopodobieństwo dostania się ogólnie</strong> — to obliczenie miejsca/chetni ogolem (z zaakceptowanymi wnioskami) x 100%</li>
             <li><strong>Prawdopodobieństwo dostania się I wybór</strong> — to obliczenie miejsca/chetni I preferencja (z zaakceptowanymi wnioskami) x 100%</li>
-            <li><strong>z uwzgl. ocz.</strong> - to obliczenie miejsca/(chetni ogółem + chetni oczekujący) x 100%, czyli szacunkowe prawdopodobieństwo dostania się, jeśli uwzględnimy również oczekujących.</li>
-            <li><strong>z uwzgl. ocz. I wybór</strong> - to obliczenie miejsca/(chetni I wybór + chetni I wybór oczekujący) x 100%, czyli szacunkowe prawdopodobieństwo dostania się, jeśli uwzględnimy również oczekujących I wyboru.</li>
+            <li><strong>Z uwzgl. ocz.</strong> - to obliczenie miejsca/(chetni ogółem + chetni oczekujący) x 100%, czyli szacunkowe prawdopodobieństwo dostania się, jeśli uwzględnimy również oczekujących.</li>
+            <li><strong>Z uwzgl. ocz. I wybór</strong> - to obliczenie miejsca/(chetni I wybór + chetni I wybór oczekujący) x 100%, czyli szacunkowe prawdopodobieństwo dostania się, jeśli uwzględnimy również oczekujących I wyboru.</li>
+            <li><strong>Wskaźnik</strong> - to obliczenie chętni/miejsca</li> - ilu chętnych przypada na jedno miejsce — im wyższy wskaźnik, tym trudniej się dostać.
           </ul>
         </div>
 
