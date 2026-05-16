@@ -256,7 +256,7 @@ export default function App() {
         </h1>
         <p style={styles.subtitle}>
           Pobrane dane z {data.pobrano_czytelnie}.{" "}
-          Aktualizacja automatyczna co 30 minut.
+          Aktualizacja odbywa się cyklicznie i automatycznie.
         </p>
       </div>
 
@@ -496,7 +496,7 @@ export default function App() {
 
       {/* ── Stopka ── */}
       <footer style={styles.footer}>
-        Źródło: nabor-pomorze.edu.com.pl | VULCAN sp. z o.o. 2026
+        Źródło danych: nabor-pomorze.edu.com.pl
       </footer>
     </div>
   );
