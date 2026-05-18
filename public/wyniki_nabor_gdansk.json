@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-18T05:30:47",
-  "pobrano_czytelnie": "18 May 2026, godz. 05:30",
+  "pobrano": "2026-05-18T06:00:55",
+  "pobrano_czytelnie": "18 May 2026, godz. 06:00",
   "szkoly": [
     {
       "id": "8",
@@ -900,11 +900,11 @@
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1c Psychologiczno-społeczna",
           "miejsca": 28,
-          "chetni_ogolem": 1,
-          "chetni_ogolem_oczekujacy": 148,
+          "chetni_ogolem": 2,
+          "chetni_ogolem_oczekujacy": 147,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 16,
-          "wskaznik": 0.04
+          "wskaznik": 0.07
         },
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1d Geograficzno-matematyczna z turystyką regionu",
@@ -927,16 +927,16 @@
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1f Biologiczno-chemiczna z zaj. laboratoryjnymi",
           "miejsca": 28,
-          "chetni_ogolem": 1,
-          "chetni_ogolem_oczekujacy": 132,
+          "chetni_ogolem": 2,
+          "chetni_ogolem_oczekujacy": 131,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 7,
-          "wskaznik": 0.04
+          "wskaznik": 0.07
         },
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk  - RAZEM",
           "miejsca": 200,
-          "chetni_ogolem": 7,
+          "chetni_ogolem": 8,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 2,
           "chetni_pierwsza_pref_oczekujacy": 55,
@@ -1452,20 +1452,20 @@
         {
           "nazwa": "Akademickie Liceum Ogólnokształcące \"Lingwista\" im. Hymnu Narodowego - 1e biologiczno-humanistyczna (biol. - pol.)",
           "miejsca": 15,
-          "chetni_ogolem": 0,
-          "chetni_ogolem_oczekujacy": 5,
+          "chetni_ogolem": 1,
+          "chetni_ogolem_oczekujacy": 4,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 0.0
+          "wskaznik": 0.07
         },
         {
           "nazwa": "Akademickie Liceum Ogólnokształcące \"Lingwista\" im. Hymnu Narodowego  - RAZEM",
           "miejsca": 65,
-          "chetni_ogolem": 0,
+          "chetni_ogolem": 1,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 0.0
+          "wskaznik": 0.02
         }
       ]
     },
@@ -1494,11 +1494,11 @@
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 01PR Klasa prawnicza",
           "miejsca": 24,
-          "chetni_ogolem": 0,
-          "chetni_ogolem_oczekujacy": 12,
+          "chetni_ogolem": 1,
+          "chetni_ogolem_oczekujacy": 11,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 0.0
+          "wskaznik": 0.04
         },
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02KK Klasa kryminalistyczna",
@@ -1512,20 +1512,20 @@
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02KP Klasa psychologiczna",
           "miejsca": 35,
-          "chetni_ogolem": 0,
-          "chetni_ogolem_oczekujacy": 27,
+          "chetni_ogolem": 1,
+          "chetni_ogolem_oczekujacy": 26,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 6,
-          "wskaznik": 0.0
+          "wskaznik": 0.03
         },
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02TK Klasa kosmetologiczna",
           "miejsca": 35,
-          "chetni_ogolem": 0,
-          "chetni_ogolem_oczekujacy": 22,
+          "chetni_ogolem": 1,
+          "chetni_ogolem_oczekujacy": 21,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 7,
-          "wskaznik": 0.0
+          "wskaznik": 0.03
         },
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 11AW Klasa aranżacja wnętrz",
@@ -1557,11 +1557,11 @@
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 1KMiK Klasa marketing i kreacja",
           "miejsca": 24,
-          "chetni_ogolem": 0,
-          "chetni_ogolem_oczekujacy": 9,
+          "chetni_ogolem": 1,
+          "chetni_ogolem_oczekujacy": 8,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 0.0
+          "wskaznik": 0.04
         },
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 1MEiKOM Klasa media i komunikacja",
@@ -1575,20 +1575,20 @@
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 1SiW Klasa stylizacja i wizerunek",
           "miejsca": 24,
-          "chetni_ogolem": 0,
-          "chetni_ogolem_oczekujacy": 15,
+          "chetni_ogolem": 1,
+          "chetni_ogolem_oczekujacy": 14,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 2,
-          "wskaznik": 0.0
+          "wskaznik": 0.04
         },
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku  - RAZEM",
           "miejsca": 310,
-          "chetni_ogolem": 1,
+          "chetni_ogolem": 2,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 22,
-          "wskaznik": 0.0
+          "wskaznik": 0.01
         }
       ]
     },
