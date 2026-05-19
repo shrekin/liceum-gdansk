@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-19T07:00:54",
-  "pobrano_czytelnie": "19 May 2026, godz. 07:00",
+  "pobrano": "2026-05-19T07:30:53",
+  "pobrano_czytelnie": "19 May 2026, godz. 07:30",
   "szkoly": [
     {
       "id": "8",
@@ -9,52 +9,52 @@
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1a MEDIALNO-PRAWNICZA",
           "miejsca": 28,
-          "chetni_ogolem": 26,
-          "chetni_ogolem_oczekujacy": 72,
+          "chetni_ogolem": 27,
+          "chetni_ogolem_oczekujacy": 71,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 12,
-          "wskaznik": 0.93
+          "wskaznik": 0.96
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1b AKADEMICKA matematyczno-fizyczna",
           "miejsca": 28,
-          "chetni_ogolem": 21,
-          "chetni_ogolem_oczekujacy": 60,
+          "chetni_ogolem": 22,
+          "chetni_ogolem_oczekujacy": 59,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 11,
-          "wskaznik": 0.75
+          "wskaznik": 0.79
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1c POLITECHNICZNA matematyczno-fizyczna",
           "miejsca": 56,
-          "chetni_ogolem": 26,
-          "chetni_ogolem_oczekujacy": 60,
+          "chetni_ogolem": 27,
+          "chetni_ogolem_oczekujacy": 59,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 15,
-          "wskaznik": 0.46
+          "wskaznik": 0.48
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1d EKONOMICZNA matematyczno-geograficzna",
           "miejsca": 28,
-          "chetni_ogolem": 31,
-          "chetni_ogolem_oczekujacy": 63,
+          "chetni_ogolem": 32,
+          "chetni_ogolem_oczekujacy": 62,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 8,
-          "wskaznik": 1.11
+          "wskaznik": 1.14
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1e MEDYCZNA biologiczno-chemiczna",
           "miejsca": 28,
-          "chetni_ogolem": 43,
-          "chetni_ogolem_oczekujacy": 80,
+          "chetni_ogolem": 44,
+          "chetni_ogolem_oczekujacy": 79,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 19,
-          "wskaznik": 1.54
+          "wskaznik": 1.57
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 168,
-          "chetni_ogolem": 90,
+          "chetni_ogolem": 91,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 65,
@@ -624,11 +624,11 @@
         {
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1B HUMANISTYCZNA",
           "miejsca": 28,
-          "chetni_ogolem": 64,
-          "chetni_ogolem_oczekujacy": 119,
+          "chetni_ogolem": 65,
+          "chetni_ogolem_oczekujacy": 118,
           "chetni_pierwsza_pref": 12,
           "chetni_pierwsza_pref_oczekujacy": 12,
-          "wskaznik": 2.29
+          "wskaznik": 2.32
         },
         {
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.1 FIZYCZNO-MATEMATYCZNA",
@@ -687,7 +687,7 @@
         {
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 196,
-          "chetni_ogolem": 201,
+          "chetni_ogolem": 202,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 57,
           "chetni_pierwsza_pref_oczekujacy": 48,
@@ -892,7 +892,7 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1b humanistyczna z edukacją filmową",
           "miejsca": 28,
           "chetni_ogolem": 41,
-          "chetni_ogolem_oczekujacy": 82,
+          "chetni_ogolem_oczekujacy": 83,
           "chetni_pierwsza_pref": 1,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 1.46
@@ -961,16 +961,16 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1Bm artystyczny grupa muzyczna",
           "miejsca": 10,
           "chetni_ogolem": 15,
-          "chetni_ogolem_oczekujacy": 16,
+          "chetni_ogolem_oczekujacy": 17,
           "chetni_pierwsza_pref": 3,
-          "chetni_pierwsza_pref_oczekujacy": 5,
+          "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 1.5
         },
         {
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1Bp artystyczny grupa plastyczna",
           "miejsca": 18,
           "chetni_ogolem": 13,
-          "chetni_ogolem_oczekujacy": 15,
+          "chetni_ogolem_oczekujacy": 16,
           "chetni_pierwsza_pref": 5,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 0.72
@@ -978,11 +978,11 @@
         {
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1C społeczno-prawny",
           "miejsca": 28,
-          "chetni_ogolem": 57,
-          "chetni_ogolem_oczekujacy": 109,
+          "chetni_ogolem": 58,
+          "chetni_ogolem_oczekujacy": 108,
           "chetni_pierwsza_pref": 4,
           "chetni_pierwsza_pref_oczekujacy": 13,
-          "wskaznik": 2.04
+          "wskaznik": 2.07
         },
         {
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1D biomedyczny",
@@ -1014,11 +1014,11 @@
         {
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 140,
-          "chetni_ogolem": 165,
+          "chetni_ogolem": 166,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 24,
-          "chetni_pierwsza_pref_oczekujacy": 40,
-          "wskaznik": 1.18
+          "chetni_pierwsza_pref_oczekujacy": 41,
+          "wskaznik": 1.19
         }
       ]
     },
@@ -1177,7 +1177,7 @@
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1D ID Humanistyczna",
           "miejsca": 26,
           "chetni_ogolem": 27,
-          "chetni_ogolem_oczekujacy": 55,
+          "chetni_ogolem_oczekujacy": 56,
           "chetni_pierwsza_pref": 1,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 1.04
