@@ -1,4 +1,6 @@
-import { useState, useEffect, useMemo, useCallback } from "react";
+import React, { useState, useEffect, useMemo, useCallback } from "react";
+import ExpandedCard from "./ExpandedCard";
+import Timeline from "./Timeline";
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -41,6 +43,24 @@ function SortIcon({ active, dir }) {
 
 // ─── Ikona kosza ──────────────────────────────────────────────────────────────
 
+function ChevronIcon({ open }) {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 20 20"
+      fill="none"
+      style={{
+        transition: "transform 0.2s",
+        transform: open ? "rotate(180deg)" : "rotate(0deg)",
+        flexShrink: 0,
+      }}
+    >
+      <path d="M5 7.5L10 12.5L15 7.5" stroke="#6b7280" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 function TrashIcon() {
   return (
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -77,43 +97,223 @@ const LEGENDA = [
   { bg: "#e0e7ff", label: "Wolne miejsca", desc: "wskaźnik < 1,0" },
 ];
 
-// ─── Progi punktowe (uzupełnij ręcznie: klucz = `${szkolaId}|${oddzialNazwa}`) ──
 
-const PROGI = {
-  // przykład:
-  // "szkola-1|1a matematyczno-fizyczny": { prog_2024: 172, prog_2025: 168 },
-  // JSON.parse(localStorage.getItem("nabor_watchlist")) w konsoli
-  "79|XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1a matematyczno-informatyczno-językowa": { prog_2024: null, prog_2025: 147.65 },
-  "79|XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1d Geograficzno-matematyczna z turystyką regionu": { prog_2024: 151.60, prog_2025: 155.25 },
-  "306|X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1A-POLITECHNICZNA [D] fiz-inf-mat (ang-hisz*,niem*)": { prog_2024: 147.05, prog_2025: 160.87 },
-  "306|X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1C-BIZNESOWA_GR.GEO [D] mat-geo (ang-hisz*,niem*)": { prog_2024: 158.34, prog_2025: 162.98 },
-  "9|II Liceum Ogólnokształcące, Gdańsk - 1A POLITECHNICZNA": { prog_2024: 168.85, prog_2025: 168.75 },
-  "9|II Liceum Ogólnokształcące, Gdańsk - 1E MENEDŻERSKA": { prog_2024: 164.20, prog_2025: 167.45 },
-  "21|XIX Liceum Ogólnokształcące, Gdańsk - 1Emf interdyscyplinarny grupa mat-fiz": { prog_2024: 159.45, prog_2025: 164.70 },
-  "8|I Liceum Ogólnokształcące, Gdańsk - 1b AKADEMICKA matematyczno-fizyczna": { prog_2024: 165.20, prog_2025: 169.30 },
-  "8|I Liceum Ogólnokształcące, Gdańsk - 1c POLITECHNICZNA matematyczno-fizyczna": { prog_2024: 169.20, prog_2025: 170.75 },
-  "8|I Liceum Ogólnokształcące, Gdańsk - 1d EKONOMICZNA matematyczno-geograficzna": { prog_2024: 163.65, prog_2025: 167.90 },
-  "16|IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.1 FIZYCZNO-MATEMATYCZNA": { prog_2024: 144.90, prog_2025: 161.95 },
-  "16|IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.2 INFORMATYCZNO-MATEMATYCZNO": { prog_2024: null, prog_2025: 161.80 },
-  "16|IX Liceum Ogólnokształcące, Gdańsk - 1E INFORMATYKA:MULTIMEDIA I AI": { prog_2024: 157.80, prog_2025: 157.80 },
+/** Normalizuje nazwę profilu do porównywania:
+ *  - trim + lowercase
+ *  - usuwa pojedynczy sufiks (litera lub cyfra) po literze klasy: "1bh " → "1b ", "1b1 " → "1b "
+ */
+function normalizeProfileName(name) {
+  let n = name.trim().toLowerCase();
+  n = n.replace(/^(\d+[a-z])[a-z\d](\s)/, "$1$2");
+  return n;
+}
+
+/** Sprawdza czy profil z wyniki pasuje do profilu z gdansk_nabor.
+ *  Obsługuje: różnice wielkości liter, trailing space, sufiksy grup,
+ *  obcięte nazwy (reg. = regionu) oraz dodane języki w nawiasie.
+ */
+function profileMatches(wyniki, gdansk) {
+  const w = normalizeProfileName(wyniki);
+  const g = normalizeProfileName(gdansk);
+  if (w === g) return true;
+  const minLen = 15;
+  // gdansk ma więcej tekstu na końcu (np. dodatkowy język)
+  if (w.length >= minLen && g.startsWith(w)) return true;
+  // wyniki ma więcej tekstu (rzadkie)
+  if (g.length >= minLen && w.startsWith(g)) return true;
+  // wspólny prefiks obejmuje ≥80% krótszego stringa (np. "regionu" vs "reg.")
+  let i = 0;
+  while (i < w.length && i < g.length && w[i] === g[i]) i++;
+  const shorter = Math.min(w.length, g.length);
+  if (shorter >= minLen && i / shorter >= 0.8) return true;
+  return false;
+}
+
+// Ręczna mapa profili — używana gdy automatyczne dopasowanie zawodzi.
+//
+// FORMAT:
+//   Klucz (lewa strona)  = `szkolaNazwa|profilWyniki`
+//     szkolaNazwa  — nazwa szkoły z wyniki_nabor_gdansk.json (pole szkola.nazwa),
+//                    BEZ sufiksu ", Gdańsk"
+//     profilWyniki — fragment po " - " z pola oddzial.nazwa, czyli to samo
+//                    co extractProfile() zwraca w kolumnie "Szkoła / Profil klasy"
+//
+//   Wartość (prawa strona) = obiekt { rok: oddzialy[].id, ... }
+//                    — dla każdego roku osobne id z gdansk_nabor_dane.json
+//                    — rok bez wpisu → karta pokaże "Brak danych"
+//
+// KIEDY DODAWAĆ:
+//   - profil zmienił nazwę między sezonami
+//   - podgrupy zostały połączone lub rozdzielone
+//   - skrót vs pełna nazwa, nieobsługiwana przez algorytm fuzzy (80% prefix)
+//
+// ID znajdziesz w gdansk_nabor_dane.json w polu oddzialy[].id
+const PROFILE_MANUAL_MAP = {
+  // IX LO: w wyniki 2025 → "1E INFORMATYKA:MULTIMEDIA I AI"
+  //         w gdansk_nabor → "1E GRAFIKA KOMPUTEROWA" (tylko 2025)
+  "IX Liceum Ogólnokształcące|1E INFORMATYKA:MULTIMEDIA I AI": {
+    2025: "68ca79f5bc0897545ac52599",
+  },
+  // X LO Dwuj: w wyniki → "1C-BIZNESOWA_GR.GEO [D] mat-geo (ang-hisz*,niem*)"
+  //             podgrupy GEO i WOS połączone; w 2023 profil miał suffix _HISZP
+  "X Liceum Ogólnokształcące Dwujęzyczne|1C-BIZNESOWA_GR.GEO [D] mat-geo (ang-hisz*,niem*)": {
+    2025: "68ca7a5abc0897545ac52603",
+    2024: "66f17cca647f8056106e96da",
+    2023: "650c3f64c249e54d9d53c015",
+  },
+  // XV LO Dwuj: w wyniki → "1a matematyczno-informatyczno-językowa"
+  //              w 2023 → "1a Politechniczna", w 2022/2021 → "1ap [O] fiz-mat (ang-niem)"
+  "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi|1a matematyczno-informatyczno-językowa": {
+    2025: "68ca7a9fbc0897545ac52673",
+    2023: "650c4026c249e54d9d53c09a",
+    2022: "633f0e79bb10d42aacb17a97",
+    2021: "6228beb432c32b746ec9d5c4",
+  },
+  // XV LO Dwuj: w wyniki → "1d Geograficzno-matematyczna z turystyką regionu"
+  //              w gdansk_nabor → "1d Geograficzno-matematyczna z turystyką reg." (skrót)
+  "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi|1d Geograficzno-matematyczna z turystyką regionu": {
+    2025: "68ca7a97bc0897545ac5266f",
+    2024: "66f17cf7647f8056106e973d",
+    2023: "650c4040c249e54d9d53d215",
+    2022: "633f0e85bb10d42aacb17a9a",
+  },
+  // X LO Dwuj: w wyniki → "1A-POLITECHNICZNA [D] fiz-inf-mat (ang-hisz*,niem*)"
+  //             nazwa identyczna w gdansk_nabor we wszystkich latach
+  "X Liceum Ogólnokształcące Dwujęzyczne|1A-POLITECHNICZNA [D] fiz-inf-mat (ang-hisz*,niem*)": {
+    2025: "68ca7a57bc0897545ac52601",
+    2024: "66f17cc7647f8056106e96d8",
+    2023: "650c3f5cc249e54d9d53c013",
+    2022: "633f0e1dbb10d42aacb17a33",
+    2021: "6228be8432c32b746ec9d555",
+  },
+  // II LO: w wyniki → "1A POLITECHNICZNA"
+  //         w 2024/2023/2022 → "1A POLITECHNICZNA MAT", w 2021 → "1A [O] fiz-ang-mat (ang-hisz,nor)"
+  "II Liceum Ogólnokształcące|1A POLITECHNICZNA": {
+    2025: "68ca79a5bc0897545ac5255b",
+    2024: "66f17c4b647f8056106e963b",
+    2023: "650c3d14c249e54d9d53bdcd",
+    2022: "633f0cfebb10d42aacb17991",
+    2021: "6228be0832c32b746ec9d4ba",
+  },
+  // II LO: w wyniki → "1E MENEDŻERSKA"
+  //         w 2021 → "1E [O] geogr-ang-mat (ang-fra,niem)"
+  "II Liceum Ogólnokształcące|1E MENEDŻERSKA": {
+    2025: "68ca79acbc0897545ac5255e",
+    2024: "66f17c51647f8056106e963e",
+    2023: "650c3d2ac249e54d9d53bdf0",
+    2022: "633f0d0bbb10d42aacb17994",
+    2021: "6228be0e32c32b746ec9d4bd",
+  },
+  // XIX LO: w wyniki → "1Emf interdyscyplinarny grupa mat-fiz"
+  //          nazwa identyczna w gdansk_nabor; dane od 2023
+  "XIX Liceum Ogólnokształcące|1Emf interdyscyplinarny grupa mat-fiz": {
+    2025: "68ca7a17bc0897545ac525b8",
+    2024: "66f17c98647f8056106e968e",
+    2023: "650c3e73c249e54d9d53bfc1",
+  },
+  // I LO: w wyniki → "1b AKADEMICKA matematyczno-fizyczna"
+  //        nazwa identyczna w gdansk_nabor we wszystkich latach
+  "I Liceum Ogólnokształcące|1b AKADEMICKA matematyczno-fizyczna": {
+    2025: "68ca799dbc0897545ac52553",
+    2024: "66f17c45647f8056106e9633",
+    2023: "650c3cf8c249e54d9d53bda9",
+    2022: "633f0cf1bb10d42aacb1798c",
+    2021: "6228be0232c32b746ec9d4b5",
+  },
+  // I LO: w wyniki → "1c POLITECHNICZNA matematyczno-fizyczna"
+  //        nazwa identyczna w gdansk_nabor we wszystkich latach
+  "I Liceum Ogólnokształcące|1c POLITECHNICZNA matematyczno-fizyczna": {
+    2025: "68ca799fbc0897545ac52554",
+    2024: "66f17c46647f8056106e9634",
+    2023: "650c3cfec249e54d9d53bdaf",
+    2022: "633f0cf4bb10d42aacb1798d",
+    2021: "6228be0332c32b746ec9d4b6",
+  },
+  // I LO: w wyniki → "1d EKONOMICZNA matematyczno-geograficzna"
+  //        nazwa identyczna w gdansk_nabor we wszystkich latach
+  "I Liceum Ogólnokształcące|1d EKONOMICZNA matematyczno-geograficzna": {
+    2025: "68ca79a1bc0897545ac52555",
+    2024: "66f17c48647f8056106e9635",
+    2023: "650c3d05c249e54d9d53bdb5",
+    2022: "633f0cf7bb10d42aacb1798e",
+    2021: "6228be0532c32b746ec9d4b7",
+  },
+  // IX LO: w 2025 klasa 1C podzielona na gr.1 (fiz) i gr.2 (inf); w 2021–2024 jeden wspólny oddział
+  "IX Liceum Ogólnokształcące|1C_gr.1 FIZYCZNO-MATEMATYCZNA": {
+    2025: "68ca79f9bc0897545ac5259b",
+    2024: "66f17c83647f8056106e9671",
+    2023: "650c3e01c249e54d9d53bf5f",
+    2022: "633f0d7ebb10d42aacb179c9",
+    2021: "6228be4032c32b746ec9d4ef",
+  },
+  "IX Liceum Ogólnokształcące|1C_gr.2 INFORMATYCZNO-MATEMATYCZNO": {
+    2025: "68ca79f3bc0897545ac52598",
+    2024: "66f17c83647f8056106e9671",
+    2023: "650c3e01c249e54d9d53bf5f",
+    2022: "633f0d7ebb10d42aacb179c9",
+    2021: "6228be4032c32b746ec9d4ef",
+  },
 };
 
-function getProgi(szkolaId, oddzialNazwa) {
-  return PROGI[`${szkolaId}|${oddzialNazwa}`] ?? { prog_2024: null, prog_2025: null };
+function findGdanskRecord(gdanskData, szkolaNazwa, profilNazwa, rok) {
+  const manualKey = `${szkolaNazwa}|${profilNazwa}`;
+  const yearMap = PROFILE_MANUAL_MAP[manualKey];
+
+  if (yearMap) {
+    const oddzialId = yearMap[rok];
+    if (!oddzialId) return null;
+    return gdanskData.find((r) => r.oddzialy.some((o) => o.id === oddzialId)) ?? null;
+  }
+
+  return (
+    gdanskData.find(
+      (rec) =>
+        rec.szkola.nazwa.replace(", Gdańsk", "") === szkolaNazwa &&
+        rec.rok === rok &&
+        rec.oddzialy.some((o) => profileMatches(profilNazwa, o.nazwa))
+    ) ?? null
+  );
+}
+
+function findGdanskOddzial(gdanskData, szkolaNazwa, profilNazwa, rok) {
+  const record = findGdanskRecord(gdanskData, szkolaNazwa, profilNazwa, rok);
+  if (!record) return null;
+  const manualKey = `${szkolaNazwa}|${profilNazwa}`;
+  const yearMap = PROFILE_MANUAL_MAP[manualKey];
+  const oddzialId = yearMap?.[rok];
+  if (oddzialId) return record.oddzialy.find((o) => o.id === oddzialId) ?? null;
+  return record.oddzialy.find((o) => profileMatches(profilNazwa, o.nazwa)) ?? null;
+}
+
+function getProgiFromGdansk(gdanskData, szkolaNazwa, profilNazwa) {
+  const odz2025 = findGdanskOddzial(gdanskData, szkolaNazwa, profilNazwa, 2025);
+  const odz2024 = findGdanskOddzial(gdanskData, szkolaNazwa, profilNazwa, 2024);
+  return {
+    prog_2025: odz2025?.prog_punktowy ?? null,
+    prog_2024: odz2024?.prog_punktowy ?? null,
+  };
+}
+
+function getSchoolYears(gdanskData, szkolaNazwa) {
+  const years = gdanskData
+    .filter((rec) => rec.szkola.nazwa.replace(", Gdańsk", "") === szkolaNazwa)
+    .map((rec) => rec.rok);
+  return [...new Set(years)].sort((a, b) => b - a);
 }
 
 // ─── Kolumny tabeli ───────────────────────────────────────────────────────────
 
 const COLUMNS = [
   { key: "szkolaNazwa",         label: ["Szkoła /", "Profil klasy"],                sortable: true,  width: "minmax(200px, 2.5fr)" },
-  { key: "miejsca",             label: ["Liczba miejsc", "w klasie"],               sortable: true,  width: "minmax(70px, 1fr)"   },
+  { key: "miejsca",             label: ["Liczba miejsc", "w klasie"],               sortable: true,  width: "minmax(70px, 0.8fr)"   },
   { key: "chetni_ogolem",       label: ["Liczba chętnych", "ogółem"],               sortable: true,  width: "minmax(80px, 1fr)"   },
-  { key: "chetni_pierwsza_pref",label: ["Liczba chętnych", "I preferencja"],                sortable: true,  width: "minmax(85px, 1fr)"   },
+  { key: "chetni_pierwsza_pref",label: ["Liczba chętnych", "I wybór"],                sortable: true,  width: "minmax(85px, 1fr)"   },
   { key: "prob_ogolnie",        label: ["Prawdopod.", "dostania się", "ogólnie"],   sortable: true,  width: "minmax(90px, 1.2fr)"  },
   { key: "prob_pierwsza",       label: ["Prawdop.", "dostania się", "I wybór"],     sortable: true,  width: "minmax(90px, 1.2fr)"  },
   { key: "wskaznik",            label: ["Wskaźnik", ""],                            sortable: true,  width: "minmax(80px, 1fr)"   },
-  { key: "prog_2024",           label: ["Próg punktowy", "w roku 2024"],                 sortable: true,  width: "minmax(75px, 1fr)"   },
-  { key: "prog_2025",           label: ["Próg punktowy", "w roku 2025"],                 sortable: true,  width: "minmax(75px, 1fr)"   },
+  { key: "prog_2024",           label: ["Próg punktowy", "w roku 2024"],                 sortable: true,  width: "minmax(75px, 0.9fr)"   },
+  { key: "prog_2025",           label: ["Próg punktowy", "w roku 2025"],                 sortable: true,  width: "minmax(75px, 0.9fr)"   },
+  { key: "expand",              label: ["", ""],                                    sortable: false, width: "32px"                },
   { key: "delete",              label: ["", ""],                                    sortable: false, width: "40px"                },
 ];
 
@@ -130,6 +330,12 @@ export default function App() {
   const [fmSchool,  setFmSchool]  = useState("");           // wybrany id szkoły w formularzu
   const [fmOddzial, setFmOddzial] = useState("");           // wybrana nazwa oddziału
 
+  const [gdanskData,      setGdanskData]      = useState([]);
+  const [e8MatData,       setE8MatData]       = useState({});
+  const [expandedRowKey,  setExpandedRowKey]  = useState(null);
+  const [hoveredRowKey,   setHoveredRowKey]   = useState(null);
+  const [cardRok,         setCardRok]         = useState(2025);
+
   // ── Pobieranie danych ────────────────────────────────────────────────────────
   useEffect(() => {
     fetch("./wyniki_nabor_gdansk.json")
@@ -144,6 +350,26 @@ export default function App() {
       const saved = localStorage.getItem("nabor_watchlist");
       if (saved) setWatchlist(JSON.parse(saved));
     } catch {}
+  }, []);
+
+  useEffect(() => {
+    fetch("./gdansk_nabor_dane.json")
+      .then((r) => r.json())
+      .then((d) => setGdanskData(Array.isArray(d) ? d : []))
+      .catch(() => {});
+  }, []);
+
+  useEffect(() => {
+    fetch("./gdansk_e8_mapa.json")
+      .then((r) => r.json())
+      .then((d) => {
+        const map = {};
+        (d.dane || []).forEach((rec) => {
+          if (rec.przedmiot === "matematyka") map[rec.rok] = rec.liczba_zdajacych;
+        });
+        setE8MatData(map);
+      })
+      .catch(() => {});
   }, []);
 
   const saveWatchlist = useCallback((list) => {
@@ -173,11 +399,11 @@ export default function App() {
           wskaznik:    oddzial.wskaznik,
           prob_pierwsza: oddzial.miejsca / (oddzial.chetni_pierwsza_pref || Infinity) * 100,
           prob_ogolnie:  oddzial.miejsca / (oddzial.chetni_ogolem        || Infinity) * 100,
-          ...getProgi(szkolaId, oddzialNazwa),
+          ...getProgiFromGdansk(gdanskData, szkola.nazwa, extractProfile(oddzial.nazwa)),
         };
       })
       .filter(Boolean);
-  }, [data, watchlist]);
+  }, [data, watchlist, gdanskData]);
 
   // ── Sortowanie ───────────────────────────────────────────────────────────────
   const sortedRows = useMemo(() => {
@@ -300,93 +526,150 @@ export default function App() {
                 Dodaj pierwszą szkołę klikając przycisk poniżej
               </div>
             ) : (
-              sortedRows.map((row, i) => (
-                <div
-                  key={`${row.szkolaId}-${row.oddzialNazwa}`}
-                  style={{
-                    ...styles.gridRow,
-                    ...styles.dataRow,
-                    gridTemplateColumns: gridCols,
-                    borderTop: i === 0 ? "none" : "1px solid #f3f4f6",
-                  }}
-                >
-                  {/* Szkoła / Profil */}
-                  <div style={styles.profileCell}>
-                    <span style={styles.schoolName}>{row.szkolaNazwa}</span>
-                    <span style={styles.profileName}>{row.profil}</span>
-                  </div>
+              sortedRows.map((row, i) => {
+                const rowKey = `${row.szkolaId}|${row.oddzialNazwa}`;
+                const isExpanded = expandedRowKey === rowKey;
+                const profil = extractProfile(row.oddzialNazwa);
+                const gdanskRecord = isExpanded
+                  ? findGdanskRecord(gdanskData, row.szkolaNazwa, profil, cardRok)
+                  : null;
+                const gdanskOddzial = isExpanded
+                  ? findGdanskOddzial(gdanskData, row.szkolaNazwa, profil, cardRok)
+                  : null;
+                const availableYears = isExpanded ? getSchoolYears(gdanskData, row.szkolaNazwa) : [];
 
-                  {/* Miejsca */}
-                  <div style={styles.valueCell}>{row.miejsca}</div>
-
-                  {/* Chętni ogółem */}
-                  <div style={styles.valueCell}>
-                    <NumWithPending
-                      value={row.chetni_ogolem}
-                      pending={row.chetni_ogolem_oczekujacy}
-                    />
-                  </div>
-
-                  {/* Chętni I preferencja */}
-                  <div style={styles.valueCell}>
-                    <NumWithPending
-                      value={row.chetni_pierwsza_pref}
-                      pending={row.chetni_pierwsza_pref_oczekujacy}
-                    />
-                  </div>
-
-                  {/* Prawdopodobieństwo ogólnie */}
-                  <div style={{ ...styles.valueCell, flexDirection: "column", alignItems: "flex-start", gap: 2 }}>
-                    <span>{fmtPct(row.miejsca, row.chetni_ogolem)}</span>
-                    {row.chetni_ogolem_oczekujacy > 0 && (
-                      <span style={{ fontSize: 11, fontWeight: 500, color: "#9ca3af" }}>
-                        z uwzgl. ocz.: {fmtPct(row.miejsca, row.chetni_ogolem + row.chetni_ogolem_oczekujacy)}
-                      </span>
-                    )}
-                  </div>
-
-                  {/* Prawdopodobieństwo I wybór */}
-                  <div style={{ ...styles.valueCell, flexDirection: "column", alignItems: "flex-start", gap: 2 }}>
-                    <span>{fmtPct(row.miejsca, row.chetni_pierwsza_pref)}</span>
-                    {row.chetni_pierwsza_pref_oczekujacy > 0 && (
-                      <span style={{ fontSize: 11, fontWeight: 500, color: "#9ca3af" }}>
-                        z uwzgl. ocz.: {fmtPct(row.miejsca, row.chetni_pierwsza_pref + row.chetni_pierwsza_pref_oczekujacy)}
-                      </span>
-                    )}
-                  </div>
-
-                  {/* Wskaźnik */}
-                  <div style={{ ...styles.valueCell, padding: "12px 4px" }}>
-                    <span style={{
-                      ...styles.wskaznikBadge,
-                      background: wskaznikBg(row.wskaznik),
-                    }}>
-                      {row.wskaznik.toFixed(2).replace(".", ",")}
-                    </span>
-                  </div>
-
-                  {/* Próg 2024 */}
-                  <div style={{ ...styles.valueCell, color: row.prog_2024 == null ? "#d1d5db" : "#222" }}>
-                    {row.prog_2024 ?? "—"}
-                  </div>
-
-                  {/* Próg 2025 */}
-                  <div style={{ ...styles.valueCell, color: row.prog_2025 == null ? "#d1d5db" : "#222" }}>
-                    {row.prog_2025 ?? "—"}
-                  </div>
-
-                  {/* Usuń */}
-                  <div style={{ ...styles.valueCell, justifyContent: "center" }}>
-                    <button
-                      style={styles.deleteBtn}
-                      onClick={() => removeFromWatchlist(row.szkolaId, row.oddzialNazwa)}
-                      title="Usuń z obserwowanych"
+                return (
+                  <React.Fragment key={rowKey}>
+                    <div
+                      style={{
+                        ...styles.gridRow,
+                        ...styles.dataRow,
+                        gridTemplateColumns: gridCols,
+                        borderTop: i === 0 ? "none" : "1px solid #f3f4f6",
+                        cursor: "pointer",
+                        background: isExpanded ? "#EDF3FA" : hoveredRowKey === rowKey ? "#EDF3FA" : "transparent",
+                        borderRadius: 4,
+                        ...(isExpanded || hoveredRowKey === rowKey ? { margin: "0", padding: "4px 8px" } : {}),
+                      }}
+                      onMouseEnter={() => setHoveredRowKey(rowKey)}
+                      onMouseLeave={() => setHoveredRowKey(null)}
+                      onClick={() =>
+                        setExpandedRowKey((prev) => {
+                          if (prev === rowKey) return null;
+                          const years = getSchoolYears(gdanskData, row.szkolaNazwa);
+                          setCardRok(years.length > 0 ? years[0] : 2025);
+                          return rowKey;
+                        })
+                      }
                     >
-                      <TrashIcon />
-                    </button>
-                  </div>
-                </div>
-              ))
+                      {/* Szkoła / Profil */}
+                      <div style={styles.profileCell}>
+                        <span style={styles.schoolName}>{row.szkolaNazwa}</span>
+                        <span style={styles.profileName}>{row.profil}</span>
+                      </div>
+
+                      {/* Miejsca */}
+                      <div style={styles.valueCell}>{row.miejsca}</div>
+
+                      {/* Chętni ogółem */}
+                      <div style={styles.valueCell}>
+                        <NumWithPending
+                          value={row.chetni_ogolem}
+                          pending={row.chetni_ogolem_oczekujacy}
+                        />
+                      </div>
+
+                      {/* Chętni I preferencja */}
+                      <div style={styles.valueCell}>
+                        <NumWithPending
+                          value={row.chetni_pierwsza_pref}
+                          pending={row.chetni_pierwsza_pref_oczekujacy}
+                        />
+                      </div>
+
+                      {/* Prawdopodobieństwo ogólnie */}
+                      <div style={{ ...styles.valueCell, flexDirection: "column", alignItems: "flex-start", gap: 2 }}>
+                        <span>{fmtPct(row.miejsca, row.chetni_ogolem)}</span>
+                        {row.chetni_ogolem_oczekujacy > 0 && (
+                          <span style={{ fontSize: 11, fontWeight: 500, color: "#9ca3af" }}>
+                            z UO: {fmtPct(row.miejsca, row.chetni_ogolem + row.chetni_ogolem_oczekujacy)}
+                          </span>
+                        )}
+                      </div>
+
+                      {/* Prawdopodobieństwo I wybór */}
+                      <div style={{ ...styles.valueCell, flexDirection: "column", alignItems: "flex-start", gap: 2 }}>
+                        <span>{fmtPct(row.miejsca, row.chetni_pierwsza_pref)}</span>
+                        {row.chetni_pierwsza_pref_oczekujacy > 0 && (
+                          <span style={{ fontSize: 11, fontWeight: 500, color: "#9ca3af" }}>
+                            z UO: {fmtPct(row.miejsca, row.chetni_pierwsza_pref + row.chetni_pierwsza_pref_oczekujacy)}
+                          </span>
+                        )}
+                      </div>
+
+                      {/* Wskaźnik */}
+                      <div style={{ ...styles.valueCell, padding: "12px 4px" }}>
+                        <span style={{
+                          ...styles.wskaznikBadge,
+                          background: wskaznikBg(row.wskaznik),
+                        }}>
+                          {row.wskaznik.toFixed(2).replace(".", ",")}
+                        </span>
+                      </div>
+
+                      {/* Próg 2024 */}
+                      <div style={{ ...styles.valueCell, color: row.prog_2024 == null ? "#d1d5db" : "#222" }}>
+                        {row.prog_2024 ?? "—"}
+                      </div>
+
+                      {/* Próg 2025 */}
+                      <div style={{ ...styles.valueCell, color: row.prog_2025 == null ? "#d1d5db" : "#222" }}>
+                        {row.prog_2025 ?? "—"}
+                      </div>
+
+                      {/* Rozwiń */}
+                      <div style={{ ...styles.valueCell, justifyContent: "center" }}>
+                        <ChevronIcon open={isExpanded} />
+                      </div>
+
+                      {/* Usuń */}
+                      <div style={{ ...styles.valueCell, justifyContent: "center" }}>
+                        <button
+                          style={styles.deleteBtn}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            removeFromWatchlist(row.szkolaId, row.oddzialNazwa);
+                          }}
+                          title="Usuń z obserwowanych"
+                        >
+                          <TrashIcon />
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* Panel szczegółów */}
+                    {isExpanded && (
+                      <div style={styles.expandedPanel}>
+                        {gdanskRecord && gdanskOddzial ? (
+                          <ExpandedCard
+                            record={gdanskRecord}
+                            oddzial={gdanskOddzial}
+                            availableYears={availableYears.length > 0 ? availableYears : [cardRok]}
+                            selectedRok={cardRok}
+                            onRokChange={setCardRok}
+                            e8MatData={e8MatData}
+                          />
+                        ) : (
+                          <div style={styles.noDetailData}>
+                            Brak szczegółowych danych historycznych dla{" "}
+                            <strong>{row.szkolaNazwa}</strong> — {profil}
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </React.Fragment>
+                );
+              })
             )}
           </div>
         </div>
@@ -467,6 +750,7 @@ export default function App() {
             <li><strong>*</strong> — Liczba chętnych ogółem do szkoły oznacza liczbę osób, które ubiegają się o przyjęcie do co najmniej jednego oddziału w danej szkole, a ich wniosek został zaakceptowany.</li>
             <li><strong>Liczba przed nawiasem</strong> — liczba osób, które wybrały dany oddział, a ich wniosek został zaakceptowany.</li>
             <li><strong>Liczba w nawiasie</strong> — liczba osób, które wybrały dany oddział, ale nie dostarczyły jeszcze wniosku lub ich wniosek nie został jeszcze zweryfikowany.</li>
+            <li><strong>z UO</strong> — z uwzględnieniem oczekujących, czyli prawdopodobieństwo dostania się liczone łącznie z kandydatami którzy jeszcze nie dostarczyli/nie zweryfikowali wniosku (liczba w nawiasie)</li>
           </ul>
         </div>
         <div style={styles.infoSection}>
@@ -493,6 +777,11 @@ export default function App() {
 
       </div>{/* /card */}
       </div>{/* /cardWrapper */}
+
+      {/* ── Timeline ── */}
+      <div style={{ width: "100%", maxWidth: 1280 }}>
+        <Timeline />
+      </div>
 
       {/* ── Stopka ── */}
       <footer style={styles.footer}>
@@ -566,7 +855,7 @@ const styles = {
   card: {
     background: "#fff",
     borderRadius: 24,
-    padding: 33.5,
+    padding: 25,
     display: "flex",
     flexDirection: "column",
     gap: 24,
@@ -580,6 +869,7 @@ const styles = {
   gridRow: {
     display: "grid",
     alignItems: "center",
+    margin: "0 8px",
   },
   headerRow: {
     paddingBottom: 8,
@@ -658,8 +948,8 @@ const styles = {
     height: 1,
     background: "#f3f4f6",
     width: "100%",
-    margin: "0 -33.5px",
-    width: "calc(100% + 67px)",
+    margin: "0",
+    width: "calc(100% + 0px)",
   },
   addBtn: {
     background: "#1d78e5",
@@ -773,6 +1063,17 @@ const styles = {
   },
   legendDesc: {
     color: "#9ca3af",
+  },
+  expandedPanel: {
+    padding: "30px 20px 30px",
+    borderTop: "1px dashed #e5e7eb",
+  },
+  noDetailData: {
+    padding: "24px",
+    fontSize: 14,
+    fontWeight: 500,
+    color: "#9ca3af",
+    textAlign: "center",
   },
   muted: {
     color: "#9ca3af",
