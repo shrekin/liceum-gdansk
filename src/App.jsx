@@ -30,6 +30,52 @@ function fmtPct(a, b) {
   return v.toFixed(2).replace(".", ",") + "%";
 }
 
+// ─── InfoIcon + Tooltip ───────────────────────────────────────────────────────
+
+function InfoIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0 }}>
+      <circle cx="8" cy="8" r="7" stroke="#9ca3af" strokeWidth="1.5" />
+      <rect x="7.25" y="7" width="1.5" height="5" rx="0.75" fill="#9ca3af" />
+      <rect x="7.25" y="4.5" width="1.5" height="1.5" rx="0.75" fill="#9ca3af" />
+    </svg>
+  );
+}
+
+function Tooltip({ text, children }) {
+  const [visible, setVisible] = React.useState(false);
+  return (
+    <div
+      style={{ position: "relative", display: "inline-flex" }}
+      onMouseEnter={() => setVisible(true)}
+      onMouseLeave={() => setVisible(false)}
+    >
+      {children}
+      {visible && (
+        <div style={{
+          position: "absolute",
+          bottom: "calc(100% + 6px)",
+          left: "50%",
+          transform: "translateX(-50%)",
+          background: "#1f2937",
+          color: "#fff",
+          fontSize: 12,
+          fontWeight: 500,
+          lineHeight: "18px",
+          padding: "6px 10px",
+          borderRadius: 6,
+          width: 260,
+          zIndex: 100,
+          pointerEvents: "none",
+          boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+        }}>
+          {text}
+        </div>
+      )}
+    </div>
+  );
+}
+
 // ─── Ikona sortowania ─────────────────────────────────────────────────────────
 
 function SortIcon({ active, dir }) {
@@ -676,9 +722,14 @@ export default function App() {
                               <div style={{ display: "flex", gap: 16, alignItems: "flex-start", flexShrink: 0 }}>
                                 <div style={styles.noDataBox}>
                                   <span style={styles.noDataLabel}>Liczba zdających E8 (mat)</span>
-                                  <span style={styles.noDataValue}>
-                                    {e8MatData[cardRok] != null ? e8MatData[cardRok].toLocaleString("pl-PL") : "—"}
-                                  </span>
+                                  <div style={{ padding: "12px 0", display: "flex", gap: 8, alignItems: "center" }}>
+                                    <span style={styles.noDataValue}>
+                                      {e8MatData[cardRok] != null ? e8MatData[cardRok].toLocaleString("pl-PL") : "—"}
+                                    </span>
+                                    <Tooltip text="Liczba zdających egzamin ósmoklasisty w Gdańsku, na przykładzie przedmiotu matematyka.">
+                                      <InfoIcon />
+                                    </Tooltip>
+                                  </div>
                                 </div>
                                 <div style={styles.noDataBox}>
                                   <span style={styles.noDataLabel}>Rok rekrutacji</span>
@@ -1181,8 +1232,6 @@ const styles = {
     fontWeight: 800,
     color: "#111827",
     lineHeight: "20px",
-    padding: "12px 0",
-    display: "block",
   },
   noDataSelectWrap: {
     position: "relative",
