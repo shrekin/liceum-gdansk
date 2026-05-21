@@ -193,10 +193,13 @@ export default function ExpandedCard({ record, oddzial, availableYears, selected
           <div style={{ display: "flex", gap: 16, alignItems: "flex-start", flexShrink: 0 }}>
             <div style={s.rokBox}>
               <span style={s.sectionLabel}>Liczba zdających E8 (mat)</span>
-              <div style={{ padding: "12px 0" }}>
+              <div style={{ padding: "12px 0", display: "flex", gap: 8, alignItems: "center" }}>
                 <span style={s.e8Value}>
                   {e8Mat != null ? e8Mat.toLocaleString("pl-PL") : "—"}
                 </span>
+                <Tooltip text="Liczba zdających egzamin ósmoklasisty w Gdańsku, na przykładzie przedmiotu matematyka.">
+                  <InfoIcon />
+                </Tooltip>
               </div>
             </div>
             <div style={s.rokBox}>
@@ -259,7 +262,7 @@ export default function ExpandedCard({ record, oddzial, availableYears, selected
           />
           <StatRow
             leftLabel={<>Liczba chętnych <strong>z pierwszej preferencji</strong></>}
-            leftValue={oddzial.liczba_przyjętych ?? "—"}
+            leftValue={oddzial.liczba_przyjętych}
             leftInfo="Podczas rekrutacji kandydat układa listę oddziałów (klas) ze szkół, do których chciałby się dostać. Rozpoczyna od oddziału (klasy), do którego chce się dostać najbardziej. Oddział wybrany na pierwszym miejscu na liście nazywany jest „pierwszą preferencją."
             rightLabel={<>Liczba chętnych <strong>ogółem</strong> (z dowolnej preferencji)</>}
             rightValue={oddzial.chetni_ogolem ?? "—"}

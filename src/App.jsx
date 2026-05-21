@@ -474,6 +474,12 @@ export default function App() {
 
   return (
     <div style={styles.page}>
+      <style>{`
+        @keyframes formSlideIn {
+          from { opacity: 0; transform: translateY(-6px); }
+          to   { opacity: 1; transform: translateY(0);    }
+        }
+      `}</style>
       {/* ── Nagłówek ── */}
       <div style={styles.header}>
         <h1 style={styles.h1}>
@@ -660,9 +666,42 @@ export default function App() {
                             e8MatData={e8MatData}
                           />
                         ) : (
-                          <div style={styles.noDetailData}>
-                            Brak szczegółowych danych historycznych dla{" "}
-                            <strong>{row.szkolaNazwa}</strong> — {profil}
+                          <div style={styles.noDataCard}>
+                            {/* Nagłówek zawsze widoczny: nazwa klasy + e8 + select roku */}
+                            <div style={styles.noDataHeader}>
+                              <div style={{ flex: 1 }}>
+                                <span style={styles.noDataLabel}>Szczegóły profilu</span>
+                                <span style={styles.noDataProfil}>{profil}</span>
+                              </div>
+                              <div style={{ display: "flex", gap: 16, alignItems: "flex-start", flexShrink: 0 }}>
+                                <div style={styles.noDataBox}>
+                                  <span style={styles.noDataLabel}>Liczba zdających E8 (mat)</span>
+                                  <span style={styles.noDataValue}>
+                                    {e8MatData[cardRok] != null ? e8MatData[cardRok].toLocaleString("pl-PL") : "—"}
+                                  </span>
+                                </div>
+                                <div style={styles.noDataBox}>
+                                  <span style={styles.noDataLabel}>Rok rekrutacji</span>
+                                  <div style={styles.noDataSelectWrap}>
+                                    <select
+                                      style={styles.noDataSelect}
+                                      value={cardRok}
+                                      onChange={(e) => setCardRok(Number(e.target.value))}
+                                    >
+                                      {(availableYears.length > 0 ? availableYears : [cardRok]).map((r) => (
+                                        <option key={r} value={r}>{r}</option>
+                                      ))}
+                                    </select>
+                                    <span style={styles.noDataArrow}>▾</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            {/* Komunikat braku danych */}
+                            <div style={styles.noDetailData}>
+                              Brak szczegółowych danych historycznych dla{" "}
+                              <strong>{row.szkolaNazwa}</strong> — {profil}
+                            </div>
                           </div>
                         )}
                       </div>
@@ -679,53 +718,57 @@ export default function App() {
 
         {/* ── Przycisk dodawania ── */}
         <div>
-          <button style={styles.addBtn} onClick={() => setShowForm((v) => !v)}>
-            {showForm ? "Anuluj" : "Dodaj szkołę do obserwacji"}
-          </button>
+          {!showForm && (
+            <button style={styles.addBtn} onClick={() => setShowForm(true)}>
+              Dodaj szkołę do obserwacji
+            </button>
+          )}
 
           {showForm && (
-            <div style={styles.formRow}>
-              {/* Dropdown szkoła */}
-              <div style={styles.formField}>
-                <label style={styles.formLabel}>Szkoła</label>
-                <div style={styles.selectWrap}>
-                  <select
-                    style={styles.select}
-                    value={fmSchool}
-                    onChange={(e) => { setFmSchool(e.target.value); setFmOddzial(""); }}
-                  >
-                    <option value="">Wybierz szkołę</option>
-                    {schoolOptions.map((s) => (
-                      <option key={s.id} value={s.id}>{s.nazwa}</option>
-                    ))}
-                  </select>
-                  <span style={styles.selectArrow}>▾</span>
+            <div style={{ animation: "formSlideIn 0.2s ease" }}>
+              <div style={styles.formRow}>
+                {/* Dropdown szkoła */}
+                <div style={styles.formField}>
+                  <label style={styles.formLabel}>Szkoła</label>
+                  <div style={styles.selectWrap}>
+                    <select
+                      style={styles.select}
+                      value={fmSchool}
+                      onChange={(e) => { setFmSchool(e.target.value); setFmOddzial(""); }}
+                    >
+                      <option value="">Wybierz szkołę</option>
+                      {schoolOptions.map((s) => (
+                        <option key={s.id} value={s.id}>{s.nazwa}</option>
+                      ))}
+                    </select>
+                    <span style={styles.selectArrow}>▾</span>
+                  </div>
+                </div>
+
+                {/* Dropdown profil */}
+                <div style={styles.formField}>
+                  <label style={styles.formLabel}>Profil</label>
+                  <div style={styles.selectWrap}>
+                    <select
+                      style={styles.select}
+                      value={fmOddzial}
+                      onChange={(e) => setFmOddzial(e.target.value)}
+                      disabled={!fmSchool}
+                    >
+                      <option value="">Wybierz profil</option>
+                      {oddzialOptions.map((o) => (
+                        <option key={o.nazwa} value={o.nazwa}>
+                          {extractProfile(o.nazwa)}
+                        </option>
+                      ))}
+                    </select>
+                    <span style={styles.selectArrow}>▾</span>
+                  </div>
                 </div>
               </div>
 
-              {/* Dropdown profil */}
-              <div style={styles.formField}>
-                <label style={styles.formLabel}>Profil</label>
-                <div style={styles.selectWrap}>
-                  <select
-                    style={styles.select}
-                    value={fmOddzial}
-                    onChange={(e) => setFmOddzial(e.target.value)}
-                    disabled={!fmSchool}
-                  >
-                    <option value="">Wybierz profil</option>
-                    {oddzialOptions.map((o) => (
-                      <option key={o.nazwa} value={o.nazwa}>
-                        {extractProfile(o.nazwa)}
-                      </option>
-                    ))}
-                  </select>
-                  <span style={styles.selectArrow}>▾</span>
-                </div>
-              </div>
-
-              {/* Przycisk dodaj */}
-              <div style={styles.formBtnWrap}>
+              {/* Przyciski pod formularzem */}
+              <div style={styles.formActions}>
                 <button
                   style={{
                     ...styles.addBtn,
@@ -736,6 +779,12 @@ export default function App() {
                   disabled={!fmSchool || !fmOddzial}
                 >
                   Dodaj
+                </button>
+                <button
+                  style={styles.cancelBtn}
+                  onClick={() => { setShowForm(false); setFmSchool(""); setFmOddzial(""); }}
+                >
+                  Anuluj
                 </button>
               </div>
             </div>
@@ -968,7 +1017,7 @@ const styles = {
     display: "flex",
     gap: 24,
     alignItems: "flex-end",
-    marginTop: 16,
+    marginTop: 0,
     flexWrap: "wrap",
   },
   formField: {
@@ -1013,10 +1062,25 @@ const styles = {
     color: "#6b7280",
     fontSize: 14,
   },
-  formBtnWrap: {
+  formActions: {
     display: "flex",
-    alignItems: "flex-end",
-    paddingBottom: 8,
+    gap: 12,
+    alignItems: "center",
+    marginTop: 16,
+  },
+  cancelBtn: {
+    background: "#f3f4f6",
+    color: "#374151",
+    border: "none",
+    borderRadius: 8,
+    height: 32,
+    padding: "0 16px",
+    fontSize: 14,
+    fontWeight: 700,
+    cursor: "pointer",
+    lineHeight: "20px",
+    fontFamily: "'Poppins', sans-serif",
+    transition: "opacity 0.15s",
   },
   infoSection: {
     borderTop: "1px solid #f3f4f6",
@@ -1069,11 +1133,84 @@ const styles = {
     borderTop: "1px dashed #e5e7eb",
   },
   noDetailData: {
-    padding: "24px",
     fontSize: 14,
     fontWeight: 500,
     color: "#9ca3af",
     textAlign: "center",
+    padding: "16px 0 0",
+  },
+  noDataCard: {
+    background: "#fff",
+    borderRadius: 8,
+    padding: 24,
+    boxShadow: "0 4px 24px 0 rgba(34,34,34,0.08)",
+    display: "flex",
+    flexDirection: "column",
+    gap: 0,
+    fontFamily: "'Poppins', sans-serif",
+  },
+  noDataHeader: {
+    display: "flex",
+    gap: 32,
+    alignItems: "flex-start",
+    justifyContent: "space-between",
+  },
+  noDataLabel: {
+    display: "block",
+    fontSize: 13,
+    fontWeight: 500,
+    color: "#9ca3af",
+    lineHeight: "20px",
+    marginBottom: 12,
+  },
+  noDataProfil: {
+    display: "block",
+    fontSize: 20,
+    fontWeight: 800,
+    color: "#9000ff",
+    lineHeight: "20px",
+  },
+  noDataBox: {
+    display: "flex",
+    flexDirection: "column",
+    flexShrink: 0,
+    width: 183,
+  },
+  noDataValue: {
+    fontSize: 16,
+    fontWeight: 800,
+    color: "#111827",
+    lineHeight: "20px",
+    padding: "12px 0",
+    display: "block",
+  },
+  noDataSelectWrap: {
+    position: "relative",
+    display: "flex",
+    alignItems: "center",
+  },
+  noDataSelect: {
+    width: "100%",
+    height: 44,
+    border: "2px solid #f3f4f6",
+    borderRadius: 12,
+    padding: "0 40px 0 12px",
+    fontSize: 16,
+    fontWeight: 500,
+    fontFamily: "'Poppins', sans-serif",
+    color: "#111827",
+    background: "#fff",
+    appearance: "none",
+    WebkitAppearance: "none",
+    cursor: "pointer",
+    outline: "none",
+  },
+  noDataArrow: {
+    position: "absolute",
+    right: 12,
+    pointerEvents: "none",
+    color: "#6b7280",
+    fontSize: 14,
   },
   muted: {
     color: "#9ca3af",

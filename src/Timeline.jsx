@@ -3,7 +3,8 @@ import React, { useState, useRef, useEffect } from "react";
 // ── Date ↔ x mapping (linear: May 15 = 0, Aug 1 = TOTAL_W) ───────────────────
 const RANGE_START = new Date(2026, 4, 15); // May 15
 const RANGE_END   = new Date(2026, 7,  1); // Aug 1
-const TOTAL_W     = 1240;
+const SCALE       = 0.95;                  // shrink Figma coords to prevent horizontal scroll
+const TOTAL_W     = Math.round(1240 * SCALE);
 
 function dateToX(date) {
   const t = (date - RANGE_START) / (RANGE_END - RANGE_START);
@@ -20,56 +21,58 @@ function fmtDay(d) {
 // ── Event blocks — exact Figma positions ──────────────────────────────────────
 // w / h = explicit Figma dimensions; omit = auto (content-sized)
 // wrap = true → text wraps within block width (w-[min-content] in Figma)
+const sc = (n) => n * SCALE;
+
 const EVENTS = [
   {
     bg: "#24ce84",
-    left: 0, top: 24.35, w: 256.522,
+    left: sc(0), top: sc(24.35), w: sc(256.522),
     lines: ["Rejestracja i składanie wniosków"],
     sDate: "15.05, 8:00", eDate: "12.06, 15:00",
   },
   {
     bg: "#7e48e4",
-    left: 43.48, top: 112.17, w: 200,
+    left: sc(43.48), top: sc(112.17), w: sc(200),
     wrap: true,
     lines: ["Sprawdzian uzdolnień kierunkowych"],
     sDate: "01.06, 8:00", eDate: "11.06, 15:00",
   },
   {
     bg: "#f5a810", bord: "#b47a05", dashed: true,
-    left: 284.5, top: 48.35,
+    left: sc(284.5), top: sc(48.35),
     lines: ["Możliwość zmiany wczesniejszego", "wniosku lub złożenie nowego"],
     sDate: "22.06, 8:00", eDate: "26.06, 15:00",
   },
   {
     bg: "#e81b77",
-    left: 548.5, top: 88.17,
+    left: sc(548.5), top: sc(88.17),
     lines: ["Uzupełnienie wniosku o świadectwo", "ukończenia oraz wyniki E8"],
     sDate: "3.07, 8:00", eDate: "8.07, 15:00",
   },
   {
     bg: "#24ce84",
-    left: 824.5, top: 24.35, h: 73.043,
+    left: sc(824.5), top: sc(24.35), h: sc(73.043),
     lines: ["Publikacja list", "zakwalifikowanych"],
     sDate: "15.07, 13:00",
   },
   {
     bg: "#4929e8",
-    left: 824.5, top: 112.17, w: 239.13, h: 73.043,
+    left: sc(824.5), top: sc(112.17), w: sc(239.13), h: sc(73.043),
     lines: ["Potwierdzenie woli nauki"],
     sDate: "15.07, 13:00", eDate: "20.07, 15:00",
   },
   {
     bg: "#24ce84",
-    left: 1090.5, top: 71.89, w: 123, h: 73,
+    left: sc(1090.5), top: sc(71.89), w: sc(123), h: sc(73),
     wrap: true,
     lines: ["Publikacja list przyjętych"],
     sDate: "21.07, 13:00",
   },
 ];
 
-const CONTAINER_H = 192.609; // exact Figma height
-const PAD = 6.957;           // block padding & gap
-const BADGE_R = 3.478;       // badge border-radius & px
+const CONTAINER_H = Math.round(200 * SCALE);
+const PAD = Math.round(8 * SCALE);
+const BADGE_R = Math.round(4 * SCALE);
 
 // ── Sub-components ─────────────────────────────────────────────────────────────
 
@@ -177,14 +180,14 @@ export default function Timeline() {
   }, [dragging]);
 
   const markerDate = xToDate(markerX);
-  const BADGE_W = 37.391; // from Figma node 46:1619
-  const LINE_H  = 175.217;
+  const BADGE_W = sc(37.391);
+  const LINE_H  = sc(175.217);
 
   return (
     <div style={{
       fontFamily: "'Poppins', sans-serif",
       borderRadius: 24,
-      padding: 33.5,
+      padding: 25,
       // Rainbow gradient border — matches Figma screenshot
       background:
         "linear-gradient(#fff, #fff) padding-box, " +
