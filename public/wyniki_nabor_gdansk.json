@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-22T00:31:00",
-  "pobrano_czytelnie": "22 May 2026, godz. 00:31",
+  "pobrano": "2026-05-22T01:01:02",
+  "pobrano_czytelnie": "22 May 2026, godz. 01:01",
   "szkoly": [
     {
       "id": "8",
@@ -46,9 +46,9 @@
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1e MEDYCZNA biologiczno-chemiczna",
           "miejsca": 28,
           "chetni_ogolem": 104,
-          "chetni_ogolem_oczekujacy": 63,
+          "chetni_ogolem_oczekujacy": 64,
           "chetni_pierwsza_pref": 13,
-          "chetni_pierwsza_pref_oczekujacy": 13,
+          "chetni_pierwsza_pref_oczekujacy": 14,
           "wskaznik": 3.71
         },
         {
@@ -57,7 +57,7 @@
           "chetni_ogolem": 241,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 42,
-          "chetni_pierwsza_pref_oczekujacy": 53,
+          "chetni_pierwsza_pref_oczekujacy": 54,
           "wskaznik": 1.43
         }
       ]
@@ -157,7 +157,7 @@
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B1-MEDYCZNA [D] biol-chem (ang-hisz*,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 58,
-          "chetni_ogolem_oczekujacy": 51,
+          "chetni_ogolem_oczekujacy": 52,
           "chetni_pierwsza_pref": 7,
           "chetni_pierwsza_pref_oczekujacy": 9,
           "wskaznik": 4.14
@@ -427,7 +427,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1C KLASA BIOLOGICZNO-CHEMICZNA",
           "miejsca": 28,
           "chetni_ogolem": 115,
-          "chetni_ogolem_oczekujacy": 62,
+          "chetni_ogolem_oczekujacy": 63,
           "chetni_pierwsza_pref": 9,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 4.11
@@ -1504,7 +1504,7 @@
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02KK Klasa kryminalistyczna",
           "miejsca": 24,
           "chetni_ogolem": 16,
-          "chetni_ogolem_oczekujacy": 14,
+          "chetni_ogolem_oczekujacy": 15,
           "chetni_pierwsza_pref": 1,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 0.67
