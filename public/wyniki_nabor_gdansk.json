@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-22T06:31:01",
-  "pobrano_czytelnie": "22 May 2026, godz. 06:31",
+  "pobrano": "2026-05-22T07:00:58",
+  "pobrano_czytelnie": "22 May 2026, godz. 07:00",
   "szkoly": [
     {
       "id": "8",
@@ -592,7 +592,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1e matematyczno-fizyczny",
           "miejsca": 28,
           "chetni_ogolem": 81,
-          "chetni_ogolem_oczekujacy": 55,
+          "chetni_ogolem_oczekujacy": 54,
           "chetni_pierwsza_pref": 13,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 2.89
