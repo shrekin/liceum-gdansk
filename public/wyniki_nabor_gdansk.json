@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-23T11:01:03",
-  "pobrano_czytelnie": "23 May 2026, godz. 11:01",
+  "pobrano": "2026-05-23T11:30:58",
+  "pobrano_czytelnie": "23 May 2026, godz. 11:30",
   "szkoly": [
     {
       "id": "8",
@@ -166,7 +166,7 @@
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B2-MEDYCZNA [D] biol-mat (ang-hisz*,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 49,
-          "chetni_ogolem_oczekujacy": 37,
+          "chetni_ogolem_oczekujacy": 38,
           "chetni_pierwsza_pref": 6,
           "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 3.5
@@ -235,7 +235,7 @@
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1A1 Ratownictwa Medycznego (biol-chem-ang)",
           "miejsca": 14,
           "chetni_ogolem": 56,
-          "chetni_ogolem_oczekujacy": 29,
+          "chetni_ogolem_oczekujacy": 30,
           "chetni_pierwsza_pref": 1,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 4.0
@@ -496,7 +496,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1C matematyczno-biologiczna",
           "miejsca": 28,
           "chetni_ogolem": 72,
-          "chetni_ogolem_oczekujacy": 39,
+          "chetni_ogolem_oczekujacy": 40,
           "chetni_pierwsza_pref": 2,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 2.57
@@ -523,7 +523,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1F matematyczno-geograficzna",
           "miejsca": 28,
           "chetni_ogolem": 107,
-          "chetni_ogolem_oczekujacy": 65,
+          "chetni_ogolem_oczekujacy": 66,
           "chetni_pierwsza_pref": 2,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 3.82
@@ -616,7 +616,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1A BIZNESOWA",
           "miejsca": 28,
           "chetni_ogolem": 165,
-          "chetni_ogolem_oczekujacy": 73,
+          "chetni_ogolem_oczekujacy": 74,
           "chetni_pierwsza_pref": 17,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 5.89
@@ -652,9 +652,9 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1D BIOTECHNOLOGICZNA",
           "miejsca": 28,
           "chetni_ogolem": 131,
-          "chetni_ogolem_oczekujacy": 69,
+          "chetni_ogolem_oczekujacy": 70,
           "chetni_pierwsza_pref": 9,
-          "chetni_pierwsza_pref_oczekujacy": 4,
+          "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 4.68
         },
         {
@@ -670,7 +670,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1F MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 187,
-          "chetni_ogolem_oczekujacy": 93,
+          "chetni_ogolem_oczekujacy": 94,
           "chetni_pierwsza_pref": 16,
           "chetni_pierwsza_pref_oczekujacy": 13,
           "wskaznik": 6.68
@@ -679,7 +679,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1G JĘZYKOWA",
           "miejsca": 28,
           "chetni_ogolem": 145,
-          "chetni_ogolem_oczekujacy": 63,
+          "chetni_ogolem_oczekujacy": 64,
           "chetni_pierwsza_pref": 22,
           "chetni_pierwsza_pref_oczekujacy": 11,
           "wskaznik": 5.18
@@ -690,7 +690,7 @@
           "chetni_ogolem": 546,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 103,
-          "chetni_pierwsza_pref_oczekujacy": 43,
+          "chetni_pierwsza_pref_oczekujacy": 44,
           "wskaznik": 2.79
         }
       ]
@@ -721,7 +721,7 @@
           "nazwa": "X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1C-BIZNESOWA_GR.GEO [D] mat-geo (ang-hisz*,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 98,
-          "chetni_ogolem_oczekujacy": 50,
+          "chetni_ogolem_oczekujacy": 51,
           "chetni_pierwsza_pref": 5,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 7.0
@@ -757,7 +757,7 @@
           "nazwa": "X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1E-PRZYRODNICZO-MAT [D] biol-mat (ang-hisz*,niem*)",
           "miejsca": 28,
           "chetni_ogolem": 91,
-          "chetni_ogolem_oczekujacy": 44,
+          "chetni_ogolem_oczekujacy": 45,
           "chetni_pierwsza_pref": 13,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 3.25
@@ -841,7 +841,7 @@
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1B [O] geogr-ang-mat (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 73,
-          "chetni_ogolem_oczekujacy": 36,
+          "chetni_ogolem_oczekujacy": 37,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 2.81
@@ -850,7 +850,7 @@
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1C [O] biol-ang-wos (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 95,
-          "chetni_ogolem_oczekujacy": 59,
+          "chetni_ogolem_oczekujacy": 60,
           "chetni_pierwsza_pref": 5,
           "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 3.65
@@ -901,7 +901,7 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1c Psychologiczno-społeczna",
           "miejsca": 28,
           "chetni_ogolem": 176,
-          "chetni_ogolem_oczekujacy": 84,
+          "chetni_ogolem_oczekujacy": 85,
           "chetni_pierwsza_pref": 20,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 6.29
@@ -928,9 +928,9 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1f Biologiczno-chemiczna z zaj. laboratoryjnymi",
           "miejsca": 28,
           "chetni_ogolem": 150,
-          "chetni_ogolem_oczekujacy": 71,
+          "chetni_ogolem_oczekujacy": 72,
           "chetni_pierwsza_pref": 10,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 5.36
         },
         {
@@ -939,7 +939,7 @@
           "chetni_ogolem": 495,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 70,
-          "chetni_pierwsza_pref_oczekujacy": 21,
+          "chetni_pierwsza_pref_oczekujacy": 22,
           "wskaznik": 2.48
         }
       ]
@@ -988,7 +988,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1D biomedyczny",
           "miejsca": 28,
           "chetni_ogolem": 163,
-          "chetni_ogolem_oczekujacy": 96,
+          "chetni_ogolem_oczekujacy": 95,
           "chetni_pierwsza_pref": 12,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 5.82
@@ -997,7 +997,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1Emb interdyscyplinarny grupa mat-biol",
           "miejsca": 15,
           "chetni_ogolem": 97,
-          "chetni_ogolem_oczekujacy": 51,
+          "chetni_ogolem_oczekujacy": 52,
           "chetni_pierwsza_pref": 9,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 6.47
