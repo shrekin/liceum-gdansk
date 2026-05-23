@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-23T09:01:00",
-  "pobrano_czytelnie": "23 May 2026, godz. 09:01",
+  "pobrano": "2026-05-23T09:30:58",
+  "pobrano_czytelnie": "23 May 2026, godz. 09:30",
   "szkoly": [
     {
       "id": "8",
@@ -97,7 +97,7 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1C MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 115,
-          "chetni_ogolem_oczekujacy": 80,
+          "chetni_ogolem_oczekujacy": 81,
           "chetni_pierwsza_pref": 7,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 4.11
@@ -574,7 +574,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1c biologiczno-chemiczny",
           "miejsca": 28,
           "chetni_ogolem": 157,
-          "chetni_ogolem_oczekujacy": 102,
+          "chetni_ogolem_oczekujacy": 103,
           "chetni_pierwsza_pref": 25,
           "chetni_pierwsza_pref_oczekujacy": 9,
           "wskaznik": 5.61
