@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-24T00:31:05",
-  "pobrano_czytelnie": "24 May 2026, godz. 00:31",
+  "pobrano": "2026-05-24T01:01:01",
+  "pobrano_czytelnie": "24 May 2026, godz. 01:01",
   "szkoly": [
     {
       "id": "8",
@@ -28,7 +28,7 @@
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1c POLITECHNICZNA matematyczno-fizyczna",
           "miejsca": 56,
           "chetni_ogolem": 80,
-          "chetni_ogolem_oczekujacy": 66,
+          "chetni_ogolem_oczekujacy": 67,
           "chetni_pierwsza_pref": 12,
           "chetni_pierwsza_pref_oczekujacy": 12,
           "wskaznik": 1.43
@@ -202,7 +202,7 @@
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1D2-POLITECHNICZNA [D] inf-mat (ang-hisz*,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 39,
-          "chetni_ogolem_oczekujacy": 32,
+          "chetni_ogolem_oczekujacy": 33,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 2.79
