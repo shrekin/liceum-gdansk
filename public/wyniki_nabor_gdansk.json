@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-27T06:01:05",
-  "pobrano_czytelnie": "27 May 2026, godz. 06:01",
+  "pobrano": "2026-05-27T06:31:06",
+  "pobrano_czytelnie": "27 May 2026, godz. 06:31",
   "szkoly": [
     {
       "id": "8",
@@ -832,7 +832,7 @@
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1A [O] hist-ang-pol (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 165,
-          "chetni_ogolem_oczekujacy": 88,
+          "chetni_ogolem_oczekujacy": 89,
           "chetni_pierwsza_pref": 8,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 6.35
@@ -841,16 +841,16 @@
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1B [O] geogr-ang-mat (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 151,
-          "chetni_ogolem_oczekujacy": 61,
+          "chetni_ogolem_oczekujacy": 62,
           "chetni_pierwsza_pref": 0,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 5.81
         },
         {
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1C [O] biol-ang-wos (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 148,
-          "chetni_ogolem_oczekujacy": 95,
+          "chetni_ogolem_oczekujacy": 96,
           "chetni_pierwsza_pref": 7,
           "chetni_pierwsza_pref_oczekujacy": 9,
           "wskaznik": 5.69
@@ -861,7 +861,7 @@
           "chetni_ogolem": 350,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 15,
-          "chetni_pierwsza_pref_oczekujacy": 15,
+          "chetni_pierwsza_pref_oczekujacy": 16,
           "wskaznik": 4.49
         }
       ]
