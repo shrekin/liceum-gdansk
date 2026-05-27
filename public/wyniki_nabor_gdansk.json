@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-27T02:01:05",
-  "pobrano_czytelnie": "27 May 2026, godz. 02:01",
+  "pobrano": "2026-05-27T02:31:06",
+  "pobrano_czytelnie": "27 May 2026, godz. 02:31",
   "szkoly": [
     {
       "id": "8",
@@ -616,7 +616,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1A BIZNESOWA",
           "miejsca": 28,
           "chetni_ogolem": 323,
-          "chetni_ogolem_oczekujacy": 123,
+          "chetni_ogolem_oczekujacy": 124,
           "chetni_pierwsza_pref": 29,
           "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 11.54
