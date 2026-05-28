@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-28T06:31:08",
-  "pobrano_czytelnie": "28 May 2026, godz. 06:31",
+  "pobrano": "2026-05-28T07:01:16",
+  "pobrano_czytelnie": "28 May 2026, godz. 07:01",
   "szkoly": [
     {
       "id": "8",
@@ -19,7 +19,7 @@
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1b AKADEMICKA matematyczno-fizyczna",
           "miejsca": 28,
           "chetni_ogolem": 184,
-          "chetni_ogolem_oczekujacy": 61,
+          "chetni_ogolem_oczekujacy": 62,
           "chetni_pierwsza_pref": 18,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 6.57
@@ -28,9 +28,9 @@
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1c POLITECHNICZNA matematyczno-fizyczna",
           "miejsca": 56,
           "chetni_ogolem": 203,
-          "chetni_ogolem_oczekujacy": 68,
+          "chetni_ogolem_oczekujacy": 69,
           "chetni_pierwsza_pref": 30,
-          "chetni_pierwsza_pref_oczekujacy": 13,
+          "chetni_pierwsza_pref_oczekujacy": 14,
           "wskaznik": 3.62
         },
         {
@@ -57,7 +57,7 @@
           "chetni_ogolem": 651,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 135,
-          "chetni_pierwsza_pref_oczekujacy": 57,
+          "chetni_pierwsza_pref_oczekujacy": 58,
           "wskaznik": 3.88
         }
       ]
@@ -1288,7 +1288,7 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Cb [O] biol-ang-pol (ang-fra,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 208,
-          "chetni_ogolem_oczekujacy": 90,
+          "chetni_ogolem_oczekujacy": 91,
           "chetni_pierwsza_pref": 30,
           "chetni_pierwsza_pref_oczekujacy": 14,
           "wskaznik": 14.86
@@ -1366,7 +1366,7 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Cb [O] biol-ang-pol (ang-fra,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 208,
-          "chetni_ogolem_oczekujacy": 90,
+          "chetni_ogolem_oczekujacy": 91,
           "chetni_pierwsza_pref": 30,
           "chetni_pierwsza_pref_oczekujacy": 14,
           "wskaznik": 14.86
