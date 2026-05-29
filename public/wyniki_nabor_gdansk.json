@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-29T02:31:08",
-  "pobrano_czytelnie": "29 May 2026, godz. 02:31",
+  "pobrano": "2026-05-29T03:01:08",
+  "pobrano_czytelnie": "29 May 2026, godz. 03:01",
   "szkoly": [
     {
       "id": "8",
@@ -316,7 +316,7 @@
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1F1 Straży Granicznej (BiZ-geo-ang)",
           "miejsca": 15,
           "chetni_ogolem": 124,
-          "chetni_ogolem_oczekujacy": 47,
+          "chetni_ogolem_oczekujacy": 48,
           "chetni_pierwsza_pref": 28,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 8.27
