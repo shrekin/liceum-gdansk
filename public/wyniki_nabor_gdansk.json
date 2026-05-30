@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-30T10:31:08",
-  "pobrano_czytelnie": "30 May 2026, godz. 10:31",
+  "pobrano": "2026-05-30T11:01:11",
+  "pobrano_czytelnie": "30 May 2026, godz. 11:01",
   "szkoly": [
     {
       "id": "8",
@@ -679,7 +679,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1G JĘZYKOWA",
           "miejsca": 28,
           "chetni_ogolem": 459,
-          "chetni_ogolem_oczekujacy": 79,
+          "chetni_ogolem_oczekujacy": 80,
           "chetni_pierwsza_pref": 62,
           "chetni_pierwsza_pref_oczekujacy": 16,
           "wskaznik": 16.39
