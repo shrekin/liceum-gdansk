@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-30T11:31:11",
-  "pobrano_czytelnie": "30 May 2026, godz. 11:31",
+  "pobrano": "2026-05-30T12:01:13",
+  "pobrano_czytelnie": "30 May 2026, godz. 12:01",
   "szkoly": [
     {
       "id": "8",
@@ -97,7 +97,7 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1C MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 480,
-          "chetni_ogolem_oczekujacy": 57,
+          "chetni_ogolem_oczekujacy": 58,
           "chetni_pierwsza_pref": 31,
           "chetni_pierwsza_pref_oczekujacy": 8,
           "wskaznik": 17.14
