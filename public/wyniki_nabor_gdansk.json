@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-30T17:01:09",
-  "pobrano_czytelnie": "30 May 2026, godz. 17:01",
+  "pobrano": "2026-05-30T17:31:07",
+  "pobrano_czytelnie": "30 May 2026, godz. 17:31",
   "szkoly": [
     {
       "id": "8",
@@ -97,9 +97,9 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1C MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 480,
-          "chetni_ogolem_oczekujacy": 63,
+          "chetni_ogolem_oczekujacy": 64,
           "chetni_pierwsza_pref": 31,
-          "chetni_pierwsza_pref_oczekujacy": 8,
+          "chetni_pierwsza_pref_oczekujacy": 9,
           "wskaznik": 17.14
         },
         {
@@ -126,7 +126,7 @@
           "chetni_ogolem": 1340,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 113,
-          "chetni_pierwsza_pref_oczekujacy": 30,
+          "chetni_pierwsza_pref_oczekujacy": 31,
           "wskaznik": 9.57
         }
       ]
@@ -670,7 +670,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1F MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 631,
-          "chetni_ogolem_oczekujacy": 97,
+          "chetni_ogolem_oczekujacy": 98,
           "chetni_pierwsza_pref": 48,
           "chetni_pierwsza_pref_oczekujacy": 18,
           "wskaznik": 22.54
@@ -988,7 +988,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1D biomedyczny",
           "miejsca": 28,
           "chetni_ogolem": 585,
-          "chetni_ogolem_oczekujacy": 95,
+          "chetni_ogolem_oczekujacy": 96,
           "chetni_pierwsza_pref": 39,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 20.89
