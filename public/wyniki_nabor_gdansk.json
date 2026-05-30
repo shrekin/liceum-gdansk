@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-30T19:01:11",
-  "pobrano_czytelnie": "30 May 2026, godz. 19:01",
+  "pobrano": "2026-05-30T19:31:07",
+  "pobrano_czytelnie": "30 May 2026, godz. 19:31",
   "szkoly": [
     {
       "id": "8",
@@ -625,7 +625,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1B HUMANISTYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 500,
-          "chetni_ogolem_oczekujacy": 108,
+          "chetni_ogolem_oczekujacy": 109,
           "chetni_pierwsza_pref": 45,
           "chetni_pierwsza_pref_oczekujacy": 7,
           "wskaznik": 17.86
@@ -679,7 +679,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1G JĘZYKOWA",
           "miejsca": 28,
           "chetni_ogolem": 461,
-          "chetni_ogolem_oczekujacy": 83,
+          "chetni_ogolem_oczekujacy": 84,
           "chetni_pierwsza_pref": 62,
           "chetni_pierwsza_pref_oczekujacy": 16,
           "wskaznik": 16.46
@@ -892,16 +892,16 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1b humanistyczna z edukacją filmową",
           "miejsca": 28,
           "chetni_ogolem": 368,
-          "chetni_ogolem_oczekujacy": 75,
+          "chetni_ogolem_oczekujacy": 76,
           "chetni_pierwsza_pref": 22,
-          "chetni_pierwsza_pref_oczekujacy": 1,
+          "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 13.14
         },
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1c Psychologiczno-społeczna",
           "miejsca": 28,
           "chetni_ogolem": 516,
-          "chetni_ogolem_oczekujacy": 93,
+          "chetni_ogolem_oczekujacy": 94,
           "chetni_pierwsza_pref": 33,
           "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 18.43
@@ -919,7 +919,7 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1e Europejska",
           "miejsca": 28,
           "chetni_ogolem": 475,
-          "chetni_ogolem_oczekujacy": 61,
+          "chetni_ogolem_oczekujacy": 62,
           "chetni_pierwsza_pref": 28,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 16.96
@@ -939,7 +939,7 @@
           "chetni_ogolem": 1602,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 185,
-          "chetni_pierwsza_pref_oczekujacy": 24,
+          "chetni_pierwsza_pref_oczekujacy": 25,
           "wskaznik": 8.01
         }
       ]
