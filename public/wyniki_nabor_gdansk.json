@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-30T09:31:07",
-  "pobrano_czytelnie": "30 May 2026, godz. 09:31",
+  "pobrano": "2026-05-30T10:01:11",
+  "pobrano_czytelnie": "30 May 2026, godz. 10:01",
   "szkoly": [
     {
       "id": "8",
@@ -271,9 +271,9 @@
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1C Wojskowa (geo-ang)",
           "miejsca": 28,
           "chetni_ogolem": 126,
-          "chetni_ogolem_oczekujacy": 30,
+          "chetni_ogolem_oczekujacy": 31,
           "chetni_pierwsza_pref": 28,
-          "chetni_pierwsza_pref_oczekujacy": 4,
+          "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 4.5
         },
         {
@@ -336,7 +336,7 @@
           "chetni_ogolem": 540,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 149,
-          "chetni_pierwsza_pref_oczekujacy": 13,
+          "chetni_pierwsza_pref_oczekujacy": 14,
           "wskaznik": 3.42
         }
       ]
