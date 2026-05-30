@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-30T20:01:06",
-  "pobrano_czytelnie": "30 May 2026, godz. 20:01",
+  "pobrano": "2026-05-30T20:31:06",
+  "pobrano_czytelnie": "30 May 2026, godz. 20:31",
   "szkoly": [
     {
       "id": "8",
@@ -427,7 +427,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1C KLASA BIOLOGICZNO-CHEMICZNA",
           "miejsca": 28,
           "chetni_ogolem": 368,
-          "chetni_ogolem_oczekujacy": 92,
+          "chetni_ogolem_oczekujacy": 93,
           "chetni_pierwsza_pref": 8,
           "chetni_pierwsza_pref_oczekujacy": 7,
           "wskaznik": 13.14
@@ -574,7 +574,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1c biologiczno-chemiczny",
           "miejsca": 28,
           "chetni_ogolem": 535,
-          "chetni_ogolem_oczekujacy": 97,
+          "chetni_ogolem_oczekujacy": 98,
           "chetni_pierwsza_pref": 73,
           "chetni_pierwsza_pref_oczekujacy": 12,
           "wskaznik": 19.11
@@ -670,7 +670,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1F MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 635,
-          "chetni_ogolem_oczekujacy": 96,
+          "chetni_ogolem_oczekujacy": 97,
           "chetni_pierwsza_pref": 48,
           "chetni_pierwsza_pref_oczekujacy": 18,
           "wskaznik": 22.68
@@ -883,7 +883,7 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1a matematyczno-informatyczno-językowa",
           "miejsca": 28,
           "chetni_ogolem": 343,
-          "chetni_ogolem_oczekujacy": 33,
+          "chetni_ogolem_oczekujacy": 34,
           "chetni_pierwsza_pref": 10,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 12.25
@@ -919,7 +919,7 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1e Europejska",
           "miejsca": 28,
           "chetni_ogolem": 475,
-          "chetni_ogolem_oczekujacy": 62,
+          "chetni_ogolem_oczekujacy": 63,
           "chetni_pierwsza_pref": 28,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 16.96
@@ -928,9 +928,9 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1f Biologiczno-chemiczna z zaj. laboratoryjnymi",
           "miejsca": 28,
           "chetni_ogolem": 534,
-          "chetni_ogolem_oczekujacy": 89,
+          "chetni_ogolem_oczekujacy": 91,
           "chetni_pierwsza_pref": 25,
-          "chetni_pierwsza_pref_oczekujacy": 8,
+          "chetni_pierwsza_pref_oczekujacy": 9,
           "wskaznik": 19.07
         },
         {
@@ -939,7 +939,7 @@
           "chetni_ogolem": 1604,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 185,
-          "chetni_pierwsza_pref_oczekujacy": 25,
+          "chetni_pierwsza_pref_oczekujacy": 26,
           "wskaznik": 8.02
         }
       ]
@@ -988,7 +988,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1D biomedyczny",
           "miejsca": 28,
           "chetni_ogolem": 590,
-          "chetni_ogolem_oczekujacy": 92,
+          "chetni_ogolem_oczekujacy": 93,
           "chetni_pierwsza_pref": 39,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 21.07
