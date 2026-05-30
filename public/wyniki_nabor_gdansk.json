@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-30T23:31:08",
-  "pobrano_czytelnie": "30 May 2026, godz. 23:31",
+  "pobrano": "2026-05-31T00:01:06",
+  "pobrano_czytelnie": "31 May 2026, godz. 00:01",
   "szkoly": [
     {
       "id": "8",
@@ -1072,7 +1072,7 @@
           "nazwa": "XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B-fiz dwujęzyczna politechniczna mat-fiz",
           "miejsca": 14,
           "chetni_ogolem": 301,
-          "chetni_ogolem_oczekujacy": 5,
+          "chetni_ogolem_oczekujacy": 6,
           "chetni_pierwsza_pref": 31,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 21.5
@@ -1081,7 +1081,7 @@
           "nazwa": "XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B-inf dwujęzyczna politechniczna mat-info",
           "miejsca": 13,
           "chetni_ogolem": 207,
-          "chetni_ogolem_oczekujacy": 8,
+          "chetni_ogolem_oczekujacy": 9,
           "chetni_pierwsza_pref": 11,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 15.92
