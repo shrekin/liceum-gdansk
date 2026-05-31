@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-05-31T23:01:12",
-  "pobrano_czytelnie": "31 May 2026, godz. 23:01",
+  "pobrano": "2026-06-01T00:01:11",
+  "pobrano_czytelnie": "1 June 2026, godz. 00:01",
   "szkoly": [
     {
       "id": "8",
@@ -625,7 +625,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1B HUMANISTYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 501,
-          "chetni_ogolem_oczekujacy": 134,
+          "chetni_ogolem_oczekujacy": 135,
           "chetni_pierwsza_pref": 45,
           "chetni_pierwsza_pref_oczekujacy": 12,
           "wskaznik": 17.89
@@ -679,7 +679,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1G JĘZYKOWA",
           "miejsca": 28,
           "chetni_ogolem": 463,
-          "chetni_ogolem_oczekujacy": 95,
+          "chetni_ogolem_oczekujacy": 96,
           "chetni_pierwsza_pref": 62,
           "chetni_pierwsza_pref_oczekujacy": 17,
           "wskaznik": 16.54
@@ -952,7 +952,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1A ekonomiczny",
           "miejsca": 28,
           "chetni_ogolem": 527,
-          "chetni_ogolem_oczekujacy": 76,
+          "chetni_ogolem_oczekujacy": 77,
           "chetni_pierwsza_pref": 23,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 18.82
@@ -1159,7 +1159,7 @@
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1B [O] biologiczno-chemiczna",
           "miejsca": 26,
           "chetni_ogolem": 169,
-          "chetni_ogolem_oczekujacy": 50,
+          "chetni_ogolem_oczekujacy": 51,
           "chetni_pierwsza_pref": 7,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 6.5
@@ -1177,7 +1177,7 @@
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1D ID Humanistyczna",
           "miejsca": 26,
           "chetni_ogolem": 165,
-          "chetni_ogolem_oczekujacy": 73,
+          "chetni_ogolem_oczekujacy": 74,
           "chetni_pierwsza_pref": 10,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 6.35
