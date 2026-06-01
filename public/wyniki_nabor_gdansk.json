@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-01T06:31:10",
-  "pobrano_czytelnie": "1 June 2026, godz. 06:31",
+  "pobrano": "2026-06-01T07:01:09",
+  "pobrano_czytelnie": "1 June 2026, godz. 07:01",
   "szkoly": [
     {
       "id": "8",
@@ -789,11 +789,11 @@
         {
           "nazwa": "XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1B [S] ang (ang-ros*)",
           "miejsca": 25,
-          "chetni_ogolem": 80,
-          "chetni_ogolem_oczekujacy": 11,
-          "chetni_pierwsza_pref": 37,
-          "chetni_pierwsza_pref_oczekujacy": 2,
-          "wskaznik": 3.2
+          "chetni_ogolem": 81,
+          "chetni_ogolem_oczekujacy": 10,
+          "chetni_pierwsza_pref": 38,
+          "chetni_pierwsza_pref_oczekujacy": 1,
+          "wskaznik": 3.24
         },
         {
           "nazwa": "XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1C [S] ang (ang-ros*)",
@@ -816,11 +816,11 @@
         {
           "nazwa": "XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk  - RAZEM",
           "miejsca": 100,
-          "chetni_ogolem": 221,
+          "chetni_ogolem": 222,
           "chetni_ogolem_oczekujacy": 0,
-          "chetni_pierwsza_pref": 136,
-          "chetni_pierwsza_pref_oczekujacy": 4,
-          "wskaznik": 2.21
+          "chetni_pierwsza_pref": 137,
+          "chetni_pierwsza_pref_oczekujacy": 3,
+          "wskaznik": 2.22
         }
       ]
     },
