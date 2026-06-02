@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-03T01:01:11",
-  "pobrano_czytelnie": "3 June 2026, godz. 01:01",
+  "pobrano": "2026-06-03T01:31:10",
+  "pobrano_czytelnie": "3 June 2026, godz. 01:31",
   "szkoly": [
     {
       "id": "8",
@@ -625,7 +625,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1B HUMANISTYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 572,
-          "chetni_ogolem_oczekujacy": 87,
+          "chetni_ogolem_oczekujacy": 88,
           "chetni_pierwsza_pref": 52,
           "chetni_pierwsza_pref_oczekujacy": 8,
           "wskaznik": 20.43
