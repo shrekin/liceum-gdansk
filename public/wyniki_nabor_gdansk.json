@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-02T15:01:18",
-  "pobrano_czytelnie": "2 June 2026, godz. 15:01",
+  "pobrano": "2026-06-02T15:31:13",
+  "pobrano_czytelnie": "2 June 2026, godz. 15:31",
   "szkoly": [
     {
       "id": "8",
@@ -88,7 +88,7 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1Bw [O] ang-pol-wos (ang-niem,fra)",
           "miejsca": 14,
           "chetni_ogolem": 231,
-          "chetni_ogolem_oczekujacy": 18,
+          "chetni_ogolem_oczekujacy": 19,
           "chetni_pierwsza_pref": 8,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 16.5
@@ -97,7 +97,7 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1C MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 537,
-          "chetni_ogolem_oczekujacy": 34,
+          "chetni_ogolem_oczekujacy": 35,
           "chetni_pierwsza_pref": 40,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 19.18
@@ -106,7 +106,7 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1D PRZYRODNICZA",
           "miejsca": 28,
           "chetni_ogolem": 437,
-          "chetni_ogolem_oczekujacy": 31,
+          "chetni_ogolem_oczekujacy": 32,
           "chetni_pierwsza_pref": 28,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 15.61
@@ -115,7 +115,7 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1E MENEDŻERSKA",
           "miejsca": 28,
           "chetni_ogolem": 481,
-          "chetni_ogolem_oczekujacy": 21,
+          "chetni_ogolem_oczekujacy": 22,
           "chetni_pierwsza_pref": 17,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 17.18
@@ -849,20 +849,20 @@
         {
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1C [O] biol-ang-wos (ang-niem)",
           "miejsca": 26,
-          "chetni_ogolem": 308,
-          "chetni_ogolem_oczekujacy": 61,
-          "chetni_pierwsza_pref": 14,
-          "chetni_pierwsza_pref_oczekujacy": 3,
-          "wskaznik": 11.85
+          "chetni_ogolem": 309,
+          "chetni_ogolem_oczekujacy": 60,
+          "chetni_pierwsza_pref": 15,
+          "chetni_pierwsza_pref_oczekujacy": 2,
+          "wskaznik": 11.88
         },
         {
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 78,
-          "chetni_ogolem": 707,
+          "chetni_ogolem": 708,
           "chetni_ogolem_oczekujacy": 0,
-          "chetni_pierwsza_pref": 35,
-          "chetni_pierwsza_pref_oczekujacy": 8,
-          "wskaznik": 9.06
+          "chetni_pierwsza_pref": 36,
+          "chetni_pierwsza_pref_oczekujacy": 7,
+          "wskaznik": 9.08
         }
       ]
     },
