@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-04T12:31:10",
-  "pobrano_czytelnie": "4 June 2026, godz. 12:31",
+  "pobrano": "2026-06-04T13:01:14",
+  "pobrano_czytelnie": "4 June 2026, godz. 13:01",
   "szkoly": [
     {
       "id": "8",
@@ -1261,9 +1261,9 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1A [O] mat-inf-fiz (ang-hisz,niem*)",
           "miejsca": 28,
           "chetni_ogolem": 357,
-          "chetni_ogolem_oczekujacy": 13,
+          "chetni_ogolem_oczekujacy": 14,
           "chetni_pierwsza_pref": 44,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 12.75
         },
         {
@@ -1326,7 +1326,7 @@
           "chetni_ogolem": 1402,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 304,
-          "chetni_pierwsza_pref_oczekujacy": 17,
+          "chetni_pierwsza_pref_oczekujacy": 18,
           "wskaznik": 12.52
         }
       ]
@@ -1339,9 +1339,9 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1A [O] mat-inf-fiz (ang-hisz,niem*)",
           "miejsca": 28,
           "chetni_ogolem": 357,
-          "chetni_ogolem_oczekujacy": 13,
+          "chetni_ogolem_oczekujacy": 14,
           "chetni_pierwsza_pref": 44,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 12.75
         },
         {
@@ -1404,7 +1404,7 @@
           "chetni_ogolem": 1402,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 304,
-          "chetni_pierwsza_pref_oczekujacy": 17,
+          "chetni_pierwsza_pref_oczekujacy": 18,
           "wskaznik": 12.52
         }
       ]
@@ -1522,9 +1522,9 @@
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02TK Klasa kosmetologiczna",
           "miejsca": 35,
           "chetni_ogolem": 45,
-          "chetni_ogolem_oczekujacy": 13,
+          "chetni_ogolem_oczekujacy": 14,
           "chetni_pierwsza_pref": 11,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 1.29
         },
         {
@@ -1587,7 +1587,7 @@
           "chetni_ogolem": 197,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 41,
-          "chetni_pierwsza_pref_oczekujacy": 15,
+          "chetni_pierwsza_pref_oczekujacy": 16,
           "wskaznik": 0.64
         }
       ]
