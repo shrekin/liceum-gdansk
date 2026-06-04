@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-04T19:01:12",
-  "pobrano_czytelnie": "4 June 2026, godz. 19:01",
+  "pobrano": "2026-06-04T19:31:12",
+  "pobrano_czytelnie": "4 June 2026, godz. 19:31",
   "szkoly": [
     {
       "id": "8",
@@ -679,7 +679,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1G JĘZYKOWA",
           "miejsca": 28,
           "chetni_ogolem": 528,
-          "chetni_ogolem_oczekujacy": 47,
+          "chetni_ogolem_oczekujacy": 48,
           "chetni_pierwsza_pref": 68,
           "chetni_pierwsza_pref_oczekujacy": 13,
           "wskaznik": 18.86
@@ -1261,7 +1261,7 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1A [O] mat-inf-fiz (ang-hisz,niem*)",
           "miejsca": 28,
           "chetni_ogolem": 357,
-          "chetni_ogolem_oczekujacy": 19,
+          "chetni_ogolem_oczekujacy": 20,
           "chetni_pierwsza_pref": 44,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 12.75
@@ -1339,7 +1339,7 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1A [O] mat-inf-fiz (ang-hisz,niem*)",
           "miejsca": 28,
           "chetni_ogolem": 357,
-          "chetni_ogolem_oczekujacy": 19,
+          "chetni_ogolem_oczekujacy": 20,
           "chetni_pierwsza_pref": 44,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 12.75
