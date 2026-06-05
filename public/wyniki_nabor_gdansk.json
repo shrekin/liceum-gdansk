@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-05T22:01:11",
-  "pobrano_czytelnie": "5 June 2026, godz. 22:01",
+  "pobrano": "2026-06-05T22:31:16",
+  "pobrano_czytelnie": "5 June 2026, godz. 22:31",
   "szkoly": [
     {
       "id": "8",
@@ -46,9 +46,9 @@
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1e MEDYCZNA biologiczno-chemiczna",
           "miejsca": 28,
           "chetni_ogolem": 449,
-          "chetni_ogolem_oczekujacy": 40,
+          "chetni_ogolem_oczekujacy": 41,
           "chetni_pierwsza_pref": 72,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 16.04
         },
         {
@@ -57,7 +57,7 @@
           "chetni_ogolem": 1124,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 240,
-          "chetni_pierwsza_pref_oczekujacy": 26,
+          "chetni_pierwsza_pref_oczekujacy": 27,
           "wskaznik": 6.69
         }
       ]
@@ -427,7 +427,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1C KLASA BIOLOGICZNO-CHEMICZNA",
           "miejsca": 28,
           "chetni_ogolem": 457,
-          "chetni_ogolem_oczekujacy": 63,
+          "chetni_ogolem_oczekujacy": 64,
           "chetni_pierwsza_pref": 17,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 16.32
@@ -505,7 +505,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1D biologiczno-chemiczna",
           "miejsca": 28,
           "chetni_ogolem": 472,
-          "chetni_ogolem_oczekujacy": 65,
+          "chetni_ogolem_oczekujacy": 66,
           "chetni_pierwsza_pref": 21,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 16.86
@@ -574,7 +574,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1c biologiczno-chemiczny",
           "miejsca": 28,
           "chetni_ogolem": 623,
-          "chetni_ogolem_oczekujacy": 64,
+          "chetni_ogolem_oczekujacy": 65,
           "chetni_pierwsza_pref": 83,
           "chetni_pierwsza_pref_oczekujacy": 12,
           "wskaznik": 22.25
@@ -652,7 +652,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1D BIOTECHNOLOGICZNA",
           "miejsca": 28,
           "chetni_ogolem": 612,
-          "chetni_ogolem_oczekujacy": 40,
+          "chetni_ogolem_oczekujacy": 41,
           "chetni_pierwsza_pref": 62,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 21.86
@@ -670,7 +670,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1F MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 737,
-          "chetni_ogolem_oczekujacy": 68,
+          "chetni_ogolem_oczekujacy": 69,
           "chetni_pierwsza_pref": 61,
           "chetni_pierwsza_pref_oczekujacy": 17,
           "wskaznik": 26.32
@@ -928,7 +928,7 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1f Biologiczno-chemiczna z zaj. laboratoryjnymi",
           "miejsca": 28,
           "chetni_ogolem": 622,
-          "chetni_ogolem_oczekujacy": 65,
+          "chetni_ogolem_oczekujacy": 66,
           "chetni_pierwsza_pref": 30,
           "chetni_pierwsza_pref_oczekujacy": 8,
           "wskaznik": 22.21
@@ -988,7 +988,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1D biomedyczny",
           "miejsca": 28,
           "chetni_ogolem": 681,
-          "chetni_ogolem_oczekujacy": 64,
+          "chetni_ogolem_oczekujacy": 65,
           "chetni_pierwsza_pref": 49,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 24.32
@@ -1159,7 +1159,7 @@
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1B [O] biologiczno-chemiczna",
           "miejsca": 26,
           "chetni_ogolem": 215,
-          "chetni_ogolem_oczekujacy": 36,
+          "chetni_ogolem_oczekujacy": 37,
           "chetni_pierwsza_pref": 9,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 8.27
@@ -1486,7 +1486,7 @@
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 01MR Klasa medyczno-ratownicza",
           "miejsca": 24,
           "chetni_ogolem": 43,
-          "chetni_ogolem_oczekujacy": 9,
+          "chetni_ogolem_oczekujacy": 10,
           "chetni_pierwsza_pref": 2,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 1.79
