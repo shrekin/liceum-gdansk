@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-05T17:31:11",
-  "pobrano_czytelnie": "5 June 2026, godz. 17:31",
+  "pobrano": "2026-06-05T18:01:15",
+  "pobrano_czytelnie": "5 June 2026, godz. 18:01",
   "szkoly": [
     {
       "id": "8",
@@ -115,9 +115,9 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1E MENEDŻERSKA",
           "miejsca": 28,
           "chetni_ogolem": 495,
-          "chetni_ogolem_oczekujacy": 39,
+          "chetni_ogolem_oczekujacy": 40,
           "chetni_pierwsza_pref": 20,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 17.68
         },
         {
@@ -126,7 +126,7 @@
           "chetni_ogolem": 1533,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 143,
-          "chetni_pierwsza_pref_oczekujacy": 23,
+          "chetni_pierwsza_pref_oczekujacy": 24,
           "wskaznik": 10.95
         }
       ]
@@ -952,7 +952,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1A ekonomiczny",
           "miejsca": 28,
           "chetni_ogolem": 589,
-          "chetni_ogolem_oczekujacy": 44,
+          "chetni_ogolem_oczekujacy": 45,
           "chetni_pierwsza_pref": 26,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 21.04
@@ -1039,7 +1039,7 @@
           "nazwa": "XXIV Liceum Ogólnokształcące, Gdańsk - 1aMG [O] geogr-mat (ang-niem,fra)",
           "miejsca": 15,
           "chetni_ogolem": 218,
-          "chetni_ogolem_oczekujacy": 24,
+          "chetni_ogolem_oczekujacy": 25,
           "chetni_pierwsza_pref": 12,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 14.53
@@ -1306,7 +1306,7 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Db [O] mat-biz-ang (ang-hisz,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 453,
-          "chetni_ogolem_oczekujacy": 24,
+          "chetni_ogolem_oczekujacy": 25,
           "chetni_pierwsza_pref": 26,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 32.36
@@ -1384,7 +1384,7 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Db [O] mat-biz-ang (ang-hisz,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 453,
-          "chetni_ogolem_oczekujacy": 24,
+          "chetni_ogolem_oczekujacy": 25,
           "chetni_pierwsza_pref": 26,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 32.36
