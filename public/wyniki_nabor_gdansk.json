@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-05T09:31:12",
-  "pobrano_czytelnie": "5 June 2026, godz. 09:31",
+  "pobrano": "2026-06-05T10:01:15",
+  "pobrano_czytelnie": "5 June 2026, godz. 10:01",
   "szkoly": [
     {
       "id": "8",
@@ -18,20 +18,20 @@
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1b AKADEMICKA matematyczno-fizyczna",
           "miejsca": 28,
-          "chetni_ogolem": 296,
-          "chetni_ogolem_oczekujacy": 22,
+          "chetni_ogolem": 297,
+          "chetni_ogolem_oczekujacy": 21,
           "chetni_pierwsza_pref": 27,
           "chetni_pierwsza_pref_oczekujacy": 8,
-          "wskaznik": 10.57
+          "wskaznik": 10.61
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1c POLITECHNICZNA matematyczno-fizyczna",
           "miejsca": 56,
-          "chetni_ogolem": 343,
-          "chetni_ogolem_oczekujacy": 23,
+          "chetni_ogolem": 344,
+          "chetni_ogolem_oczekujacy": 22,
           "chetni_pierwsza_pref": 57,
           "chetni_pierwsza_pref_oczekujacy": 4,
-          "wskaznik": 6.12
+          "wskaznik": 6.14
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1d EKONOMICZNA matematyczno-geograficzna",
@@ -54,7 +54,7 @@
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 168,
-          "chetni_ogolem": 1115,
+          "chetni_ogolem": 1116,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 240,
           "chetni_pierwsza_pref_oczekujacy": 26,
@@ -357,11 +357,11 @@
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1B matematyczno-fizyczno-informatyczna",
           "miejsca": 28,
-          "chetni_ogolem": 277,
-          "chetni_ogolem_oczekujacy": 21,
-          "chetni_pierwsza_pref": 35,
-          "chetni_pierwsza_pref_oczekujacy": 3,
-          "wskaznik": 9.89
+          "chetni_ogolem": 278,
+          "chetni_ogolem_oczekujacy": 20,
+          "chetni_pierwsza_pref": 36,
+          "chetni_pierwsza_pref_oczekujacy": 2,
+          "wskaznik": 9.93
         },
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1C matematyczno-biologiczna-z jęz. angielskim",
@@ -393,11 +393,11 @@
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 112,
-          "chetni_ogolem": 868,
+          "chetni_ogolem": 869,
           "chetni_ogolem_oczekujacy": 0,
-          "chetni_pierwsza_pref": 188,
-          "chetni_pierwsza_pref_oczekujacy": 12,
-          "wskaznik": 7.75
+          "chetni_pierwsza_pref": 189,
+          "chetni_pierwsza_pref_oczekujacy": 11,
+          "wskaznik": 7.76
         }
       ]
     },
