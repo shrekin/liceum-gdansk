@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-05T23:01:15",
-  "pobrano_czytelnie": "5 June 2026, godz. 23:01",
+  "pobrano": "2026-06-05T23:31:14",
+  "pobrano_czytelnie": "5 June 2026, godz. 23:31",
   "szkoly": [
     {
       "id": "8",
@@ -235,7 +235,7 @@
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1A1 Ratownictwa Medycznego (biol-chem-ang)",
           "miejsca": 14,
           "chetni_ogolem": 175,
-          "chetni_ogolem_oczekujacy": 35,
+          "chetni_ogolem_oczekujacy": 36,
           "chetni_pierwsza_pref": 7,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 12.5
@@ -349,7 +349,7 @@
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1A biologiczno-chemiczna",
           "miejsca": 28,
           "chetni_ogolem": 420,
-          "chetni_ogolem_oczekujacy": 35,
+          "chetni_ogolem_oczekujacy": 36,
           "chetni_pierwsza_pref": 45,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 15.0
@@ -505,7 +505,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1D biologiczno-chemiczna",
           "miejsca": 28,
           "chetni_ogolem": 472,
-          "chetni_ogolem_oczekujacy": 66,
+          "chetni_ogolem_oczekujacy": 67,
           "chetni_pierwsza_pref": 21,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 16.86
@@ -574,7 +574,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1c biologiczno-chemiczny",
           "miejsca": 28,
           "chetni_ogolem": 623,
-          "chetni_ogolem_oczekujacy": 65,
+          "chetni_ogolem_oczekujacy": 66,
           "chetni_pierwsza_pref": 83,
           "chetni_pierwsza_pref_oczekujacy": 12,
           "wskaznik": 22.25
@@ -670,9 +670,9 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1F MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 737,
-          "chetni_ogolem_oczekujacy": 69,
+          "chetni_ogolem_oczekujacy": 70,
           "chetni_pierwsza_pref": 61,
-          "chetni_pierwsza_pref_oczekujacy": 17,
+          "chetni_pierwsza_pref_oczekujacy": 18,
           "wskaznik": 26.32
         },
         {
@@ -690,7 +690,7 @@
           "chetni_ogolem": 2143,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 361,
-          "chetni_pierwsza_pref_oczekujacy": 43,
+          "chetni_pierwsza_pref_oczekujacy": 44,
           "wskaznik": 10.93
         }
       ]
