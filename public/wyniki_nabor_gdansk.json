@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-06T09:01:12",
-  "pobrano_czytelnie": "6 June 2026, godz. 09:01",
+  "pobrano": "2026-06-06T09:31:14",
+  "pobrano_czytelnie": "6 June 2026, godz. 09:31",
   "szkoly": [
     {
       "id": "8",
@@ -883,7 +883,7 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1a matematyczno-informatyczno-językowa",
           "miejsca": 28,
           "chetni_ogolem": 398,
-          "chetni_ogolem_oczekujacy": 30,
+          "chetni_ogolem_oczekujacy": 31,
           "chetni_pierwsza_pref": 12,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 14.21
