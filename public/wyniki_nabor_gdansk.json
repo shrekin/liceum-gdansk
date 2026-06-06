@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-06T22:31:11",
-  "pobrano_czytelnie": "6 June 2026, godz. 22:31",
+  "pobrano": "2026-06-06T23:01:14",
+  "pobrano_czytelnie": "6 June 2026, godz. 23:01",
   "szkoly": [
     {
       "id": "8",
@@ -358,7 +358,7 @@
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1B matematyczno-fizyczno-informatyczna",
           "miejsca": 28,
           "chetni_ogolem": 277,
-          "chetni_ogolem_oczekujacy": 24,
+          "chetni_ogolem_oczekujacy": 25,
           "chetni_pierwsza_pref": 36,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 9.89
