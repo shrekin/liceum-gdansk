@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-06T18:01:11",
-  "pobrano_czytelnie": "6 June 2026, godz. 18:01",
+  "pobrano": "2026-06-06T18:31:16",
+  "pobrano_czytelnie": "6 June 2026, godz. 18:31",
   "szkoly": [
     {
       "id": "8",
@@ -478,7 +478,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1A matematyczno-fizyczna",
           "miejsca": 28,
           "chetni_ogolem": 349,
-          "chetni_ogolem_oczekujacy": 39,
+          "chetni_ogolem_oczekujacy": 40,
           "chetni_pierwsza_pref": 3,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 12.46
@@ -496,7 +496,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1C matematyczno-biologiczna",
           "miejsca": 28,
           "chetni_ogolem": 359,
-          "chetni_ogolem_oczekujacy": 34,
+          "chetni_ogolem_oczekujacy": 35,
           "chetni_pierwsza_pref": 8,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 12.82
@@ -523,7 +523,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1F matematyczno-geograficzna",
           "miejsca": 28,
           "chetni_ogolem": 498,
-          "chetni_ogolem_oczekujacy": 54,
+          "chetni_ogolem_oczekujacy": 55,
           "chetni_pierwsza_pref": 17,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 17.79
@@ -565,7 +565,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1b matematyczno-geograficzny z j.angielskim",
           "miejsca": 28,
           "chetni_ogolem": 608,
-          "chetni_ogolem_oczekujacy": 48,
+          "chetni_ogolem_oczekujacy": 49,
           "chetni_pierwsza_pref": 57,
           "chetni_pierwsza_pref_oczekujacy": 9,
           "wskaznik": 21.71
@@ -583,7 +583,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1d matematyczno-informatyczny z j.angielskim",
           "miejsca": 28,
           "chetni_ogolem": 366,
-          "chetni_ogolem_oczekujacy": 36,
+          "chetni_ogolem_oczekujacy": 37,
           "chetni_pierwsza_pref": 24,
           "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 13.07
@@ -592,7 +592,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1e matematyczno-fizyczny",
           "miejsca": 28,
           "chetni_ogolem": 446,
-          "chetni_ogolem_oczekujacy": 37,
+          "chetni_ogolem_oczekujacy": 38,
           "chetni_pierwsza_pref": 45,
           "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 15.93
@@ -901,9 +901,9 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1c Psychologiczno-społeczna",
           "miejsca": 28,
           "chetni_ogolem": 618,
-          "chetni_ogolem_oczekujacy": 79,
+          "chetni_ogolem_oczekujacy": 80,
           "chetni_pierwsza_pref": 46,
-          "chetni_pierwsza_pref_oczekujacy": 7,
+          "chetni_pierwsza_pref_oczekujacy": 8,
           "wskaznik": 22.07
         },
         {
@@ -939,7 +939,7 @@
           "chetni_ogolem": 1878,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 228,
-          "chetni_pierwsza_pref_oczekujacy": 25,
+          "chetni_pierwsza_pref_oczekujacy": 26,
           "wskaznik": 9.39
         }
       ]
