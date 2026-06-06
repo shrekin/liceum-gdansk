@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-06T23:31:15",
-  "pobrano_czytelnie": "6 June 2026, godz. 23:31",
+  "pobrano": "2026-06-07T00:01:19",
+  "pobrano_czytelnie": "7 June 2026, godz. 00:01",
   "szkoly": [
     {
       "id": "8",
@@ -418,9 +418,9 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1B KLASA DZIENNIKARSKO ARTYSTYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 333,
-          "chetni_ogolem_oczekujacy": 64,
+          "chetni_ogolem_oczekujacy": 65,
           "chetni_pierwsza_pref": 31,
-          "chetni_pierwsza_pref_oczekujacy": 6,
+          "chetni_pierwsza_pref_oczekujacy": 7,
           "wskaznik": 11.89
         },
         {
@@ -465,7 +465,7 @@
           "chetni_ogolem": 1098,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 126,
-          "chetni_pierwsza_pref_oczekujacy": 30,
+          "chetni_pierwsza_pref_oczekujacy": 31,
           "wskaznik": 7.73
         }
       ]
