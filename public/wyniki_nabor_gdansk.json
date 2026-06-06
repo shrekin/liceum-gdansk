@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-06T13:31:09",
-  "pobrano_czytelnie": "6 June 2026, godz. 13:31",
+  "pobrano": "2026-06-06T14:01:13",
+  "pobrano_czytelnie": "6 June 2026, godz. 14:01",
   "szkoly": [
     {
       "id": "8",
@@ -583,9 +583,9 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1d matematyczno-informatyczny z j.angielskim",
           "miejsca": 28,
           "chetni_ogolem": 366,
-          "chetni_ogolem_oczekujacy": 35,
+          "chetni_ogolem_oczekujacy": 36,
           "chetni_pierwsza_pref": 24,
-          "chetni_pierwsza_pref_oczekujacy": 5,
+          "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 13.07
         },
         {
@@ -603,7 +603,7 @@
           "chetni_ogolem": 1566,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 243,
-          "chetni_pierwsza_pref_oczekujacy": 41,
+          "chetni_pierwsza_pref_oczekujacy": 42,
           "wskaznik": 11.19
         }
       ]
@@ -625,9 +625,9 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1B HUMANISTYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 607,
-          "chetni_ogolem_oczekujacy": 80,
+          "chetni_ogolem_oczekujacy": 81,
           "chetni_pierwsza_pref": 54,
-          "chetni_pierwsza_pref_oczekujacy": 9,
+          "chetni_pierwsza_pref_oczekujacy": 10,
           "wskaznik": 21.68
         },
         {
@@ -690,7 +690,7 @@
           "chetni_ogolem": 2146,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 361,
-          "chetni_pierwsza_pref_oczekujacy": 46,
+          "chetni_pierwsza_pref_oczekujacy": 47,
           "wskaznik": 10.95
         }
       ]
@@ -979,7 +979,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1C społeczno-prawny",
           "miejsca": 28,
           "chetni_ogolem": 564,
-          "chetni_ogolem_oczekujacy": 69,
+          "chetni_ogolem_oczekujacy": 70,
           "chetni_pierwsza_pref": 53,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 20.14
