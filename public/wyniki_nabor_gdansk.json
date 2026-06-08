@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-08T19:01:20",
-  "pobrano_czytelnie": "8 June 2026, godz. 19:01",
+  "pobrano": "2026-06-08T20:01:18",
+  "pobrano_czytelnie": "8 June 2026, godz. 20:01",
   "szkoly": [
     {
       "id": "8",
@@ -19,25 +19,25 @@
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1b AKADEMICKA matematyczno-fizyczna",
           "miejsca": 28,
           "chetni_ogolem": 325,
-          "chetni_ogolem_oczekujacy": 18,
+          "chetni_ogolem_oczekujacy": 20,
           "chetni_pierwsza_pref": 36,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 11.61
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1c POLITECHNICZNA matematyczno-fizyczna",
           "miejsca": 56,
           "chetni_ogolem": 372,
-          "chetni_ogolem_oczekujacy": 18,
+          "chetni_ogolem_oczekujacy": 21,
           "chetni_pierwsza_pref": 65,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 6.64
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1d EKONOMICZNA matematyczno-geograficzna",
           "miejsca": 28,
           "chetni_ogolem": 399,
-          "chetni_ogolem_oczekujacy": 33,
+          "chetni_ogolem_oczekujacy": 35,
           "chetni_pierwsza_pref": 43,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 14.25
@@ -46,9 +46,9 @@
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1e MEDYCZNA biologiczno-chemiczna",
           "miejsca": 28,
           "chetni_ogolem": 479,
-          "chetni_ogolem_oczekujacy": 33,
+          "chetni_ogolem_oczekujacy": 35,
           "chetni_pierwsza_pref": 83,
-          "chetni_pierwsza_pref_oczekujacy": 1,
+          "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 17.11
         },
         {
@@ -57,7 +57,7 @@
           "chetni_ogolem": 1215,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 279,
-          "chetni_pierwsza_pref_oczekujacy": 10,
+          "chetni_pierwsza_pref_oczekujacy": 13,
           "wskaznik": 7.23
         }
       ]
@@ -70,7 +70,7 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1A POLITECHNICZNA",
           "miejsca": 28,
           "chetni_ogolem": 456,
-          "chetni_ogolem_oczekujacy": 31,
+          "chetni_ogolem_oczekujacy": 34,
           "chetni_pierwsza_pref": 32,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 16.29
@@ -79,7 +79,7 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1Bh HUMANISTYCZNA",
           "miejsca": 14,
           "chetni_ogolem": 462,
-          "chetni_ogolem_oczekujacy": 47,
+          "chetni_ogolem_oczekujacy": 49,
           "chetni_pierwsza_pref": 17,
           "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 33.0
@@ -97,7 +97,7 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1C MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 594,
-          "chetni_ogolem_oczekujacy": 39,
+          "chetni_ogolem_oczekujacy": 40,
           "chetni_pierwsza_pref": 44,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 21.21
@@ -106,7 +106,7 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1D PRZYRODNICZA",
           "miejsca": 28,
           "chetni_ogolem": 474,
-          "chetni_ogolem_oczekujacy": 36,
+          "chetni_ogolem_oczekujacy": 38,
           "chetni_pierwsza_pref": 30,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 16.93
@@ -115,7 +115,7 @@
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1E MENEDŻERSKA",
           "miejsca": 28,
           "chetni_ogolem": 543,
-          "chetni_ogolem_oczekujacy": 32,
+          "chetni_ogolem_oczekujacy": 34,
           "chetni_pierwsza_pref": 23,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 19.39
@@ -235,7 +235,7 @@
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1A1 Ratownictwa Medycznego (biol-chem-ang)",
           "miejsca": 14,
           "chetni_ogolem": 193,
-          "chetni_ogolem_oczekujacy": 30,
+          "chetni_ogolem_oczekujacy": 32,
           "chetni_pierwsza_pref": 8,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 13.79
@@ -244,7 +244,7 @@
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1A2 Celno-administracyjna (biol-chem-ang)",
           "miejsca": 14,
           "chetni_ogolem": 159,
-          "chetni_ogolem_oczekujacy": 20,
+          "chetni_ogolem_oczekujacy": 21,
           "chetni_pierwsza_pref": 13,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 11.36
@@ -262,7 +262,7 @@
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1B2 Bezpieczeństwa infrastruktury krytycznej",
           "miejsca": 13,
           "chetni_ogolem": 89,
-          "chetni_ogolem_oczekujacy": 10,
+          "chetni_ogolem_oczekujacy": 11,
           "chetni_pierwsza_pref": 9,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 6.85
@@ -325,7 +325,7 @@
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1F2 Zarządzania komunikacją społ. (BiZ-geo-ang)",
           "miejsca": 13,
           "chetni_ogolem": 87,
-          "chetni_ogolem_oczekujacy": 11,
+          "chetni_ogolem_oczekujacy": 12,
           "chetni_pierwsza_pref": 2,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 6.69
@@ -349,7 +349,7 @@
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1A biologiczno-chemiczna",
           "miejsca": 28,
           "chetni_ogolem": 453,
-          "chetni_ogolem_oczekujacy": 27,
+          "chetni_ogolem_oczekujacy": 28,
           "chetni_pierwsza_pref": 49,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 16.18
@@ -358,7 +358,7 @@
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1B matematyczno-fizyczno-informatyczna",
           "miejsca": 28,
           "chetni_ogolem": 297,
-          "chetni_ogolem_oczekujacy": 19,
+          "chetni_ogolem_oczekujacy": 21,
           "chetni_pierwsza_pref": 40,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 10.61
@@ -367,7 +367,7 @@
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1C matematyczno-biologiczna-z jęz. angielskim",
           "miejsca": 28,
           "chetni_ogolem": 372,
-          "chetni_ogolem_oczekujacy": 23,
+          "chetni_ogolem_oczekujacy": 24,
           "chetni_pierwsza_pref": 54,
           "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 13.29
@@ -409,7 +409,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1A KLASA HUMANISTYCZNO PRAWNA",
           "miejsca": 28,
           "chetni_ogolem": 490,
-          "chetni_ogolem_oczekujacy": 67,
+          "chetni_ogolem_oczekujacy": 70,
           "chetni_pierwsza_pref": 31,
           "chetni_pierwsza_pref_oczekujacy": 8,
           "wskaznik": 17.5
@@ -427,7 +427,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1C KLASA BIOLOGICZNO-CHEMICZNA",
           "miejsca": 28,
           "chetni_ogolem": 503,
-          "chetni_ogolem_oczekujacy": 57,
+          "chetni_ogolem_oczekujacy": 60,
           "chetni_pierwsza_pref": 22,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 17.96
@@ -445,7 +445,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1E KLASA RATOWNICTWA WODNEGO",
           "miejsca": 20,
           "chetni_ogolem": 89,
-          "chetni_ogolem_oczekujacy": 8,
+          "chetni_ogolem_oczekujacy": 9,
           "chetni_pierwsza_pref": 15,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 4.45
@@ -454,7 +454,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1F KLASA LINGWISTYCZNO-PSYCHOLOGICZNA",
           "miejsca": 28,
           "chetni_ogolem": 449,
-          "chetni_ogolem_oczekujacy": 73,
+          "chetni_ogolem_oczekujacy": 75,
           "chetni_pierwsza_pref": 32,
           "chetni_pierwsza_pref_oczekujacy": 11,
           "wskaznik": 16.04
@@ -478,7 +478,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1A matematyczno-fizyczna",
           "miejsca": 28,
           "chetni_ogolem": 387,
-          "chetni_ogolem_oczekujacy": 27,
+          "chetni_ogolem_oczekujacy": 30,
           "chetni_pierwsza_pref": 3,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 13.82
@@ -496,16 +496,16 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1C matematyczno-biologiczna",
           "miejsca": 28,
           "chetni_ogolem": 388,
-          "chetni_ogolem_oczekujacy": 34,
+          "chetni_ogolem_oczekujacy": 37,
           "chetni_pierwsza_pref": 8,
-          "chetni_pierwsza_pref_oczekujacy": 0,
+          "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 13.86
         },
         {
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1D biologiczno-chemiczna",
           "miejsca": 28,
           "chetni_ogolem": 519,
-          "chetni_ogolem_oczekujacy": 55,
+          "chetni_ogolem_oczekujacy": 56,
           "chetni_pierwsza_pref": 23,
           "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 18.54
@@ -514,7 +514,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1E medialno-lingwistyczna z wos",
           "miejsca": 28,
           "chetni_ogolem": 502,
-          "chetni_ogolem_oczekujacy": 71,
+          "chetni_ogolem_oczekujacy": 70,
           "chetni_pierwsza_pref": 16,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 17.93
@@ -523,7 +523,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1F matematyczno-geograficzna",
           "miejsca": 28,
           "chetni_ogolem": 559,
-          "chetni_ogolem_oczekujacy": 37,
+          "chetni_ogolem_oczekujacy": 40,
           "chetni_pierwsza_pref": 21,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 19.96
@@ -534,7 +534,7 @@
           "chetni_ogolem": 1601,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 94,
-          "chetni_pierwsza_pref_oczekujacy": 16,
+          "chetni_pierwsza_pref_oczekujacy": 17,
           "wskaznik": 9.53
         }
       ]
@@ -547,16 +547,16 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1a_gr1 lingwistyczny z j. angielskim i j. francuskim",
           "miejsca": 14,
           "chetni_ogolem": 337,
-          "chetni_ogolem_oczekujacy": 29,
+          "chetni_ogolem_oczekujacy": 30,
           "chetni_pierwsza_pref": 23,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 24.07
         },
         {
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1a_gr2 lingwistyczny z j. angielskim i j. niemieckim",
           "miejsca": 14,
           "chetni_ogolem": 279,
-          "chetni_ogolem_oczekujacy": 27,
+          "chetni_ogolem_oczekujacy": 28,
           "chetni_pierwsza_pref": 16,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 19.93
@@ -565,7 +565,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1b matematyczno-geograficzny z j.angielskim",
           "miejsca": 28,
           "chetni_ogolem": 662,
-          "chetni_ogolem_oczekujacy": 35,
+          "chetni_ogolem_oczekujacy": 40,
           "chetni_pierwsza_pref": 69,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 23.64
@@ -574,7 +574,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1c biologiczno-chemiczny",
           "miejsca": 28,
           "chetni_ogolem": 674,
-          "chetni_ogolem_oczekujacy": 46,
+          "chetni_ogolem_oczekujacy": 48,
           "chetni_pierwsza_pref": 90,
           "chetni_pierwsza_pref_oczekujacy": 9,
           "wskaznik": 24.07
@@ -583,7 +583,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1d matematyczno-informatyczny z j.angielskim",
           "miejsca": 28,
           "chetni_ogolem": 403,
-          "chetni_ogolem_oczekujacy": 31,
+          "chetni_ogolem_oczekujacy": 33,
           "chetni_pierwsza_pref": 26,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 14.39
@@ -592,7 +592,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1e matematyczno-fizyczny",
           "miejsca": 28,
           "chetni_ogolem": 485,
-          "chetni_ogolem_oczekujacy": 30,
+          "chetni_ogolem_oczekujacy": 32,
           "chetni_pierwsza_pref": 52,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 17.32
@@ -603,7 +603,7 @@
           "chetni_ogolem": 1701,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 276,
-          "chetni_pierwsza_pref_oczekujacy": 24,
+          "chetni_pierwsza_pref_oczekujacy": 26,
           "wskaznik": 12.15
         }
       ]
@@ -616,7 +616,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1A BIZNESOWA",
           "miejsca": 28,
           "chetni_ogolem": 758,
-          "chetni_ogolem_oczekujacy": 53,
+          "chetni_ogolem_oczekujacy": 58,
           "chetni_pierwsza_pref": 64,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 27.07
@@ -625,7 +625,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1B HUMANISTYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 659,
-          "chetni_ogolem_oczekujacy": 71,
+          "chetni_ogolem_oczekujacy": 73,
           "chetni_pierwsza_pref": 60,
           "chetni_pierwsza_pref_oczekujacy": 7,
           "wskaznik": 23.54
@@ -634,7 +634,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.1 FIZYCZNO-MATEMATYCZNA",
           "miejsca": 14,
           "chetni_ogolem": 510,
-          "chetni_ogolem_oczekujacy": 36,
+          "chetni_ogolem_oczekujacy": 37,
           "chetni_pierwsza_pref": 21,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 36.43
@@ -643,7 +643,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.2 INFORMATYCZNO-MATEMATYCZNO",
           "miejsca": 14,
           "chetni_ogolem": 401,
-          "chetni_ogolem_oczekujacy": 30,
+          "chetni_ogolem_oczekujacy": 33,
           "chetni_pierwsza_pref": 16,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 28.64
@@ -652,7 +652,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1D BIOTECHNOLOGICZNA",
           "miejsca": 28,
           "chetni_ogolem": 647,
-          "chetni_ogolem_oczekujacy": 42,
+          "chetni_ogolem_oczekujacy": 44,
           "chetni_pierwsza_pref": 62,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 23.11
@@ -661,7 +661,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1E INFORMATYKA:MULTIMEDIA I AI",
           "miejsca": 28,
           "chetni_ogolem": 345,
-          "chetni_ogolem_oczekujacy": 34,
+          "chetni_ogolem_oczekujacy": 36,
           "chetni_pierwsza_pref": 28,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 12.32
@@ -670,7 +670,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1F MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 797,
-          "chetni_ogolem_oczekujacy": 62,
+          "chetni_ogolem_oczekujacy": 64,
           "chetni_pierwsza_pref": 75,
           "chetni_pierwsza_pref_oczekujacy": 10,
           "wskaznik": 28.46
@@ -703,7 +703,7 @@
           "nazwa": "X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1A-POLITECHNICZNA [D] fiz-inf-mat (ang-hisz*,niem*)",
           "miejsca": 28,
           "chetni_ogolem": 344,
-          "chetni_ogolem_oczekujacy": 4,
+          "chetni_ogolem_oczekujacy": 5,
           "chetni_pierwsza_pref": 27,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 12.29
@@ -739,7 +739,7 @@
           "nazwa": "X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1D-LING-SPOŁ_GR.HIS [D] hist-pol (ang-hisz,niem)",
           "miejsca": 14,
           "chetni_ogolem": 256,
-          "chetni_ogolem_oczekujacy": 9,
+          "chetni_ogolem_oczekujacy": 10,
           "chetni_pierwsza_pref": 19,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 18.29
@@ -748,7 +748,7 @@
           "nazwa": "X Liceum Ogólnokształcące Dwujęzyczne, Gdańsk - 1D-LING-SPOŁ_GR.WOS [D] pol-wos (ang-hisz,niem)",
           "miejsca": 14,
           "chetni_ogolem": 294,
-          "chetni_ogolem_oczekujacy": 12,
+          "chetni_ogolem_oczekujacy": 13,
           "chetni_pierwsza_pref": 23,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 21.0
@@ -832,7 +832,7 @@
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1A [O] hist-ang-pol (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 383,
-          "chetni_ogolem_oczekujacy": 61,
+          "chetni_ogolem_oczekujacy": 63,
           "chetni_pierwsza_pref": 19,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 14.73
@@ -841,7 +841,7 @@
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1B [O] geogr-ang-mat (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 382,
-          "chetni_ogolem_oczekujacy": 38,
+          "chetni_ogolem_oczekujacy": 41,
           "chetni_pierwsza_pref": 10,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 14.69
@@ -850,9 +850,9 @@
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1C [O] biol-ang-wos (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 380,
-          "chetni_ogolem_oczekujacy": 69,
+          "chetni_ogolem_oczekujacy": 72,
           "chetni_pierwsza_pref": 18,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 14.62
         },
         {
@@ -861,7 +861,7 @@
           "chetni_ogolem": 847,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 47,
-          "chetni_pierwsza_pref_oczekujacy": 9,
+          "chetni_pierwsza_pref_oczekujacy": 10,
           "wskaznik": 10.86
         }
       ]
@@ -883,25 +883,25 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1a matematyczno-informatyczno-językowa",
           "miejsca": 28,
           "chetni_ogolem": 435,
-          "chetni_ogolem_oczekujacy": 32,
+          "chetni_ogolem_oczekujacy": 35,
           "chetni_pierwsza_pref": 13,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 15.54
         },
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1b humanistyczna z edukacją filmową",
           "miejsca": 28,
           "chetni_ogolem": 481,
-          "chetni_ogolem_oczekujacy": 53,
+          "chetni_ogolem_oczekujacy": 57,
           "chetni_pierwsza_pref": 30,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 17.18
         },
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1c Psychologiczno-społeczna",
           "miejsca": 28,
           "chetni_ogolem": 664,
-          "chetni_ogolem_oczekujacy": 73,
+          "chetni_ogolem_oczekujacy": 77,
           "chetni_pierwsza_pref": 49,
           "chetni_pierwsza_pref_oczekujacy": 11,
           "wskaznik": 23.71
@@ -910,16 +910,16 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1d Geograficzno-matematyczna z turystyką regionu",
           "miejsca": 28,
           "chetni_ogolem": 586,
-          "chetni_ogolem_oczekujacy": 37,
+          "chetni_ogolem_oczekujacy": 43,
           "chetni_pierwsza_pref": 30,
-          "chetni_pierwsza_pref_oczekujacy": 8,
+          "chetni_pierwsza_pref_oczekujacy": 11,
           "wskaznik": 20.93
         },
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1e Europejska",
           "miejsca": 28,
           "chetni_ogolem": 595,
-          "chetni_ogolem_oczekujacy": 43,
+          "chetni_ogolem_oczekujacy": 48,
           "chetni_pierwsza_pref": 35,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 21.25
@@ -928,7 +928,7 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1f Biologiczno-chemiczna z zaj. laboratoryjnymi",
           "miejsca": 28,
           "chetni_ogolem": 669,
-          "chetni_ogolem_oczekujacy": 57,
+          "chetni_ogolem_oczekujacy": 60,
           "chetni_pierwsza_pref": 34,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 23.89
@@ -939,7 +939,7 @@
           "chetni_ogolem": 2021,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 239,
-          "chetni_pierwsza_pref_oczekujacy": 30,
+          "chetni_pierwsza_pref_oczekujacy": 35,
           "wskaznik": 10.11
         }
       ]
@@ -952,7 +952,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1A ekonomiczny",
           "miejsca": 28,
           "chetni_ogolem": 637,
-          "chetni_ogolem_oczekujacy": 49,
+          "chetni_ogolem_oczekujacy": 56,
           "chetni_pierwsza_pref": 27,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 22.75
@@ -979,7 +979,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1C społeczno-prawny",
           "miejsca": 28,
           "chetni_ogolem": 597,
-          "chetni_ogolem_oczekujacy": 67,
+          "chetni_ogolem_oczekujacy": 69,
           "chetni_pierwsza_pref": 54,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 21.32
@@ -988,7 +988,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1D biomedyczny",
           "miejsca": 28,
           "chetni_ogolem": 731,
-          "chetni_ogolem_oczekujacy": 58,
+          "chetni_ogolem_oczekujacy": 61,
           "chetni_pierwsza_pref": 51,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 26.11
@@ -997,16 +997,16 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1Emb interdyscyplinarny grupa mat-biol",
           "miejsca": 15,
           "chetni_ogolem": 511,
-          "chetni_ogolem_oczekujacy": 37,
+          "chetni_ogolem_oczekujacy": 39,
           "chetni_pierwsza_pref": 31,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 34.07
         },
         {
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1Emf interdyscyplinarny grupa mat-fiz",
           "miejsca": 13,
           "chetni_ogolem": 403,
-          "chetni_ogolem_oczekujacy": 24,
+          "chetni_ogolem_oczekujacy": 27,
           "chetni_pierwsza_pref": 16,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 31.0
@@ -1017,7 +1017,7 @@
           "chetni_ogolem": 1990,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 256,
-          "chetni_pierwsza_pref_oczekujacy": 16,
+          "chetni_pierwsza_pref_oczekujacy": 17,
           "wskaznik": 14.21
         }
       ]
@@ -1030,7 +1030,7 @@
           "nazwa": "XXIV Liceum Ogólnokształcące, Gdańsk - 1aBCh [O] biol-chem (ang-niem,fra)",
           "miejsca": 14,
           "chetni_ogolem": 257,
-          "chetni_ogolem_oczekujacy": 30,
+          "chetni_ogolem_oczekujacy": 31,
           "chetni_pierwsza_pref": 13,
           "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 18.36
@@ -1039,7 +1039,7 @@
           "nazwa": "XXIV Liceum Ogólnokształcące, Gdańsk - 1aMG [O] geogr-mat (ang-niem,fra)",
           "miejsca": 15,
           "chetni_ogolem": 239,
-          "chetni_ogolem_oczekujacy": 25,
+          "chetni_ogolem_oczekujacy": 26,
           "chetni_pierwsza_pref": 15,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 15.93
@@ -1168,7 +1168,7 @@
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1C [O] matematyczno-geograficzna",
           "miejsca": 26,
           "chetni_ogolem": 212,
-          "chetni_ogolem_oczekujacy": 19,
+          "chetni_ogolem_oczekujacy": 22,
           "chetni_pierwsza_pref": 4,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 8.15
@@ -1177,7 +1177,7 @@
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1D ID Humanistyczna",
           "miejsca": 26,
           "chetni_ogolem": 234,
-          "chetni_ogolem_oczekujacy": 41,
+          "chetni_ogolem_oczekujacy": 42,
           "chetni_pierwsza_pref": 11,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 9.0
@@ -1201,7 +1201,7 @@
           "nazwa": "XXIII Liceum Ogólnokształcące, Gdańsk - 1A humanistyczna",
           "miejsca": 26,
           "chetni_ogolem": 170,
-          "chetni_ogolem_oczekujacy": 41,
+          "chetni_ogolem_oczekujacy": 45,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 7,
           "wskaznik": 6.54
@@ -1210,7 +1210,7 @@
           "nazwa": "XXIII Liceum Ogólnokształcące, Gdańsk - 1Bi humanistyczna",
           "miejsca": 5,
           "chetni_ogolem": 8,
-          "chetni_ogolem_oczekujacy": 10,
+          "chetni_ogolem_oczekujacy": 11,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 1.6
@@ -1219,7 +1219,7 @@
           "nazwa": "XXIII Liceum Ogólnokształcące, Gdańsk - 1Bii humanistyczna",
           "miejsca": 15,
           "chetni_ogolem": 75,
-          "chetni_ogolem_oczekujacy": 18,
+          "chetni_ogolem_oczekujacy": 19,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 5.0
@@ -1228,7 +1228,7 @@
           "nazwa": "XXIII Liceum Ogólnokształcące, Gdańsk - 1Ci przyrodnicza",
           "miejsca": 15,
           "chetni_ogolem": 127,
-          "chetni_ogolem_oczekujacy": 27,
+          "chetni_ogolem_oczekujacy": 29,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 8.47
@@ -1237,7 +1237,7 @@
           "nazwa": "XXIII Liceum Ogólnokształcące, Gdańsk - 1iC klasa przyrodnicza",
           "miejsca": 5,
           "chetni_ogolem": 6,
-          "chetni_ogolem_oczekujacy": 10,
+          "chetni_ogolem_oczekujacy": 11,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 1.2
@@ -1261,16 +1261,16 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1A [O] mat-inf-fiz (ang-hisz,niem*)",
           "miejsca": 28,
           "chetni_ogolem": 384,
-          "chetni_ogolem_oczekujacy": 16,
+          "chetni_ogolem_oczekujacy": 21,
           "chetni_pierwsza_pref": 48,
-          "chetni_pierwsza_pref_oczekujacy": 0,
+          "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 13.71
         },
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Bb [O] biol-chem-ang (ang-fra,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 517,
-          "chetni_ogolem_oczekujacy": 26,
+          "chetni_ogolem_oczekujacy": 28,
           "chetni_pierwsza_pref": 62,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 36.93
@@ -1288,7 +1288,7 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Cb [O] biol-ang-pol (ang-fra,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 390,
-          "chetni_ogolem_oczekujacy": 29,
+          "chetni_ogolem_oczekujacy": 30,
           "chetni_pierwsza_pref": 57,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 27.86
@@ -1297,16 +1297,16 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Ch [O] hist-ang-pol (ang-fra,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 337,
-          "chetni_ogolem_oczekujacy": 27,
+          "chetni_ogolem_oczekujacy": 28,
           "chetni_pierwsza_pref": 32,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 24.07
         },
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Db [O] mat-biz-ang (ang-hisz,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 488,
-          "chetni_ogolem_oczekujacy": 17,
+          "chetni_ogolem_oczekujacy": 20,
           "chetni_pierwsza_pref": 29,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 34.86
@@ -1326,7 +1326,7 @@
           "chetni_ogolem": 1508,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 322,
-          "chetni_pierwsza_pref_oczekujacy": 13,
+          "chetni_pierwsza_pref_oczekujacy": 16,
           "wskaznik": 13.46
         }
       ]
@@ -1339,16 +1339,16 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1A [O] mat-inf-fiz (ang-hisz,niem*)",
           "miejsca": 28,
           "chetni_ogolem": 384,
-          "chetni_ogolem_oczekujacy": 16,
+          "chetni_ogolem_oczekujacy": 21,
           "chetni_pierwsza_pref": 48,
-          "chetni_pierwsza_pref_oczekujacy": 0,
+          "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 13.71
         },
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Bb [O] biol-chem-ang (ang-fra,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 517,
-          "chetni_ogolem_oczekujacy": 26,
+          "chetni_ogolem_oczekujacy": 28,
           "chetni_pierwsza_pref": 62,
           "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 36.93
@@ -1366,7 +1366,7 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Cb [O] biol-ang-pol (ang-fra,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 390,
-          "chetni_ogolem_oczekujacy": 29,
+          "chetni_ogolem_oczekujacy": 30,
           "chetni_pierwsza_pref": 57,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 27.86
@@ -1375,16 +1375,16 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Ch [O] hist-ang-pol (ang-fra,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 337,
-          "chetni_ogolem_oczekujacy": 27,
+          "chetni_ogolem_oczekujacy": 28,
           "chetni_pierwsza_pref": 32,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 24.07
         },
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Db [O] mat-biz-ang (ang-hisz,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 488,
-          "chetni_ogolem_oczekujacy": 17,
+          "chetni_ogolem_oczekujacy": 20,
           "chetni_pierwsza_pref": 29,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 34.86
@@ -1404,7 +1404,7 @@
           "chetni_ogolem": 1508,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 322,
-          "chetni_pierwsza_pref_oczekujacy": 13,
+          "chetni_pierwsza_pref_oczekujacy": 16,
           "wskaznik": 13.46
         }
       ]
@@ -1426,7 +1426,7 @@
           "nazwa": "Akademickie Liceum Ogólnokształcące \"Lingwista\" im. Hymnu Narodowego - 1b humanistyczna (historia, j. polski lub wos)",
           "miejsca": 14,
           "chetni_ogolem": 30,
-          "chetni_ogolem_oczekujacy": 10,
+          "chetni_ogolem_oczekujacy": 12,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 2.14
@@ -1435,7 +1435,7 @@
           "nazwa": "Akademickie Liceum Ogólnokształcące \"Lingwista\" im. Hymnu Narodowego - 1c medyczna (biol.-chem.)",
           "miejsca": 15,
           "chetni_ogolem": 29,
-          "chetni_ogolem_oczekujacy": 10,
+          "chetni_ogolem_oczekujacy": 12,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 1.93
@@ -1453,7 +1453,7 @@
           "nazwa": "Akademickie Liceum Ogólnokształcące \"Lingwista\" im. Hymnu Narodowego - 1e biologiczno-humanistyczna (biol. - pol.)",
           "miejsca": 15,
           "chetni_ogolem": 20,
-          "chetni_ogolem_oczekujacy": 8,
+          "chetni_ogolem_oczekujacy": 9,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 1.33
