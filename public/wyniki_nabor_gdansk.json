@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-12T00:31:15",
-  "pobrano_czytelnie": "12 June 2026, godz. 00:31",
+  "pobrano": "2026-06-12T01:01:13",
+  "pobrano_czytelnie": "12 June 2026, godz. 01:01",
   "szkoly": [
     {
       "id": "8",
@@ -325,7 +325,7 @@
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1F2 Zarządzania komunikacją społ. (BiZ-geo-ang)",
           "miejsca": 13,
           "chetni_ogolem": 105,
-          "chetni_ogolem_oczekujacy": 11,
+          "chetni_ogolem_oczekujacy": 12,
           "chetni_pierwsza_pref": 2,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 8.08
@@ -487,7 +487,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1B prawno-dyplomatyczna z historią",
           "miejsca": 28,
           "chetni_ogolem": 540,
-          "chetni_ogolem_oczekujacy": 46,
+          "chetni_ogolem_oczekujacy": 47,
           "chetni_pierwsza_pref": 33,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 19.29
@@ -514,7 +514,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1E medialno-lingwistyczna z wos",
           "miejsca": 28,
           "chetni_ogolem": 606,
-          "chetni_ogolem_oczekujacy": 49,
+          "chetni_ogolem_oczekujacy": 50,
           "chetni_pierwsza_pref": 23,
           "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 21.64
@@ -1039,7 +1039,7 @@
           "nazwa": "XXIV Liceum Ogólnokształcące, Gdańsk - 1aMG [O] geogr-mat (ang-niem,fra)",
           "miejsca": 15,
           "chetni_ogolem": 288,
-          "chetni_ogolem_oczekujacy": 18,
+          "chetni_ogolem_oczekujacy": 19,
           "chetni_pierwsza_pref": 18,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 19.2
@@ -1177,7 +1177,7 @@
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1D ID Humanistyczna",
           "miejsca": 26,
           "chetni_ogolem": 287,
-          "chetni_ogolem_oczekujacy": 27,
+          "chetni_ogolem_oczekujacy": 28,
           "chetni_pierwsza_pref": 16,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 11.04
@@ -1201,7 +1201,7 @@
           "nazwa": "XXIII Liceum Ogólnokształcące, Gdańsk - 1A humanistyczna",
           "miejsca": 26,
           "chetni_ogolem": 217,
-          "chetni_ogolem_oczekujacy": 41,
+          "chetni_ogolem_oczekujacy": 42,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 9,
           "wskaznik": 8.35
@@ -1219,7 +1219,7 @@
           "nazwa": "XXIII Liceum Ogólnokształcące, Gdańsk - 1Bii humanistyczna",
           "miejsca": 15,
           "chetni_ogolem": 93,
-          "chetni_ogolem_oczekujacy": 18,
+          "chetni_ogolem_oczekujacy": 19,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 6.2
