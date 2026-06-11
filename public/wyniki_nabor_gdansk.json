@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-12T01:01:13",
-  "pobrano_czytelnie": "12 June 2026, godz. 01:01",
+  "pobrano": "2026-06-12T01:31:27",
+  "pobrano_czytelnie": "12 June 2026, godz. 01:31",
   "szkoly": [
     {
       "id": "8",
@@ -10,9 +10,9 @@
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1a MEDIALNO-PRAWNICZA",
           "miejsca": 28,
           "chetni_ogolem": 399,
-          "chetni_ogolem_oczekujacy": 27,
+          "chetni_ogolem_oczekujacy": 28,
           "chetni_pierwsza_pref": 55,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 14.25
         },
         {
@@ -57,7 +57,7 @@
           "chetni_ogolem": 1358,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 303,
-          "chetni_pierwsza_pref_oczekujacy": 11,
+          "chetni_pierwsza_pref_oczekujacy": 12,
           "wskaznik": 8.08
         }
       ]
@@ -454,7 +454,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1F KLASA LINGWISTYCZNO-PSYCHOLOGICZNA",
           "miejsca": 28,
           "chetni_ogolem": 542,
-          "chetni_ogolem_oczekujacy": 47,
+          "chetni_ogolem_oczekujacy": 48,
           "chetni_pierwsza_pref": 39,
           "chetni_pierwsza_pref_oczekujacy": 14,
           "wskaznik": 19.36
@@ -547,7 +547,7 @@
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1a_gr1 lingwistyczny z j. angielskim i j. francuskim",
           "miejsca": 14,
           "chetni_ogolem": 382,
-          "chetni_ogolem_oczekujacy": 26,
+          "chetni_ogolem_oczekujacy": 27,
           "chetni_pierwsza_pref": 27,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 27.29
@@ -661,7 +661,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1E INFORMATYKA:MULTIMEDIA I AI",
           "miejsca": 28,
           "chetni_ogolem": 417,
-          "chetni_ogolem_oczekujacy": 28,
+          "chetni_ogolem_oczekujacy": 29,
           "chetni_pierwsza_pref": 35,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 14.89
@@ -832,9 +832,9 @@
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1A [O] hist-ang-pol (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 479,
-          "chetni_ogolem_oczekujacy": 48,
+          "chetni_ogolem_oczekujacy": 47,
           "chetni_pierwsza_pref": 28,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 18.42
         },
         {
@@ -850,7 +850,7 @@
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1C [O] biol-ang-wos (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 481,
-          "chetni_ogolem_oczekujacy": 46,
+          "chetni_ogolem_oczekujacy": 45,
           "chetni_pierwsza_pref": 27,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 18.5
@@ -861,7 +861,7 @@
           "chetni_ogolem": 1027,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 68,
-          "chetni_pierwsza_pref_oczekujacy": 10,
+          "chetni_pierwsza_pref_oczekujacy": 9,
           "wskaznik": 13.17
         }
       ]
@@ -1297,7 +1297,7 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Ch [O] hist-ang-pol (ang-fra,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 381,
-          "chetni_ogolem_oczekujacy": 19,
+          "chetni_ogolem_oczekujacy": 18,
           "chetni_pierwsza_pref": 39,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 27.21
@@ -1375,7 +1375,7 @@
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Ch [O] hist-ang-pol (ang-fra,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 381,
-          "chetni_ogolem_oczekujacy": 19,
+          "chetni_ogolem_oczekujacy": 18,
           "chetni_pierwsza_pref": 39,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 27.21
