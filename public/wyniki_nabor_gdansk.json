@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-11T06:31:16",
-  "pobrano_czytelnie": "11 June 2026, godz. 06:31",
+  "pobrano": "2026-06-11T07:01:16",
+  "pobrano_czytelnie": "11 June 2026, godz. 07:01",
   "szkoly": [
     {
       "id": "8",
@@ -445,7 +445,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1E KLASA RATOWNICTWA WODNEGO",
           "miejsca": 20,
           "chetni_ogolem": 93,
-          "chetni_ogolem_oczekujacy": 5,
+          "chetni_ogolem_oczekujacy": 4,
           "chetni_pierwsza_pref": 16,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 4.65
@@ -831,38 +831,38 @@
         {
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1A [O] hist-ang-pol (ang-niem)",
           "miejsca": 26,
-          "chetni_ogolem": 441,
-          "chetni_ogolem_oczekujacy": 63,
+          "chetni_ogolem": 442,
+          "chetni_ogolem_oczekujacy": 62,
           "chetni_pierwsza_pref": 23,
           "chetni_pierwsza_pref_oczekujacy": 7,
-          "wskaznik": 16.96
+          "wskaznik": 17.0
         },
         {
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1B [O] geogr-ang-mat (ang-niem)",
           "miejsca": 26,
-          "chetni_ogolem": 422,
-          "chetni_ogolem_oczekujacy": 48,
+          "chetni_ogolem": 423,
+          "chetni_ogolem_oczekujacy": 47,
           "chetni_pierwsza_pref": 12,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 16.23
+          "wskaznik": 16.27
         },
         {
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1C [O] biol-ang-wos (ang-niem)",
           "miejsca": 26,
-          "chetni_ogolem": 438,
-          "chetni_ogolem_oczekujacy": 71,
+          "chetni_ogolem": 439,
+          "chetni_ogolem_oczekujacy": 70,
           "chetni_pierwsza_pref": 24,
           "chetni_pierwsza_pref_oczekujacy": 5,
-          "wskaznik": 16.85
+          "wskaznik": 16.88
         },
         {
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 78,
-          "chetni_ogolem": 950,
+          "chetni_ogolem": 951,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 59,
           "chetni_pierwsza_pref_oczekujacy": 13,
-          "wskaznik": 12.18
+          "wskaznik": 12.19
         }
       ]
     },
@@ -918,11 +918,11 @@
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1e Europejska",
           "miejsca": 28,
-          "chetni_ogolem": 659,
-          "chetni_ogolem_oczekujacy": 49,
+          "chetni_ogolem": 660,
+          "chetni_ogolem_oczekujacy": 48,
           "chetni_pierwsza_pref": 37,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 23.54
+          "wskaznik": 23.57
         },
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1f Biologiczno-chemiczna z zaj. laboratoryjnymi",
@@ -936,7 +936,7 @@
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk  - RAZEM",
           "miejsca": 200,
-          "chetni_ogolem": 2237,
+          "chetni_ogolem": 2238,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 278,
           "chetni_pierwsza_pref_oczekujacy": 20,
@@ -1158,38 +1158,38 @@
         {
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1B [O] biologiczno-chemiczna",
           "miejsca": 26,
-          "chetni_ogolem": 262,
-          "chetni_ogolem_oczekujacy": 30,
-          "chetni_pierwsza_pref": 11,
-          "chetni_pierwsza_pref_oczekujacy": 6,
-          "wskaznik": 10.08
+          "chetni_ogolem": 263,
+          "chetni_ogolem_oczekujacy": 29,
+          "chetni_pierwsza_pref": 12,
+          "chetni_pierwsza_pref_oczekujacy": 5,
+          "wskaznik": 10.12
         },
         {
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1C [O] matematyczno-geograficzna",
           "miejsca": 26,
-          "chetni_ogolem": 237,
-          "chetni_ogolem_oczekujacy": 24,
+          "chetni_ogolem": 238,
+          "chetni_ogolem_oczekujacy": 23,
           "chetni_pierwsza_pref": 4,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 9.12
+          "wskaznik": 9.15
         },
         {
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1D ID Humanistyczna",
           "miejsca": 26,
-          "chetni_ogolem": 266,
-          "chetni_ogolem_oczekujacy": 40,
+          "chetni_ogolem": 267,
+          "chetni_ogolem_oczekujacy": 39,
           "chetni_pierwsza_pref": 13,
           "chetni_pierwsza_pref_oczekujacy": 5,
-          "wskaznik": 10.23
+          "wskaznik": 10.27
         },
         {
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk  - RAZEM",
           "miejsca": 98,
-          "chetni_ogolem": 702,
+          "chetni_ogolem": 703,
           "chetni_ogolem_oczekujacy": 0,
-          "chetni_pierwsza_pref": 79,
-          "chetni_pierwsza_pref_oczekujacy": 15,
-          "wskaznik": 7.16
+          "chetni_pierwsza_pref": 80,
+          "chetni_pierwsza_pref_oczekujacy": 14,
+          "wskaznik": 7.17
         }
       ]
     },
