@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-12T06:31:13",
-  "pobrano_czytelnie": "12 June 2026, godz. 06:31",
+  "pobrano": "2026-06-12T07:01:14",
+  "pobrano_czytelnie": "12 June 2026, godz. 07:01",
   "szkoly": [
     {
       "id": "8",
@@ -375,11 +375,11 @@
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1D-fiz dwujęzyczna matematyczno-fizyczna",
           "miejsca": 14,
-          "chetni_ogolem": 195,
-          "chetni_ogolem_oczekujacy": 2,
+          "chetni_ogolem": 196,
+          "chetni_ogolem_oczekujacy": 1,
           "chetni_pierwsza_pref": 28,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 13.93
+          "wskaznik": 14.0
         },
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1D-geo dwujęzyczna matematyczno-geograficzna",
@@ -393,11 +393,11 @@
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 112,
-          "chetni_ogolem": 1036,
+          "chetni_ogolem": 1037,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 223,
           "chetni_pierwsza_pref_oczekujacy": 8,
-          "wskaznik": 9.25
+          "wskaznik": 9.26
         }
       ]
     },
@@ -408,11 +408,11 @@
         {
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1A KLASA HUMANISTYCZNO PRAWNA",
           "miejsca": 28,
-          "chetni_ogolem": 584,
-          "chetni_ogolem_oczekujacy": 53,
+          "chetni_ogolem": 585,
+          "chetni_ogolem_oczekujacy": 52,
           "chetni_pierwsza_pref": 38,
           "chetni_pierwsza_pref_oczekujacy": 6,
-          "wskaznik": 20.86
+          "wskaznik": 20.89
         },
         {
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1B KLASA DZIENNIKARSKO ARTYSTYCZNA",
@@ -462,11 +462,11 @@
         {
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 142,
-          "chetni_ogolem": 1400,
+          "chetni_ogolem": 1401,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 162,
           "chetni_pierwsza_pref_oczekujacy": 27,
-          "wskaznik": 9.86
+          "wskaznik": 9.87
         }
       ]
     },
@@ -522,20 +522,20 @@
         {
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1F matematyczno-geograficzna",
           "miejsca": 28,
-          "chetni_ogolem": 646,
-          "chetni_ogolem_oczekujacy": 38,
+          "chetni_ogolem": 647,
+          "chetni_ogolem_oczekujacy": 37,
           "chetni_pierwsza_pref": 26,
           "chetni_pierwsza_pref_oczekujacy": 2,
-          "wskaznik": 23.07
+          "wskaznik": 23.11
         },
         {
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 168,
-          "chetni_ogolem": 1884,
+          "chetni_ogolem": 1885,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 129,
           "chetni_pierwsza_pref_oczekujacy": 18,
-          "wskaznik": 11.21
+          "wskaznik": 11.22
         }
       ]
     },
@@ -546,11 +546,11 @@
         {
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1a_gr1 lingwistyczny z j. angielskim i j. francuskim",
           "miejsca": 14,
-          "chetni_ogolem": 382,
-          "chetni_ogolem_oczekujacy": 27,
+          "chetni_ogolem": 383,
+          "chetni_ogolem_oczekujacy": 26,
           "chetni_pierwsza_pref": 27,
           "chetni_pierwsza_pref_oczekujacy": 2,
-          "wskaznik": 27.29
+          "wskaznik": 27.36
         },
         {
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1a_gr2 lingwistyczny z j. angielskim i j. niemieckim",
@@ -564,11 +564,11 @@
         {
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1b matematyczno-geograficzny z j.angielskim",
           "miejsca": 28,
-          "chetni_ogolem": 733,
-          "chetni_ogolem_oczekujacy": 31,
+          "chetni_ogolem": 734,
+          "chetni_ogolem_oczekujacy": 30,
           "chetni_pierwsza_pref": 74,
           "chetni_pierwsza_pref_oczekujacy": 4,
-          "wskaznik": 26.18
+          "wskaznik": 26.21
         },
         {
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk - 1c biologiczno-chemiczny",
@@ -600,7 +600,7 @@
         {
           "nazwa": "VIII Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 140,
-          "chetni_ogolem": 1916,
+          "chetni_ogolem": 1917,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 307,
           "chetni_pierwsza_pref_oczekujacy": 22,
@@ -624,11 +624,11 @@
         {
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1B HUMANISTYCZNA",
           "miejsca": 28,
-          "chetni_ogolem": 779,
-          "chetni_ogolem_oczekujacy": 46,
+          "chetni_ogolem": 780,
+          "chetni_ogolem_oczekujacy": 45,
           "chetni_pierwsza_pref": 73,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 27.82
+          "wskaznik": 27.86
         },
         {
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.1 FIZYCZNO-MATEMATYCZNA",
@@ -687,11 +687,11 @@
         {
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 196,
-          "chetni_ogolem": 2666,
+          "chetni_ogolem": 2667,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 483,
           "chetni_pierwsza_pref_oczekujacy": 26,
-          "wskaznik": 13.6
+          "wskaznik": 13.61
         }
       ]
     },
@@ -1038,20 +1038,20 @@
         {
           "nazwa": "XXIV Liceum Ogólnokształcące, Gdańsk - 1aMG [O] geogr-mat (ang-niem,fra)",
           "miejsca": 15,
-          "chetni_ogolem": 288,
-          "chetni_ogolem_oczekujacy": 20,
+          "chetni_ogolem": 289,
+          "chetni_ogolem_oczekujacy": 19,
           "chetni_pierwsza_pref": 18,
           "chetni_pierwsza_pref_oczekujacy": 2,
-          "wskaznik": 19.2
+          "wskaznik": 19.27
         },
         {
           "nazwa": "XXIV Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 29,
-          "chetni_ogolem": 498,
+          "chetni_ogolem": 499,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 37,
           "chetni_pierwsza_pref_oczekujacy": 4,
-          "wskaznik": 17.17
+          "wskaznik": 17.21
         }
       ]
     },
