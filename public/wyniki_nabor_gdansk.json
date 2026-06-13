@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-13T09:01:18",
-  "pobrano_czytelnie": "13 June 2026, godz. 09:01",
+  "pobrano": "2026-06-13T09:31:11",
+  "pobrano_czytelnie": "13 June 2026, godz. 09:31",
   "szkoly": [
     {
       "id": "8",
@@ -307,7 +307,7 @@
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1E2_DZIEWCZĘTA DZIEWCZĘTA Mistrzostwa Sportowego (mat-ang)",
           "miejsca": 8,
           "chetni_ogolem": 44,
-          "chetni_ogolem_oczekujacy": 1,
+          "chetni_ogolem_oczekujacy": 2,
           "chetni_pierwsza_pref": 16,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 5.5
@@ -418,7 +418,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1B KLASA DZIENNIKARSKO ARTYSTYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 469,
-          "chetni_ogolem_oczekujacy": 15,
+          "chetni_ogolem_oczekujacy": 16,
           "chetni_pierwsza_pref": 41,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 16.75
@@ -454,9 +454,9 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1F KLASA LINGWISTYCZNO-PSYCHOLOGICZNA",
           "miejsca": 28,
           "chetni_ogolem": 579,
-          "chetni_ogolem_oczekujacy": 21,
+          "chetni_ogolem_oczekujacy": 22,
           "chetni_pierwsza_pref": 50,
-          "chetni_pierwsza_pref_oczekujacy": 5,
+          "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 20.68
         },
         {
@@ -465,7 +465,7 @@
           "chetni_ogolem": 1485,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 183,
-          "chetni_pierwsza_pref_oczekujacy": 11,
+          "chetni_pierwsza_pref_oczekujacy": 12,
           "wskaznik": 10.46
         }
       ]
