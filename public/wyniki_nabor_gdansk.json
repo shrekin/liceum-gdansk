@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-14T09:01:12",
-  "pobrano_czytelnie": "14 June 2026, godz. 09:01",
+  "pobrano": "2026-06-14T10:01:16",
+  "pobrano_czytelnie": "14 June 2026, godz. 10:01",
   "szkoly": [
     {
       "id": "8",
@@ -409,9 +409,9 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1A KLASA HUMANISTYCZNO PRAWNA",
           "miejsca": 28,
           "chetni_ogolem": 624,
-          "chetni_ogolem_oczekujacy": 18,
+          "chetni_ogolem_oczekujacy": 19,
           "chetni_pierwsza_pref": 43,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 22.29
         },
         {
@@ -465,7 +465,7 @@
           "chetni_ogolem": 1485,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 183,
-          "chetni_pierwsza_pref_oczekujacy": 11,
+          "chetni_pierwsza_pref_oczekujacy": 12,
           "wskaznik": 10.46
         }
       ]
