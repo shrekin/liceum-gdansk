@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-15T10:01:14",
-  "pobrano_czytelnie": "15 June 2026, godz. 10:01",
+  "pobrano": "2026-06-15T10:31:20",
+  "pobrano_czytelnie": "15 June 2026, godz. 10:31",
   "szkoly": [
     {
       "id": "8",
@@ -408,11 +408,11 @@
         {
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1A KLASA HUMANISTYCZNO PRAWNA",
           "miejsca": 28,
-          "chetni_ogolem": 628,
-          "chetni_ogolem_oczekujacy": 15,
+          "chetni_ogolem": 629,
+          "chetni_ogolem_oczekujacy": 14,
           "chetni_pierwsza_pref": 44,
           "chetni_pierwsza_pref_oczekujacy": 2,
-          "wskaznik": 22.43
+          "wskaznik": 22.46
         },
         {
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1B KLASA DZIENNIKARSKO ARTYSTYCZNA",
@@ -462,11 +462,11 @@
         {
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 142,
-          "chetni_ogolem": 1490,
+          "chetni_ogolem": 1491,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 186,
           "chetni_pierwsza_pref_oczekujacy": 8,
-          "wskaznik": 10.49
+          "wskaznik": 10.5
         }
       ]
     },
@@ -873,11 +873,11 @@
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 0h Klasa wstępna do klasy dwujęzycznej z j. hisz",
           "miejsca": 32,
-          "chetni_ogolem": 221,
-          "chetni_ogolem_oczekujacy": 2,
+          "chetni_ogolem": 222,
+          "chetni_ogolem_oczekujacy": 1,
           "chetni_pierwsza_pref": 48,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 6.91
+          "wskaznik": 6.94
         },
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1a matematyczno-informatyczno-językowa",
@@ -936,7 +936,7 @@
         {
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk  - RAZEM",
           "miejsca": 200,
-          "chetni_ogolem": 2473,
+          "chetni_ogolem": 2474,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 311,
           "chetni_pierwsza_pref_oczekujacy": 1,
@@ -1209,11 +1209,11 @@
         {
           "nazwa": "XXIII Liceum Ogólnokształcące, Gdańsk - 1Bi humanistyczna",
           "miejsca": 5,
-          "chetni_ogolem": 14,
-          "chetni_ogolem_oczekujacy": 12,
+          "chetni_ogolem": 15,
+          "chetni_ogolem_oczekujacy": 11,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 6,
-          "wskaznik": 2.8
+          "wskaznik": 3.0
         },
         {
           "nazwa": "XXIII Liceum Ogólnokształcące, Gdańsk - 1Bii humanistyczna",
@@ -1236,20 +1236,20 @@
         {
           "nazwa": "XXIII Liceum Ogólnokształcące, Gdańsk - 1iC klasa przyrodnicza",
           "miejsca": 5,
-          "chetni_ogolem": 15,
-          "chetni_ogolem_oczekujacy": 9,
-          "chetni_pierwsza_pref": 0,
-          "chetni_pierwsza_pref_oczekujacy": 4,
-          "wskaznik": 3.0
+          "chetni_ogolem": 16,
+          "chetni_ogolem_oczekujacy": 8,
+          "chetni_pierwsza_pref": 1,
+          "chetni_pierwsza_pref_oczekujacy": 3,
+          "wskaznik": 3.2
         },
         {
           "nazwa": "XXIII Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 66,
-          "chetni_ogolem": 371,
+          "chetni_ogolem": 372,
           "chetni_ogolem_oczekujacy": 0,
-          "chetni_pierwsza_pref": 0,
-          "chetni_pierwsza_pref_oczekujacy": 25,
-          "wskaznik": 5.62
+          "chetni_pierwsza_pref": 1,
+          "chetni_pierwsza_pref_oczekujacy": 24,
+          "wskaznik": 5.64
         }
       ]
     },
