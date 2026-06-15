@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-15T09:31:21",
-  "pobrano_czytelnie": "15 June 2026, godz. 09:31",
+  "pobrano": "2026-06-15T10:01:14",
+  "pobrano_czytelnie": "15 June 2026, godz. 10:01",
   "szkoly": [
     {
       "id": "8",
@@ -1504,7 +1504,7 @@
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02KK Klasa kryminalistyczna",
           "miejsca": 24,
           "chetni_ogolem": 86,
-          "chetni_ogolem_oczekujacy": 6,
+          "chetni_ogolem_oczekujacy": 7,
           "chetni_pierwsza_pref": 4,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 3.58
@@ -1513,7 +1513,7 @@
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02KP Klasa psychologiczna",
           "miejsca": 35,
           "chetni_ogolem": 97,
-          "chetni_ogolem_oczekujacy": 7,
+          "chetni_ogolem_oczekujacy": 8,
           "chetni_pierwsza_pref": 12,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 2.77
@@ -1540,7 +1540,7 @@
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 11PG Klasa projektowania graficznego",
           "miejsca": 24,
           "chetni_ogolem": 45,
-          "chetni_ogolem_oczekujacy": 0,
+          "chetni_ogolem_oczekujacy": 1,
           "chetni_pierwsza_pref": 4,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 1.88
