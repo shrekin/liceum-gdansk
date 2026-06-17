@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-17T21:31:15",
-  "pobrano_czytelnie": "17 June 2026, godz. 21:31",
+  "pobrano": "2026-06-17T22:31:14",
+  "pobrano_czytelnie": "17 June 2026, godz. 22:31",
   "szkoly": [
     {
       "id": "8",
@@ -1513,7 +1513,7 @@
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02KP Klasa psychologiczna",
           "miejsca": 35,
           "chetni_ogolem": 99,
-          "chetni_ogolem_oczekujacy": 6,
+          "chetni_ogolem_oczekujacy": 7,
           "chetni_pierwsza_pref": 12,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 2.83
@@ -1522,9 +1522,9 @@
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02TK Klasa kosmetologiczna",
           "miejsca": 35,
           "chetni_ogolem": 80,
-          "chetni_ogolem_oczekujacy": 3,
+          "chetni_ogolem_oczekujacy": 4,
           "chetni_pierwsza_pref": 18,
-          "chetni_pierwsza_pref_oczekujacy": 0,
+          "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 2.29
         },
         {
@@ -1587,7 +1587,7 @@
           "chetni_ogolem": 305,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 63,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 0.98
         }
       ]
