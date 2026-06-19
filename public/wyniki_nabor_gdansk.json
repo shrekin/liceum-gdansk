@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-19T10:31:17",
-  "pobrano_czytelnie": "19 June 2026, godz. 10:31",
+  "pobrano": "2026-06-19T11:01:18",
+  "pobrano_czytelnie": "19 June 2026, godz. 11:01",
   "szkoly": [
     {
       "id": "8",
@@ -669,11 +669,11 @@
         {
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1F MEDYCZNA",
           "miejsca": 28,
-          "chetni_ogolem": 946,
-          "chetni_ogolem_oczekujacy": 5,
+          "chetni_ogolem": 947,
+          "chetni_ogolem_oczekujacy": 4,
           "chetni_pierwsza_pref": 92,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 33.79
+          "wskaznik": 33.82
         },
         {
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1G JĘZYKOWA",
@@ -687,7 +687,7 @@
         {
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 196,
-          "chetni_ogolem": 2812,
+          "chetni_ogolem": 2813,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 504,
           "chetni_pierwsza_pref_oczekujacy": 6,
