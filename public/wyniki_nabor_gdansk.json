@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-22T17:01:15",
-  "pobrano_czytelnie": "22 June 2026, godz. 17:01",
+  "pobrano": "2026-06-22T17:31:15",
+  "pobrano_czytelnie": "22 June 2026, godz. 17:31",
   "szkoly": [
     {
       "id": "8",
@@ -39,14 +39,14 @@
           "chetni_ogolem": 478,
           "chetni_ogolem_oczekujacy": 2,
           "chetni_pierwsza_pref": 46,
-          "chetni_pierwsza_pref_oczekujacy": 1,
+          "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 17.07
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1e MEDYCZNA biologiczno-chemiczna",
           "miejsca": 28,
           "chetni_ogolem": 548,
-          "chetni_ogolem_oczekujacy": 7,
+          "chetni_ogolem_oczekujacy": 6,
           "chetni_pierwsza_pref": 90,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 19.57
@@ -57,7 +57,7 @@
           "chetni_ogolem": 1419,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 312,
-          "chetni_pierwsza_pref_oczekujacy": 5,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 8.45
         }
       ]
@@ -150,14 +150,14 @@
           "chetni_ogolem": 219,
           "chetni_ogolem_oczekujacy": 3,
           "chetni_pierwsza_pref": 12,
-          "chetni_pierwsza_pref_oczekujacy": 0,
+          "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 15.64
         },
         {
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B1-MEDYCZNA [D] biol-chem (ang-hisz*,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 320,
-          "chetni_ogolem_oczekujacy": 4,
+          "chetni_ogolem_oczekujacy": 3,
           "chetni_pierwsza_pref": 39,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 22.86
@@ -222,7 +222,7 @@
           "chetni_ogolem": 967,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 275,
-          "chetni_pierwsza_pref_oczekujacy": 4,
+          "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 5.76
         }
       ]
