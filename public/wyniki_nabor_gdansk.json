@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-22T08:01:17",
-  "pobrano_czytelnie": "22 June 2026, godz. 08:01",
+  "pobrano": "2026-06-22T08:31:18",
+  "pobrano_czytelnie": "22 June 2026, godz. 08:31",
   "szkoly": [
     {
       "id": "8",
@@ -780,20 +780,20 @@
         {
           "nazwa": "XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1A [S] ang (ang-ros*)",
           "miejsca": 25,
-          "chetni_ogolem": 127,
+          "chetni_ogolem": 126,
           "chetni_ogolem_oczekujacy": 3,
-          "chetni_pierwsza_pref": 21,
+          "chetni_pierwsza_pref": 20,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 5.08
+          "wskaznik": 5.04
         },
         {
           "nazwa": "XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1B [S] ang (ang-ros*)",
           "miejsca": 25,
-          "chetni_ogolem": 89,
+          "chetni_ogolem": 88,
           "chetni_ogolem_oczekujacy": 2,
-          "chetni_pierwsza_pref": 37,
+          "chetni_pierwsza_pref": 36,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 3.56
+          "wskaznik": 3.52
         },
         {
           "nazwa": "XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1C [S] ang (ang-ros*)",
@@ -807,20 +807,20 @@
         {
           "nazwa": "XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1M  [MS] ang (ang-ros*)",
           "miejsca": 25,
-          "chetni_ogolem": 55,
-          "chetni_ogolem_oczekujacy": 2,
+          "chetni_ogolem": 54,
+          "chetni_ogolem_oczekujacy": 3,
           "chetni_pierwsza_pref": 21,
-          "chetni_pierwsza_pref_oczekujacy": 2,
-          "wskaznik": 2.2
+          "chetni_pierwsza_pref_oczekujacy": 3,
+          "wskaznik": 2.16
         },
         {
           "nazwa": "XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk  - RAZEM",
           "miejsca": 100,
-          "chetni_ogolem": 245,
+          "chetni_ogolem": 242,
           "chetni_ogolem_oczekujacy": 0,
-          "chetni_pierwsza_pref": 136,
-          "chetni_pierwsza_pref_oczekujacy": 3,
-          "wskaznik": 2.45
+          "chetni_pierwsza_pref": 134,
+          "chetni_pierwsza_pref_oczekujacy": 4,
+          "wskaznik": 2.42
         }
       ]
     },
@@ -1149,11 +1149,11 @@
         {
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1A [S] piłka nożna Lechia",
           "miejsca": 20,
-          "chetni_ogolem": 98,
+          "chetni_ogolem": 97,
           "chetni_ogolem_oczekujacy": 5,
-          "chetni_pierwsza_pref": 52,
+          "chetni_pierwsza_pref": 51,
           "chetni_pierwsza_pref_oczekujacy": 4,
-          "wskaznik": 4.9
+          "wskaznik": 4.85
         },
         {
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1B [O] biologiczno-chemiczna",
@@ -1185,11 +1185,11 @@
         {
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk  - RAZEM",
           "miejsca": 98,
-          "chetni_ogolem": 801,
+          "chetni_ogolem": 800,
           "chetni_ogolem_oczekujacy": 0,
-          "chetni_pierwsza_pref": 93,
+          "chetni_pierwsza_pref": 92,
           "chetni_pierwsza_pref_oczekujacy": 6,
-          "wskaznik": 8.17
+          "wskaznik": 8.16
         }
       ]
     },
