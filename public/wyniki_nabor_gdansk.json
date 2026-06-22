@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-22T21:31:17",
-  "pobrano_czytelnie": "22 June 2026, godz. 21:31",
+  "pobrano": "2026-06-22T22:01:15",
+  "pobrano_czytelnie": "22 June 2026, godz. 22:01",
   "szkoly": [
     {
       "id": "8",
@@ -46,7 +46,7 @@
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1e MEDYCZNA biologiczno-chemiczna",
           "miejsca": 28,
           "chetni_ogolem": 548,
-          "chetni_ogolem_oczekujacy": 6,
+          "chetni_ogolem_oczekujacy": 7,
           "chetni_pierwsza_pref": 90,
           "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 19.57
@@ -157,7 +157,7 @@
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B1-MEDYCZNA [D] biol-chem (ang-hisz*,niem*)",
           "miejsca": 14,
           "chetni_ogolem": 320,
-          "chetni_ogolem_oczekujacy": 3,
+          "chetni_ogolem_oczekujacy": 4,
           "chetni_pierwsza_pref": 39,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 22.86
