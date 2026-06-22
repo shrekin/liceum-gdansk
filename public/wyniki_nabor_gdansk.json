@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-22T09:01:15",
-  "pobrano_czytelnie": "22 June 2026, godz. 09:01",
+  "pobrano": "2026-06-22T09:31:20",
+  "pobrano_czytelnie": "22 June 2026, godz. 09:31",
   "szkoly": [
     {
       "id": "8",
@@ -1305,11 +1305,11 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Db [O] mat-biz-ang (ang-hisz,niem*)",
           "miejsca": 14,
-          "chetni_ogolem": 562,
+          "chetni_ogolem": 561,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 37,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 40.14
+          "wskaznik": 40.07
         },
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Dd(dwujęzyczny) [D] geo-ang-mat (ang-,hisz,niem*)",
@@ -1323,7 +1323,7 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku  - RAZEM",
           "miejsca": 112,
-          "chetni_ogolem": 1732,
+          "chetni_ogolem": 1731,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 377,
           "chetni_pierwsza_pref_oczekujacy": 1,
@@ -1383,11 +1383,11 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Db [O] mat-biz-ang (ang-hisz,niem*)",
           "miejsca": 14,
-          "chetni_ogolem": 562,
+          "chetni_ogolem": 561,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 37,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 40.14
+          "wskaznik": 40.07
         },
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Dd(dwujęzyczny) [D] geo-ang-mat (ang-,hisz,niem*)",
@@ -1401,7 +1401,7 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku  - RAZEM",
           "miejsca": 112,
-          "chetni_ogolem": 1732,
+          "chetni_ogolem": 1731,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 377,
           "chetni_pierwsza_pref_oczekujacy": 1,
