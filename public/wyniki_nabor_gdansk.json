@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-23T13:01:20",
-  "pobrano_czytelnie": "23 June 2026, godz. 13:01",
+  "pobrano": "2026-06-23T13:31:16",
+  "pobrano_czytelnie": "23 June 2026, godz. 13:31",
   "szkoly": [
     {
       "id": "8",
@@ -45,20 +45,20 @@
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1e MEDYCZNA biologiczno-chemiczna",
           "miejsca": 28,
-          "chetni_ogolem": 548,
+          "chetni_ogolem": 547,
           "chetni_ogolem_oczekujacy": 7,
-          "chetni_pierwsza_pref": 90,
+          "chetni_pierwsza_pref": 89,
           "chetni_pierwsza_pref_oczekujacy": 2,
-          "wskaznik": 19.57
+          "wskaznik": 19.54
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 168,
-          "chetni_ogolem": 1424,
+          "chetni_ogolem": 1423,
           "chetni_ogolem_oczekujacy": 0,
-          "chetni_pierwsza_pref": 312,
+          "chetni_pierwsza_pref": 311,
           "chetni_pierwsza_pref_oczekujacy": 4,
-          "wskaznik": 8.48
+          "wskaznik": 8.47
         }
       ]
     },
@@ -96,11 +96,11 @@
         {
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1C MEDYCZNA",
           "miejsca": 28,
-          "chetni_ogolem": 688,
+          "chetni_ogolem": 687,
           "chetni_ogolem_oczekujacy": 10,
           "chetni_pierwsza_pref": 48,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 24.57
+          "wskaznik": 24.54
         },
         {
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1D PRZYRODNICZA",
@@ -123,11 +123,11 @@
         {
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 140,
-          "chetni_ogolem": 1957,
+          "chetni_ogolem": 1956,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 194,
           "chetni_pierwsza_pref_oczekujacy": 3,
-          "wskaznik": 13.98
+          "wskaznik": 13.97
         }
       ]
     },
