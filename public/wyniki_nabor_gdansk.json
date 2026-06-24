@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-24T22:31:12",
-  "pobrano_czytelnie": "24 June 2026, godz. 22:31",
+  "pobrano": "2026-06-24T23:01:15",
+  "pobrano_czytelnie": "24 June 2026, godz. 23:01",
   "szkoly": [
     {
       "id": "8",
@@ -420,7 +420,7 @@
           "chetni_ogolem": 476,
           "chetni_ogolem_oczekujacy": 10,
           "chetni_pierwsza_pref": 40,
-          "chetni_pierwsza_pref_oczekujacy": 2,
+          "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 17.0
         },
         {
@@ -465,7 +465,7 @@
           "chetni_ogolem": 1501,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 188,
-          "chetni_pierwsza_pref_oczekujacy": 9,
+          "chetni_pierwsza_pref_oczekujacy": 8,
           "wskaznik": 10.57
         }
       ]
@@ -961,9 +961,9 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1Bm artystyczny grupa muzyczna",
           "miejsca": 10,
           "chetni_ogolem": 115,
-          "chetni_ogolem_oczekujacy": 1,
+          "chetni_ogolem_oczekujacy": 2,
           "chetni_pierwsza_pref": 31,
-          "chetni_pierwsza_pref_oczekujacy": 0,
+          "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 11.5
         },
         {
@@ -1017,7 +1017,7 @@
           "chetni_ogolem": 2372,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 297,
-          "chetni_pierwsza_pref_oczekujacy": 5,
+          "chetni_pierwsza_pref_oczekujacy": 6,
           "wskaznik": 16.94
         }
       ]
