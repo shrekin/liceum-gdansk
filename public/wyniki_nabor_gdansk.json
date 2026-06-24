@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-24T15:01:17",
-  "pobrano_czytelnie": "24 June 2026, godz. 15:01",
+  "pobrano": "2026-06-24T16:01:15",
+  "pobrano_czytelnie": "24 June 2026, godz. 16:01",
   "szkoly": [
     {
       "id": "8",
@@ -792,7 +792,7 @@
           "chetni_ogolem": 86,
           "chetni_ogolem_oczekujacy": 3,
           "chetni_pierwsza_pref": 34,
-          "chetni_pierwsza_pref_oczekujacy": 1,
+          "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 3.44
         },
         {
@@ -819,7 +819,7 @@
           "chetni_ogolem": 243,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 136,
-          "chetni_pierwsza_pref_oczekujacy": 4,
+          "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 2.43
         }
       ]
