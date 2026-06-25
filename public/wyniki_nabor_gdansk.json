@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-25T22:01:16",
-  "pobrano_czytelnie": "25 June 2026, godz. 22:01",
+  "pobrano": "2026-06-25T22:31:19",
+  "pobrano_czytelnie": "25 June 2026, godz. 22:31",
   "szkoly": [
     {
       "id": "8",
@@ -385,7 +385,7 @@
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1D-geo dwujęzyczna matematyczno-geograficzna",
           "miejsca": 14,
           "chetni_ogolem": 244,
-          "chetni_ogolem_oczekujacy": 3,
+          "chetni_ogolem_oczekujacy": 4,
           "chetni_pierwsza_pref": 30,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 17.43
