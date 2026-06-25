@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-25T15:01:16",
-  "pobrano_czytelnie": "25 June 2026, godz. 15:01",
+  "pobrano": "2026-06-25T15:31:15",
+  "pobrano_czytelnie": "25 June 2026, godz. 15:31",
   "szkoly": [
     {
       "id": "8",
@@ -670,7 +670,7 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1F MEDYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 940,
-          "chetni_ogolem_oczekujacy": 7,
+          "chetni_ogolem_oczekujacy": 8,
           "chetni_pierwsza_pref": 91,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 33.57
@@ -961,9 +961,9 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1Bm artystyczny grupa muzyczna",
           "miejsca": 10,
           "chetni_ogolem": 116,
-          "chetni_ogolem_oczekujacy": 0,
+          "chetni_ogolem_oczekujacy": 1,
           "chetni_pierwsza_pref": 32,
-          "chetni_pierwsza_pref_oczekujacy": 0,
+          "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 11.6
         },
         {
@@ -988,7 +988,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1D biomedyczny",
           "miejsca": 28,
           "chetni_ogolem": 866,
-          "chetni_ogolem_oczekujacy": 7,
+          "chetni_ogolem_oczekujacy": 8,
           "chetni_pierwsza_pref": 59,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 30.93
@@ -1017,7 +1017,7 @@
           "chetni_ogolem": 2372,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 299,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 16.94
         }
       ]
