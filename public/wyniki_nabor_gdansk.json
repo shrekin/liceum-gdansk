@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-25T23:01:17",
-  "pobrano_czytelnie": "25 June 2026, godz. 23:01",
+  "pobrano": "2026-06-25T23:31:19",
+  "pobrano_czytelnie": "25 June 2026, godz. 23:31",
   "szkoly": [
     {
       "id": "8",
@@ -1090,7 +1090,7 @@
           "nazwa": "XX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1C-biol dwujęzyczna dwuprofilowa mat-biol",
           "miejsca": 14,
           "chetni_ogolem": 294,
-          "chetni_ogolem_oczekujacy": 6,
+          "chetni_ogolem_oczekujacy": 7,
           "chetni_pierwsza_pref": 17,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 21.0
