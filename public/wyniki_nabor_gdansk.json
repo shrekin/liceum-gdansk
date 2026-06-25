@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-25T14:01:19",
-  "pobrano_czytelnie": "25 June 2026, godz. 14:01",
+  "pobrano": "2026-06-25T14:31:14",
+  "pobrano_czytelnie": "25 June 2026, godz. 14:31",
   "szkoly": [
     {
       "id": "8",
@@ -261,11 +261,11 @@
         {
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1B2 Bezpieczeństwa infrastruktury krytycznej",
           "miejsca": 13,
-          "chetni_ogolem": 117,
+          "chetni_ogolem": 116,
           "chetni_ogolem_oczekujacy": 2,
           "chetni_pierwsza_pref": 12,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 9.0
+          "wskaznik": 8.92
         },
         {
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1C Wojskowa (geo-ang)",
@@ -315,11 +315,11 @@
         {
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1F1 Straży Granicznej (BiZ-geo-ang)",
           "miejsca": 15,
-          "chetni_ogolem": 178,
+          "chetni_ogolem": 177,
           "chetni_ogolem_oczekujacy": 3,
-          "chetni_pierwsza_pref": 31,
+          "chetni_pierwsza_pref": 30,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 11.87
+          "wskaznik": 11.8
         },
         {
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1F2 Zarządzania komunikacją społ. (BiZ-geo-ang)",
@@ -333,9 +333,9 @@
         {
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk  - RAZEM",
           "miejsca": 158,
-          "chetni_ogolem": 857,
+          "chetni_ogolem": 856,
           "chetni_ogolem_oczekujacy": 0,
-          "chetni_pierwsza_pref": 171,
+          "chetni_pierwsza_pref": 170,
           "chetni_pierwsza_pref_oczekujacy": 10,
           "wskaznik": 5.42
         }
@@ -486,11 +486,11 @@
         {
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1B prawno-dyplomatyczna z historią",
           "miejsca": 28,
-          "chetni_ogolem": 589,
+          "chetni_ogolem": 588,
           "chetni_ogolem_oczekujacy": 7,
           "chetni_pierwsza_pref": 34,
           "chetni_pierwsza_pref_oczekujacy": 3,
-          "wskaznik": 21.04
+          "wskaznik": 21.0
         },
         {
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1C matematyczno-biologiczna",
@@ -513,11 +513,11 @@
         {
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1E medialno-lingwistyczna z wos",
           "miejsca": 28,
-          "chetni_ogolem": 658,
+          "chetni_ogolem": 657,
           "chetni_ogolem_oczekujacy": 6,
           "chetni_pierwsza_pref": 30,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 23.5
+          "wskaznik": 23.46
         },
         {
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1F matematyczno-geograficzna",
@@ -531,11 +531,11 @@
         {
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 168,
-          "chetni_ogolem": 2006,
+          "chetni_ogolem": 2005,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 150,
           "chetni_pierwsza_pref_oczekujacy": 5,
-          "wskaznik": 11.94
+          "wskaznik": 11.93
         }
       ]
     },
@@ -1159,9 +1159,9 @@
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1A [S] piłka nożna Lechia",
           "miejsca": 20,
           "chetni_ogolem": 96,
-          "chetni_ogolem_oczekujacy": 5,
+          "chetni_ogolem_oczekujacy": 6,
           "chetni_pierwsza_pref": 51,
-          "chetni_pierwsza_pref_oczekujacy": 4,
+          "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 4.8
         },
         {
@@ -1185,20 +1185,20 @@
         {
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1D ID Humanistyczna",
           "miejsca": 26,
-          "chetni_ogolem": 314,
+          "chetni_ogolem": 313,
           "chetni_ogolem_oczekujacy": 6,
           "chetni_pierwsza_pref": 20,
           "chetni_pierwsza_pref_oczekujacy": 2,
-          "wskaznik": 12.08
+          "wskaznik": 12.04
         },
         {
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk  - RAZEM",
           "miejsca": 98,
-          "chetni_ogolem": 798,
+          "chetni_ogolem": 797,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 92,
-          "chetni_pierwsza_pref_oczekujacy": 6,
-          "wskaznik": 8.14
+          "chetni_pierwsza_pref_oczekujacy": 7,
+          "wskaznik": 8.13
         }
       ]
     },
