@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-29T15:31:14",
-  "pobrano_czytelnie": "29 June 2026, godz. 15:31",
+  "pobrano": "2026-06-29T16:01:11",
+  "pobrano_czytelnie": "29 June 2026, godz. 16:01",
   "szkoly": [
     {
       "id": "8",
@@ -147,11 +147,11 @@
         {
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1A2-EKONOMICZNA [D] biz-mat (ang-niem*,hisz*,fra)",
           "miejsca": 14,
-          "chetni_ogolem": 218,
+          "chetni_ogolem": 217,
           "chetni_ogolem_oczekujacy": 6,
           "chetni_pierwsza_pref": 11,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 15.57
+          "wskaznik": 15.5
         },
         {
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B1-MEDYCZNA [D] biol-chem (ang-hisz*,niem*)",
@@ -219,11 +219,11 @@
         {
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk  - RAZEM",
           "miejsca": 168,
-          "chetni_ogolem": 967,
+          "chetni_ogolem": 966,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 272,
           "chetni_pierwsza_pref_oczekujacy": 6,
-          "wskaznik": 5.76
+          "wskaznik": 5.75
         }
       ]
     },
@@ -1314,11 +1314,11 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Db [O] mat-biz-ang (ang-hisz,niem*)",
           "miejsca": 14,
-          "chetni_ogolem": 558,
+          "chetni_ogolem": 557,
           "chetni_ogolem_oczekujacy": 5,
           "chetni_pierwsza_pref": 36,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 39.86
+          "wskaznik": 39.79
         },
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Dd(dwujęzyczny) [D] geo-ang-mat (ang-,hisz,niem*)",
@@ -1332,7 +1332,7 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku  - RAZEM",
           "miejsca": 112,
-          "chetni_ogolem": 1723,
+          "chetni_ogolem": 1722,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 375,
           "chetni_pierwsza_pref_oczekujacy": 1,
@@ -1392,11 +1392,11 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Db [O] mat-biz-ang (ang-hisz,niem*)",
           "miejsca": 14,
-          "chetni_ogolem": 558,
+          "chetni_ogolem": 557,
           "chetni_ogolem_oczekujacy": 5,
           "chetni_pierwsza_pref": 36,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 39.86
+          "wskaznik": 39.79
         },
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Dd(dwujęzyczny) [D] geo-ang-mat (ang-,hisz,niem*)",
@@ -1410,7 +1410,7 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku  - RAZEM",
           "miejsca": 112,
-          "chetni_ogolem": 1723,
+          "chetni_ogolem": 1722,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 375,
           "chetni_pierwsza_pref_oczekujacy": 1,
