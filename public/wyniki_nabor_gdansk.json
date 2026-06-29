@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-29T13:01:17",
-  "pobrano_czytelnie": "29 June 2026, godz. 13:01",
+  "pobrano": "2026-06-29T13:31:17",
+  "pobrano_czytelnie": "29 June 2026, godz. 13:31",
   "szkoly": [
     {
       "id": "8",
@@ -418,7 +418,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1B KLASA DZIENNIKARSKO ARTYSTYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 480,
-          "chetni_ogolem_oczekujacy": 7,
+          "chetni_ogolem_oczekujacy": 6,
           "chetni_pierwsza_pref": 41,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 17.14
@@ -679,9 +679,9 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1G JĘZYKOWA",
           "miejsca": 28,
           "chetni_ogolem": 684,
-          "chetni_ogolem_oczekujacy": 9,
+          "chetni_ogolem_oczekujacy": 8,
           "chetni_pierwsza_pref": 98,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 2,
           "wskaznik": 24.43
         },
         {
@@ -690,7 +690,7 @@
           "chetni_ogolem": 2811,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 502,
-          "chetni_pierwsza_pref_oczekujacy": 6,
+          "chetni_pierwsza_pref_oczekujacy": 5,
           "wskaznik": 14.34
         }
       ]
@@ -874,7 +874,7 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 0h Klasa wstępna do klasy dwujęzycznej z j. hisz",
           "miejsca": 32,
           "chetni_ogolem": 223,
-          "chetni_ogolem_oczekujacy": 4,
+          "chetni_ogolem_oczekujacy": 3,
           "chetni_pierwsza_pref": 48,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 6.97
