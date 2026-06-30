@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-06-30T12:01:15",
-  "pobrano_czytelnie": "30 June 2026, godz. 12:01",
+  "pobrano": "2026-06-30T12:31:13",
+  "pobrano_czytelnie": "30 June 2026, godz. 12:31",
   "szkoly": [
     {
       "id": "8",
@@ -235,9 +235,9 @@
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1A1 Ratownictwa Medycznego (biol-chem-ang)",
           "miejsca": 14,
           "chetni_ogolem": 242,
-          "chetni_ogolem_oczekujacy": 6,
+          "chetni_ogolem_oczekujacy": 7,
           "chetni_pierwsza_pref": 10,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 17.29
         },
         {
@@ -336,7 +336,7 @@
           "chetni_ogolem": 860,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 173,
-          "chetni_pierwsza_pref_oczekujacy": 9,
+          "chetni_pierwsza_pref_oczekujacy": 10,
           "wskaznik": 5.44
         }
       ]
