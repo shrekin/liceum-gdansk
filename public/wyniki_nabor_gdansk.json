@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-07-03T21:31:18",
-  "pobrano_czytelnie": "3 July 2026, godz. 21:31",
+  "pobrano": "2026-07-03T22:01:14",
+  "pobrano_czytelnie": "3 July 2026, godz. 22:01",
   "szkoly": [
     {
       "id": "8",
@@ -418,9 +418,9 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1B KLASA DZIENNIKARSKO ARTYSTYCZNA",
           "miejsca": 28,
           "chetni_ogolem": 470,
-          "chetni_ogolem_oczekujacy": 6,
+          "chetni_ogolem_oczekujacy": 7,
           "chetni_pierwsza_pref": 39,
-          "chetni_pierwsza_pref_oczekujacy": 0,
+          "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 16.79
         },
         {
@@ -465,7 +465,7 @@
           "chetni_ogolem": 1484,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 186,
-          "chetni_pierwsza_pref_oczekujacy": 11,
+          "chetni_pierwsza_pref_oczekujacy": 12,
           "wskaznik": 10.45
         }
       ]
@@ -514,7 +514,7 @@
           "nazwa": "VII Liceum Ogólnokształcące, Gdańsk - 1E medialno-lingwistyczna z wos",
           "miejsca": 28,
           "chetni_ogolem": 646,
-          "chetni_ogolem_oczekujacy": 9,
+          "chetni_ogolem_oczekujacy": 10,
           "chetni_pierwsza_pref": 29,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 23.07
@@ -841,7 +841,7 @@
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1B [O] geogr-ang-mat (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 483,
-          "chetni_ogolem_oczekujacy": 17,
+          "chetni_ogolem_oczekujacy": 18,
           "chetni_pierwsza_pref": 18,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 18.58
@@ -850,7 +850,7 @@
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1C [O] biol-ang-wos (ang-niem)",
           "miejsca": 26,
           "chetni_ogolem": 514,
-          "chetni_ogolem_oczekujacy": 18,
+          "chetni_ogolem_oczekujacy": 19,
           "chetni_pierwsza_pref": 30,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 19.77
@@ -910,7 +910,7 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1d Geograficzno-matematyczna z turystyką regionu",
           "miejsca": 28,
           "chetni_ogolem": 698,
-          "chetni_ogolem_oczekujacy": 14,
+          "chetni_ogolem_oczekujacy": 15,
           "chetni_pierwsza_pref": 46,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 24.93
@@ -919,7 +919,7 @@
           "nazwa": "XV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1e Europejska",
           "miejsca": 28,
           "chetni_ogolem": 713,
-          "chetni_ogolem_oczekujacy": 12,
+          "chetni_ogolem_oczekujacy": 13,
           "chetni_pierwsza_pref": 42,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 25.46
@@ -952,7 +952,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1A ekonomiczny",
           "miejsca": 28,
           "chetni_ogolem": 766,
-          "chetni_ogolem_oczekujacy": 21,
+          "chetni_ogolem_oczekujacy": 22,
           "chetni_pierwsza_pref": 41,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 27.36
@@ -997,7 +997,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1Emb interdyscyplinarny grupa mat-biol",
           "miejsca": 15,
           "chetni_ogolem": 597,
-          "chetni_ogolem_oczekujacy": 16,
+          "chetni_ogolem_oczekujacy": 17,
           "chetni_pierwsza_pref": 38,
           "chetni_pierwsza_pref_oczekujacy": 3,
           "wskaznik": 39.8
@@ -1168,7 +1168,7 @@
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1B [O] biologiczno-chemiczna",
           "miejsca": 26,
           "chetni_ogolem": 295,
-          "chetni_ogolem_oczekujacy": 8,
+          "chetni_ogolem_oczekujacy": 9,
           "chetni_pierwsza_pref": 18,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 11.35
@@ -1177,7 +1177,7 @@
           "nazwa": "XXI Liceum Ogólnokształcące z Oddziałami Sportowymi, Gdańsk - 1C [O] matematyczno-geograficzna",
           "miejsca": 26,
           "chetni_ogolem": 275,
-          "chetni_ogolem_oczekujacy": 4,
+          "chetni_ogolem_oczekujacy": 5,
           "chetni_pierwsza_pref": 4,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 10.58
