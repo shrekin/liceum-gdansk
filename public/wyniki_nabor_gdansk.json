@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-07-05T23:31:13",
-  "pobrano_czytelnie": "5 July 2026, godz. 23:31",
+  "pobrano": "2026-07-06T00:01:14",
+  "pobrano_czytelnie": "6 July 2026, godz. 00:01",
   "szkoly": [
     {
       "id": "8",
@@ -634,16 +634,16 @@
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.1 FIZYCZNO-MATEMATYCZNA",
           "miejsca": 14,
           "chetni_ogolem": 606,
-          "chetni_ogolem_oczekujacy": 26,
+          "chetni_ogolem_oczekujacy": 27,
           "chetni_pierwsza_pref": 28,
-          "chetni_pierwsza_pref_oczekujacy": 3,
+          "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 43.29
         },
         {
           "nazwa": "IX Liceum Ogólnokształcące, Gdańsk - 1C_gr.2 INFORMATYCZNO-MATEMATYCZNO",
           "miejsca": 14,
           "chetni_ogolem": 470,
-          "chetni_ogolem_oczekujacy": 23,
+          "chetni_ogolem_oczekujacy": 24,
           "chetni_pierwsza_pref": 20,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 33.57
@@ -690,7 +690,7 @@
           "chetni_ogolem": 2745,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 483,
-          "chetni_pierwsza_pref_oczekujacy": 15,
+          "chetni_pierwsza_pref_oczekujacy": 16,
           "wskaznik": 14.01
         }
       ]
