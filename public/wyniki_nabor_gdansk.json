@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-07-07T18:31:16",
-  "pobrano_czytelnie": "7 July 2026, godz. 18:31",
+  "pobrano": "2026-07-07T19:01:17",
+  "pobrano_czytelnie": "7 July 2026, godz. 19:01",
   "szkoly": [
     {
       "id": "8",
@@ -952,7 +952,7 @@
           "nazwa": "XIX Liceum Ogólnokształcące, Gdańsk - 1A ekonomiczny",
           "miejsca": 28,
           "chetni_ogolem": 790,
-          "chetni_ogolem_oczekujacy": 7,
+          "chetni_ogolem_oczekujacy": 8,
           "chetni_pierwsza_pref": 41,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 28.21
