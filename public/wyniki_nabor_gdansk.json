@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-07-09T18:01:19",
-  "pobrano_czytelnie": "9 July 2026, godz. 18:01",
+  "pobrano": "2026-07-09T19:31:17",
+  "pobrano_czytelnie": "9 July 2026, godz. 19:31",
   "szkoly": [
     {
       "id": "8",
@@ -45,16 +45,16 @@
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1e MEDYCZNA biologiczno-chemiczna",
           "miejsca": 28,
-          "chetni_ogolem": 555,
-          "chetni_ogolem_oczekujacy": 6,
+          "chetni_ogolem": 556,
+          "chetni_ogolem_oczekujacy": 5,
           "chetni_pierwsza_pref": 84,
           "chetni_pierwsza_pref_oczekujacy": 3,
-          "wskaznik": 19.82
+          "wskaznik": 19.86
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 168,
-          "chetni_ogolem": 1431,
+          "chetni_ogolem": 1432,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 300,
           "chetni_pierwsza_pref_oczekujacy": 4,
@@ -156,20 +156,20 @@
         {
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B1-MEDYCZNA [D] biol-chem (ang-hisz*,niem*)",
           "miejsca": 14,
-          "chetni_ogolem": 317,
-          "chetni_ogolem_oczekujacy": 2,
+          "chetni_ogolem": 318,
+          "chetni_ogolem_oczekujacy": 1,
           "chetni_pierwsza_pref": 37,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 22.64
+          "wskaznik": 22.71
         },
         {
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1B2-MEDYCZNA [D] biol-mat (ang-hisz*,niem*)",
           "miejsca": 14,
-          "chetni_ogolem": 293,
-          "chetni_ogolem_oczekujacy": 2,
+          "chetni_ogolem": 294,
+          "chetni_ogolem_oczekujacy": 1,
           "chetni_pierwsza_pref": 39,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 20.93
+          "wskaznik": 21.0
         },
         {
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk - 1C1-PRAWNO-DYPLOMAT [D] hist-pol (ang-niem*,hisz*,fra)",
@@ -219,7 +219,7 @@
         {
           "nazwa": "III Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi, Gdańsk  - RAZEM",
           "miejsca": 168,
-          "chetni_ogolem": 954,
+          "chetni_ogolem": 955,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 270,
           "chetni_pierwsza_pref_oczekujacy": 2,
@@ -348,11 +348,11 @@
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1A biologiczno-chemiczna",
           "miejsca": 28,
-          "chetni_ogolem": 531,
-          "chetni_ogolem_oczekujacy": 8,
+          "chetni_ogolem": 532,
+          "chetni_ogolem_oczekujacy": 7,
           "chetni_pierwsza_pref": 66,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 18.96
+          "wskaznik": 19.0
         },
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1B matematyczno-fizyczno-informatyczna",
@@ -393,11 +393,11 @@
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 112,
-          "chetni_ogolem": 1081,
+          "chetni_ogolem": 1082,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 239,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 9.65
+          "wskaznik": 9.66
         }
       ]
     },
