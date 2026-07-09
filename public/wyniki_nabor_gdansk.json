@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-07-09T08:31:18",
-  "pobrano_czytelnie": "9 July 2026, godz. 08:31",
+  "pobrano": "2026-07-09T09:01:22",
+  "pobrano_czytelnie": "9 July 2026, godz. 09:01",
   "szkoly": [
     {
       "id": "8",
@@ -270,11 +270,11 @@
         {
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1C Wojskowa (geo-ang)",
           "miejsca": 28,
-          "chetni_ogolem": 195,
+          "chetni_ogolem": 194,
           "chetni_ogolem_oczekujacy": 5,
           "chetni_pierwsza_pref": 29,
           "chetni_pierwsza_pref_oczekujacy": 3,
-          "wskaznik": 6.96
+          "wskaznik": 6.93
         },
         {
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1D1 Medialna (wos-pol-ang)",
@@ -333,11 +333,11 @@
         {
           "nazwa": "IV Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk  - RAZEM",
           "miejsca": 158,
-          "chetni_ogolem": 886,
+          "chetni_ogolem": 885,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 177,
           "chetni_pierwsza_pref_oczekujacy": 9,
-          "wskaznik": 5.61
+          "wskaznik": 5.6
         }
       ]
     },
@@ -1485,20 +1485,20 @@
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 01KF Klasa filmowa",
           "miejsca": 24,
-          "chetni_ogolem": 49,
-          "chetni_ogolem_oczekujacy": 2,
+          "chetni_ogolem": 50,
+          "chetni_ogolem_oczekujacy": 1,
           "chetni_pierwsza_pref": 0,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 2.04
+          "wskaznik": 2.08
         },
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 01MR Klasa medyczno-ratownicza",
           "miejsca": 24,
-          "chetni_ogolem": 70,
-          "chetni_ogolem_oczekujacy": 2,
+          "chetni_ogolem": 71,
+          "chetni_ogolem_oczekujacy": 1,
           "chetni_pierwsza_pref": 5,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 2.92
+          "wskaznik": 2.96
         },
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 01PR Klasa prawnicza",
@@ -1512,11 +1512,11 @@
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02KK Klasa kryminalistyczna",
           "miejsca": 24,
-          "chetni_ogolem": 99,
-          "chetni_ogolem_oczekujacy": 1,
+          "chetni_ogolem": 100,
+          "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 8,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 4.12
+          "wskaznik": 4.17
         },
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 02KP Klasa psychologiczna",
@@ -1584,20 +1584,20 @@
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku - 1SiW Klasa stylizacja i wizerunek",
           "miejsca": 24,
-          "chetni_ogolem": 55,
-          "chetni_ogolem_oczekujacy": 3,
+          "chetni_ogolem": 56,
+          "chetni_ogolem_oczekujacy": 2,
           "chetni_pierwsza_pref": 5,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 2.29
+          "wskaznik": 2.33
         },
         {
           "nazwa": "Liceum Ogólnokształcące TEB Edukacja w Gdańsku  - RAZEM",
           "miejsca": 310,
-          "chetni_ogolem": 327,
+          "chetni_ogolem": 328,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 78,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 1.05
+          "wskaznik": 1.06
         }
       ]
     },
