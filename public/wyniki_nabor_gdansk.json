@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-07-09T14:31:18",
-  "pobrano_czytelnie": "9 July 2026, godz. 14:31",
+  "pobrano": "2026-07-09T15:31:15",
+  "pobrano_czytelnie": "9 July 2026, godz. 15:31",
   "szkoly": [
     {
       "id": "8",
@@ -417,11 +417,11 @@
         {
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1B KLASA DZIENNIKARSKO ARTYSTYCZNA",
           "miejsca": 28,
-          "chetni_ogolem": 495,
-          "chetni_ogolem_oczekujacy": 3,
+          "chetni_ogolem": 496,
+          "chetni_ogolem_oczekujacy": 2,
           "chetni_pierwsza_pref": 41,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 17.68
+          "wskaznik": 17.71
         },
         {
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1C KLASA BIOLOGICZNO-CHEMICZNA",
@@ -462,11 +462,11 @@
         {
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 142,
-          "chetni_ogolem": 1548,
+          "chetni_ogolem": 1549,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 198,
           "chetni_pierwsza_pref_oczekujacy": 6,
-          "wskaznik": 10.9
+          "wskaznik": 10.91
         }
       ]
     },
@@ -789,11 +789,11 @@
         {
           "nazwa": "XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1B [S] ang (ang-ros*)",
           "miejsca": 25,
-          "chetni_ogolem": 82,
-          "chetni_ogolem_oczekujacy": 2,
+          "chetni_ogolem": 83,
+          "chetni_ogolem_oczekujacy": 1,
           "chetni_pierwsza_pref": 32,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 3.28
+          "wskaznik": 3.32
         },
         {
           "nazwa": "XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk - 1C [S] ang (ang-ros*)",
@@ -816,11 +816,11 @@
         {
           "nazwa": "XII  Sportowe Liceum Ogólnokształcące z Oddziałami Mistrzostwa Sportowego, Gdańsk  - RAZEM",
           "miejsca": 100,
-          "chetni_ogolem": 237,
+          "chetni_ogolem": 238,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 133,
           "chetni_pierwsza_pref_oczekujacy": 3,
-          "wskaznik": 2.37
+          "wskaznik": 2.38
         }
       ]
     },
@@ -831,11 +831,11 @@
         {
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1A [O] hist-ang-pol (ang-niem)",
           "miejsca": 26,
-          "chetni_ogolem": 545,
-          "chetni_ogolem_oczekujacy": 3,
+          "chetni_ogolem": 546,
+          "chetni_ogolem_oczekujacy": 2,
           "chetni_pierwsza_pref": 33,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 20.96
+          "wskaznik": 21.0
         },
         {
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk - 1B [O] geogr-ang-mat (ang-niem)",
@@ -858,11 +858,11 @@
         {
           "nazwa": "XIV Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 78,
-          "chetni_ogolem": 1144,
+          "chetni_ogolem": 1145,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 82,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 14.67
+          "wskaznik": 14.68
         }
       ]
     },
