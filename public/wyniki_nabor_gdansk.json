@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-07-09T16:31:14",
-  "pobrano_czytelnie": "9 July 2026, godz. 16:31",
+  "pobrano": "2026-07-09T17:31:17",
+  "pobrano_czytelnie": "9 July 2026, godz. 17:31",
   "szkoly": [
     {
       "id": "8",
@@ -45,20 +45,20 @@
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk - 1e MEDYCZNA biologiczno-chemiczna",
           "miejsca": 28,
-          "chetni_ogolem": 554,
-          "chetni_ogolem_oczekujacy": 7,
+          "chetni_ogolem": 555,
+          "chetni_ogolem_oczekujacy": 6,
           "chetni_pierwsza_pref": 84,
           "chetni_pierwsza_pref_oczekujacy": 3,
-          "wskaznik": 19.79
+          "wskaznik": 19.82
         },
         {
           "nazwa": "I Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 168,
-          "chetni_ogolem": 1430,
+          "chetni_ogolem": 1431,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 300,
           "chetni_pierwsza_pref_oczekujacy": 4,
-          "wskaznik": 8.51
+          "wskaznik": 8.52
         }
       ]
     },
@@ -96,11 +96,11 @@
         {
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1C MEDYCZNA",
           "miejsca": 28,
-          "chetni_ogolem": 697,
-          "chetni_ogolem_oczekujacy": 7,
+          "chetni_ogolem": 698,
+          "chetni_ogolem_oczekujacy": 6,
           "chetni_pierwsza_pref": 44,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 24.89
+          "wskaznik": 24.93
         },
         {
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk - 1D PRZYRODNICZA",
@@ -123,11 +123,11 @@
         {
           "nazwa": "II Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 140,
-          "chetni_ogolem": 1974,
+          "chetni_ogolem": 1975,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 197,
           "chetni_pierwsza_pref_oczekujacy": 1,
-          "wskaznik": 14.1
+          "wskaznik": 14.11
         }
       ]
     },
@@ -348,11 +348,11 @@
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1A biologiczno-chemiczna",
           "miejsca": 28,
-          "chetni_ogolem": 530,
-          "chetni_ogolem_oczekujacy": 9,
+          "chetni_ogolem": 531,
+          "chetni_ogolem_oczekujacy": 8,
           "chetni_pierwsza_pref": 66,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 18.93
+          "wskaznik": 18.96
         },
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk - 1B matematyczno-fizyczno-informatyczna",
@@ -393,11 +393,11 @@
         {
           "nazwa": "V Liceum Ogólnokształcące, Gdańsk  - RAZEM",
           "miejsca": 112,
-          "chetni_ogolem": 1080,
+          "chetni_ogolem": 1081,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 239,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 9.64
+          "wskaznik": 9.65
         }
       ]
     },
