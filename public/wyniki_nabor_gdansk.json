@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-07-09T08:01:24",
-  "pobrano_czytelnie": "9 July 2026, godz. 08:01",
+  "pobrano": "2026-07-09T08:31:18",
+  "pobrano_czytelnie": "9 July 2026, godz. 08:31",
   "szkoly": [
     {
       "id": "8",
@@ -1269,11 +1269,11 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1A [O] mat-inf-fiz (ang-hisz,niem*)",
           "miejsca": 28,
-          "chetni_ogolem": 453,
-          "chetni_ogolem_oczekujacy": 4,
+          "chetni_ogolem": 454,
+          "chetni_ogolem_oczekujacy": 3,
           "chetni_pierwsza_pref": 60,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 16.18
+          "wskaznik": 16.21
         },
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Bb [O] biol-chem-ang (ang-fra,niem*)",
@@ -1332,11 +1332,11 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku  - RAZEM",
           "miejsca": 112,
-          "chetni_ogolem": 1718,
+          "chetni_ogolem": 1719,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 363,
           "chetni_pierwsza_pref_oczekujacy": 2,
-          "wskaznik": 15.34
+          "wskaznik": 15.35
         }
       ]
     },
@@ -1347,11 +1347,11 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1A [O] mat-inf-fiz (ang-hisz,niem*)",
           "miejsca": 28,
-          "chetni_ogolem": 453,
-          "chetni_ogolem_oczekujacy": 4,
+          "chetni_ogolem": 454,
+          "chetni_ogolem_oczekujacy": 3,
           "chetni_pierwsza_pref": 60,
           "chetni_pierwsza_pref_oczekujacy": 0,
-          "wskaznik": 16.18
+          "wskaznik": 16.21
         },
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku - 1Bb [O] biol-chem-ang (ang-fra,niem*)",
@@ -1410,11 +1410,11 @@
         {
           "nazwa": "Uniwersyteckie Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Pawła Adamowicza w Gdańsku  - RAZEM",
           "miejsca": 112,
-          "chetni_ogolem": 1718,
+          "chetni_ogolem": 1719,
           "chetni_ogolem_oczekujacy": 0,
           "chetni_pierwsza_pref": 363,
           "chetni_pierwsza_pref_oczekujacy": 2,
-          "wskaznik": 15.34
+          "wskaznik": 15.35
         }
       ]
     },
