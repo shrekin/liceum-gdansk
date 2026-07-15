@@ -1,6 +1,6 @@
 {
-  "pobrano": "2026-07-15T12:31:30",
-  "pobrano_czytelnie": "15 July 2026, godz. 12:31",
+  "pobrano": "2026-07-15T13:01:24",
+  "pobrano_czytelnie": "15 July 2026, godz. 13:01",
   "szkoly": [
     {
       "id": "8",
@@ -409,7 +409,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1A KLASA HUMANISTYCZNO PRAWNA",
           "miejsca": 28,
           "chetni_ogolem": 650,
-          "chetni_ogolem_oczekujacy": 5,
+          "chetni_ogolem_oczekujacy": 6,
           "chetni_pierwsza_pref": 45,
           "chetni_pierwsza_pref_oczekujacy": 1,
           "wskaznik": 23.21
@@ -427,7 +427,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1C KLASA BIOLOGICZNO-CHEMICZNA",
           "miejsca": 56,
           "chetni_ogolem": 652,
-          "chetni_ogolem_oczekujacy": 3,
+          "chetni_ogolem_oczekujacy": 4,
           "chetni_pierwsza_pref": 30,
           "chetni_pierwsza_pref_oczekujacy": 0,
           "wskaznik": 11.64
@@ -454,7 +454,7 @@
           "nazwa": "VI Liceum Ogólnokształcące, Gdańsk - 1F KLASA LINGWISTYCZNO-PSYCHOLOGICZNA",
           "miejsca": 28,
           "chetni_ogolem": 607,
-          "chetni_ogolem_oczekujacy": 6,
+          "chetni_ogolem_oczekujacy": 7,
           "chetni_pierwsza_pref": 54,
           "chetni_pierwsza_pref_oczekujacy": 4,
           "wskaznik": 21.68
